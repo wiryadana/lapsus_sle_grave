@@ -1,0 +1,276 @@
+{
+    "sources": [
+        {
+            "DOI": "10.1093/comjnl/27.2.97",
+            "ISSN": "0010-4620",
+            "URL": "https://doi.org/10.1093/comjnl/27.2.97",
+            "author": [
+                {
+                    "family": "Knuth",
+                    "given": "Donald E."
+                }
+            ],
+            "container-title": "Comput. J.",
+            "id": "knuth84",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        1984,
+                        5
+                    ]
+                ]
+            },
+            "page": "97-111",
+            "publisher": "Oxford University Press, Inc.",
+            "publisher-place": "USA",
+            "title": "Literate programming",
+            "type": "article-journal",
+            "volume": "27"
+        },
+        {
+            "DOI": "10.3389/fimmu.2024.1273358",
+            "URL": "http://dx.doi.org/10.3389/fimmu.2024.1273358",
+            "author": [
+                {
+                    "family": "Xian",
+                    "given": "Wei"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Boyuan"
+                },
+                {
+                    "family": "Li",
+                    "given": "Jinjian"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Yuxin"
+                },
+                {
+                    "family": "Hong",
+                    "given": "Shubin"
+                },
+                {
+                    "family": "Xiao",
+                    "given": "Haipeng"
+                },
+                {
+                    "family": "Wu",
+                    "given": "Dide"
+                },
+                {
+                    "family": "Li",
+                    "given": "Yanbing"
+                }
+            ],
+            "container-title": "Frontiers in Immunology",
+            "id": "xian2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024,
+                        1,
+                        29
+                    ]
+                ]
+            },
+            "title": "Graves’ disease and systemic lupus erythematosus: A mendelian randomization study",
+            "title-short": "Graves’ disease and systemic lupus erythematosus",
+            "type": "article-journal",
+            "volume": "15"
+        },
+        {
+            "DOI": "10.1056/nejmra1510030",
+            "URL": "http://dx.doi.org/10.1056/NEJMra1510030",
+            "author": [
+                {
+                    "family": "Smith",
+                    "given": "Terry J."
+                },
+                {
+                    "family": "Hegedüs",
+                    "given": "Laszlo"
+                }
+            ],
+            "container-title": "New England Journal of Medicine",
+            "editor": [
+                {
+                    "family": "Longo",
+                    "given": "Dan L."
+                }
+            ],
+            "id": "smith2016",
+            "issue": "16",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016,
+                        10,
+                        20
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "1552-1565",
+            "title": "Graves’ Disease",
+            "type": "article-journal",
+            "volume": "375"
+        },
+        {
+            "DOI": "10.1038/s41572-020-0184-y",
+            "URL": "http://dx.doi.org/10.1038/s41572-020-0184-y",
+            "author": [
+                {
+                    "family": "Davies",
+                    "given": "Terry F."
+                },
+                {
+                    "family": "Andersen",
+                    "given": "Stig"
+                },
+                {
+                    "family": "Latif",
+                    "given": "Rauf"
+                },
+                {
+                    "family": "Nagayama",
+                    "given": "Yuji"
+                },
+                {
+                    "family": "Barbesino",
+                    "given": "Giuseppe"
+                },
+                {
+                    "family": "Brito",
+                    "given": "Maria"
+                },
+                {
+                    "family": "Eckstein",
+                    "given": "Anja K."
+                },
+                {
+                    "family": "Stagnaro-Green",
+                    "given": "Alex"
+                },
+                {
+                    "family": "Kahaly",
+                    "given": "George J."
+                }
+            ],
+            "container-title": "Nature Reviews Disease Primers",
+            "id": "davies2020",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        7,
+                        2
+                    ]
+                ]
+            },
+            "language": "en",
+            "title": "Graves’ disease",
+            "type": "article-journal",
+            "volume": "6"
+        },
+        {
+            "DOI": "10.1016/j.autrev.2018.10.001",
+            "URL": "http://dx.doi.org/10.1016/j.autrev.2018.10.001",
+            "author": [
+                {
+                    "family": "Ferrari",
+                    "given": "Silvia Martina"
+                },
+                {
+                    "family": "Fallahi",
+                    "given": "Poupak"
+                },
+                {
+                    "family": "Ruffilli",
+                    "given": "Ilaria"
+                },
+                {
+                    "family": "Elia",
+                    "given": "Giusy"
+                },
+                {
+                    "family": "Ragusa",
+                    "given": "Francesca"
+                },
+                {
+                    "family": "Benvenga",
+                    "given": "Salvatore"
+                },
+                {
+                    "family": "Antonelli",
+                    "given": "Alessandro"
+                }
+            ],
+            "container-title": "Autoimmunity Reviews",
+            "id": "ferrari2019",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        3
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "287-292",
+            "title": "The association of other autoimmune diseases in patients with Graves’ disease (with or without ophthalmopathy): Review of the literature and report of a large series",
+            "title-short": "The association of other autoimmune diseases in patients with Graves’ disease (with or without ophthalmopathy)",
+            "type": "article-journal",
+            "volume": "18"
+        },
+        {
+            "DOI": "10.1111/1756-185x.14027",
+            "URL": "http://dx.doi.org/10.1111/1756-185x.14027",
+            "author": [
+                {
+                    "family": "Lee",
+                    "given": "Cho"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Shih-Fen"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Yu-Cih"
+                },
+                {
+                    "family": "Hsu",
+                    "given": "Chung Y."
+                },
+                {
+                    "family": "Shen",
+                    "given": "Yu-Chih"
+                }
+            ],
+            "container-title": "International Journal of Rheumatic Diseases",
+            "id": "lee2020",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        11,
+                        19
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "240-245",
+            "title": "Association between Graves’ disease and risk of incident systemic lupus erythematosus: A nationwide population-based cohort study",
+            "title-short": "Association between Graves’ disease and risk of incident systemic lupus erythematosus",
+            "type": "article-journal",
+            "volume": "24"
+        }
+    ],
+    "project_biblios": []
+}

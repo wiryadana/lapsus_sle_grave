@@ -1,0 +1,37 @@
+---
+title: Penyakit Graves pada seorang perempuan dengan Sistemik Lupus Eritematosus
+authors:
+  - name: dr. Kadek Adit Wiryadana
+    affiliation: Universitas Udayana
+    roles: writing
+    corresponding: true
+  - name: dr. I Made Siswadi Semadi, M.Biomed, SpPD, K-EMD
+    affiliation: Universitas Udayana
+    roles: writing
+    corresponding: false
+  - name: dr. Pande Ketut Kurniari, SpPD, K-R
+    affiliation: Universitas Udayana
+    roles: writing
+    corresponding: false
+bibliography: references.bib
+csl: wiryadana.csl
+---
+
+```{r, echo=F}
+library("tidyverse")
+library("googlesheets4")
+```
+
+## Abstrak
+
+## Pendahuluan
+
+Koinsidensi penyakit graves dan sistemik lupus eritematosus (SLE) belakangan ini mendapat perhatian lebih karena ditemukan memiliki hubungan yang tidak sekedar sesuatu yang terjadi secara acak. Hubungan kausal antara kedua entitas penyakit automimun tersebut masih belum banyak diketahui dan saat ini masih terdapat berbagai penelitian yang mendalami hal tersebut.[@xian2024] Penyakit graves merupakan salah satu penyakit autoimun pada organ endokrin thyroid dan merupakan penyebab utama hipertiroidisme.[@smith2016] Insiden enyakit Graves sebagai penyakit autoimun termasuk cukup tinggi dengan rentang 20 - 50 kasus per 100.000 individual serta tingkat prevalensi diperkirakan 1 - 1.5%.[@davies2020] Penyakit graves memilki target organ khusus, namun koinsidensi dengan penyakit autoimun lain seperti SLE, Rheumatoid arthritis, multiple sclerosis, diabetes tipe 1 dan lainnya diperkirakan sekitar 16.7% dari total pasien dengan penyakit graves. Data lebih lanjut dari laporan serial kasus terbaru. juga menunjukan bahwa persentase pasien dengan penyakit Graves juga ditemukan memiliki 3 penyakit autoimun lain sebesar 1.5%.[@ferrari2019]
+
+SLE merupakan penyakit yang memiliki variasi spektrum klinis yang luas akibat terget organ multipel dan heterogen. Penelitian kohort multisenter di China menemukan bahwa individu dengan penyakit graves lebih rentan mengalami SLE dibanding individu kontrol yang sehat.[@lee2020] Penelitian terbaru dari Xian et al dengan analisis randomisasi mendelian menemukan bahwa terdapat korelasi antara penyakit graves dan SLE, dan masing-masing entitas autoimun tersebut saling mendukung untuk koinsidensi autoimun lainnya. Temuan-temuan ini memberikan gambaran bahwa pada praktik klinis diharapkan klinisi dapat meningkatkan skrining penyakit autoimun khususnya penyakit graves atau SLE saat menegakan diagnosis salah satu penyakit autoimun tersebut.[@xian2024] Laporan kasus ini memaparkan seorang pasien perempuan dengan krisis tiroid akibat penyakit graves yang sebelumnya diketahui memiliki penyakit SLE.
+
+## Laporan Kasus
+
+## Ringkasan
+
+## Daftar Pustaka

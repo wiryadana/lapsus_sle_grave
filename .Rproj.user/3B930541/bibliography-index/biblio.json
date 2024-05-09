@@ -270,6 +270,522 @@
             "title-short": "Association between Graves’ disease and risk of incident systemic lupus erythematosus",
             "type": "article-journal",
             "volume": "24"
+        },
+        {
+            "DOI": "10.4103/0366-6999.246058",
+            "ISSN": "2542-5641 0366-6999",
+            "PMCID": "PMC6278195",
+            "PMID": "30511687",
+            "abstract": "BACKGROUND: Systemic lupus erythematosus (SLE) is an autoimmune disease under genetic control. Growing evidences support the genetic predisposition of HLA-DRB1 gene polymorphisms to SLE, yet the results are not often reproducible. The purpose of this study was to assess the association of two polymorphisms of HLA-DRB1 gene (HLA-DR3 and HLA-DR15) with the risk of SLE via a comprehensive meta-analysis. METHODS: This study complied with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses statement. Case-control studies on HLA-DRB1 and SLE were searched from PubMed, Elsevier Science, Springer Link, Medline, and Cochrane Library database as of June 2018. Analysis was based on the random-effects model using STATA software version 14.0. RESULTS: A total of 23 studies were retained for analysis, including 5261 cases and 9838 controls. Overall analysis revealed that HLA-DR3 and HLA-DR15 polymorphisms were associated with the significant risk of SLE (odds ratio [OR]: 1.60, 95% confidence interval (CI): 1.316-1.934, P = 0.129 and OR: 1.68, 95% CI: 1.334-2.112, P = 0.001, respectively). Subgroup analyses demonstrated that for both HLA-DR3 and HLA-DR15 polymorphisms, ethnicity was a possible source of heterogeneity. Specifically, HLA-DR3 polymorphism was not associated with SLE in White populations (OR: 1.60, 95% CI: 1.320-1.960, P = 0.522) and HLA-DR15 polymorphism in East Asian populations (OR: 1.65, 95% CI: 1.248-2.173, P = 0.001). In addition, source of control was another possible source for both HLA-DR3 and HLA-DR15 polymorphisms, with observable significance for HLA-DR3 in only population-based studies (OR: 1.65, 95% CI: 1.370-1.990, P = 0.244) and for HLA-DR15 in both population-based and hospital-based studies (OR: 1.38, 95% CI: 1.078-1.760, P = 0.123 and OR: 2.08, 95% CI: 1.738-2.490, P = 0.881, respectively). CONCLUSIONS: HLA-DRB1 gene may be a SLE-susceptibility gene, and it shows evident ethnic heterogeneity. Further prospective validations across multiple ethnical groups are warranted.",
+            "author": [
+                {
+                    "family": "Xue",
+                    "given": "Ke"
+                },
+                {
+                    "family": "Niu",
+                    "given": "Wen-Quan"
+                },
+                {
+                    "family": "Cui",
+                    "given": "Yong"
+                }
+            ],
+            "container-title": "Chinese medical journal",
+            "id": "xue_2018",
+            "issue": "23",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018,
+                        12
+                    ]
+                ]
+            },
+            "keyword": "Case-Control Studies, Gene Frequency/genetics, Genetic Predisposition to Disease/genetics, Haplotypes/genetics, HLA-DR Serological Subtypes/*genetics, HLA-DR15, HLA-DR3, HLA-DR3 Antigen/*genetics, HLA-DRB1, HLA-DRB1 Chains/*genetics, Humans, Lupus Erythematosus, Systemic, Meta-Analysis, Odds Ratio, Polymorphism, Genetic/*genetics, Systemic Lupus Erythematosus",
+            "note": "Place: China",
+            "page": "2844-2851",
+            "title": "Association of HLA-DR3 and HLA-DR15 Polymorphisms with Risk of Systemic Lupus Erythematosus.",
+            "type": "article-journal",
+            "volume": "131"
+        },
+        {
+            "DOI": "10.1016/s1470-2045(17)30607-1",
+            "URL": "http://dx.doi.org/10.1016/s1470-2045(17)30607-1",
+            "author": [
+                {
+                    "family": "Syn",
+                    "given": "Nicholas L"
+                },
+                {
+                    "family": "Teng",
+                    "given": "Michele W L"
+                },
+                {
+                    "family": "Mok",
+                    "given": "Tony S K"
+                },
+                {
+                    "family": "Soo",
+                    "given": "Ross A"
+                }
+            ],
+            "container-title": "The Lancet Oncology",
+            "id": "syn2017",
+            "issue": "12",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017,
+                        12
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "e731-e741",
+            "title": "De-novo and acquired resistance to immune checkpoint targeting",
+            "type": "article-journal",
+            "volume": "18"
+        },
+        {
+            "DOI": "10.1007/s11033-012-2125-7",
+            "URL": "http://dx.doi.org/10.1007/s11033-012-2125-7",
+            "author": [
+                {
+                    "family": "Zhai",
+                    "given": "Jin-Xia"
+                },
+                {
+                    "family": "Zou",
+                    "given": "Li-Wei"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Zhao-Xiang"
+                },
+                {
+                    "family": "Fan",
+                    "given": "Wen-Jing"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Han-Yong"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Ting"
+                },
+                {
+                    "family": "Ren",
+                    "given": "Zheng"
+                },
+                {
+                    "family": "Dai",
+                    "given": "Rui-Xue"
+                },
+                {
+                    "family": "Ye",
+                    "given": "Dongqing"
+                }
+            ],
+            "container-title": "Molecular Biology Reports",
+            "id": "zhai2013",
+            "issue": "9",
+            "issued": {
+                "date-parts": [
+                    [
+                        2013,
+                        8,
+                        7
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "5213-5223",
+            "title": "CTLA-4 polymorphisms and systemic lupus erythematosus (SLE): a meta-analysis",
+            "title-short": "CTLA-4 polymorphisms and systemic lupus erythematosus (SLE)",
+            "type": "article-journal",
+            "volume": "40"
+        },
+        {
+            "DOI": "10.1016/j.jaut.2015.07.009",
+            "URL": "http://dx.doi.org/10.1016/j.jaut.2015.07.009",
+            "author": [
+                {
+                    "family": "Lee",
+                    "given": "Hanna J."
+                },
+                {
+                    "family": "Li",
+                    "given": "Cheuk Wun"
+                },
+                {
+                    "family": "Hammerstad",
+                    "given": "Sara Salehi"
+                },
+                {
+                    "family": "Stefan",
+                    "given": "Mihaela"
+                },
+                {
+                    "family": "Tomer",
+                    "given": "Yaron"
+                }
+            ],
+            "container-title": "Journal of Autoimmunity",
+            "id": "lee2015",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015,
+                        11
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "82-90",
+            "title": "Immunogenetics of autoimmune thyroid diseases: A comprehensive review",
+            "title-short": "Immunogenetics of autoimmune thyroid diseases",
+            "type": "article-journal",
+            "volume": "64"
+        },
+        {
+            "DOI": "10.1007/s12519-019-00229-3",
+            "URL": "http://dx.doi.org/10.1007/s12519-019-00229-3",
+            "author": [
+                {
+                    "family": "Pan",
+                    "given": "Lu"
+                },
+                {
+                    "family": "Lu",
+                    "given": "Mei-Ping"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Jing-Hua"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Meng"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Si-Rui"
+                }
+            ],
+            "container-title": "World Journal of Pediatrics",
+            "id": "pan2019",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        2,
+                        22
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "19-30",
+            "title": "Immunological pathogenesis and treatment of systemic lupus erythematosus",
+            "type": "article-journal",
+            "volume": "16"
+        },
+        {
+            "DOI": "10.1038/nri3581",
+            "URL": "http://dx.doi.org/10.1038/nri3581",
+            "author": [
+                {
+                    "family": "Ivashkiv",
+                    "given": "Lionel B."
+                },
+                {
+                    "family": "Donlin",
+                    "given": "Laura T."
+                }
+            ],
+            "container-title": "Nature Reviews Immunology",
+            "id": "ivashkiv2013",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2013,
+                        12,
+                        23
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "36-49",
+            "title": "Regulation of type I interferon responses",
+            "type": "article-journal",
+            "volume": "14"
+        },
+        {
+            "DOI": "10.1371/journal.pone.0123291",
+            "URL": "http://dx.doi.org/10.1371/journal.pone.0123291",
+            "author": [
+                {
+                    "family": "Pan",
+                    "given": "Xi-Feng"
+                },
+                {
+                    "family": "Gu",
+                    "given": "Jian-Qiu"
+                },
+                {
+                    "family": "Shan",
+                    "given": "Zhong-Yan"
+                }
+            ],
+            "container-title": "PLOS ONE",
+            "editor": [
+                {
+                    "family": "Assassi",
+                    "given": "Shervin"
+                }
+            ],
+            "id": "pan2015",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015,
+                        4,
+                        23
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "e0123291",
+            "title": "Patients with Systemic Lupus Erythematosus Have Higher Prevalence of Thyroid Autoantibodies: A Systematic Review and Meta-Analysis",
+            "title-short": "Patients with Systemic Lupus Erythematosus Have Higher Prevalence of Thyroid Autoantibodies",
+            "type": "article-journal",
+            "volume": "10"
+        },
+        {
+            "DOI": "10.1007/s40618-022-01906-3",
+            "URL": "http://dx.doi.org/10.1007/s40618-022-01906-3",
+            "author": [
+                {
+                    "family": "Lanzolla",
+                    "given": "G."
+                },
+                {
+                    "family": "Puccinelli",
+                    "given": "L."
+                },
+                {
+                    "family": "Giudetti",
+                    "given": "M."
+                },
+                {
+                    "family": "Comi",
+                    "given": "S."
+                },
+                {
+                    "family": "Menconi",
+                    "given": "F."
+                },
+                {
+                    "family": "Maglionico",
+                    "given": "M. N."
+                },
+                {
+                    "family": "Posarelli",
+                    "given": "C."
+                },
+                {
+                    "family": "Figus",
+                    "given": "M."
+                },
+                {
+                    "family": "Marcocci",
+                    "given": "C."
+                },
+                {
+                    "family": "Marinò",
+                    "given": "M."
+                }
+            ],
+            "container-title": "Journal of Endocrinological Investigation",
+            "id": "lanzolla2022",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        8,
+                        27
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "337-344",
+            "title": "Anti-nuclear autoantibodies in Graves’ disease and Graves’ orbitopathy",
+            "type": "article-journal",
+            "volume": "46"
+        },
+        {
+            "DOI": "10.1016/j.beem.2020.101388",
+            "URL": "http://dx.doi.org/10.1016/j.beem.2020.101388",
+            "author": [
+                {
+                    "family": "Antonelli",
+                    "given": "Alessandro"
+                },
+                {
+                    "family": "Fallahi",
+                    "given": "Poupak"
+                },
+                {
+                    "family": "Elia",
+                    "given": "Giusy"
+                },
+                {
+                    "family": "Ragusa",
+                    "given": "Francesca"
+                },
+                {
+                    "family": "Paparo",
+                    "given": "Sabrina Rosaria"
+                },
+                {
+                    "family": "Ruffilli",
+                    "given": "Ilaria"
+                },
+                {
+                    "family": "Patrizio",
+                    "given": "Armando"
+                },
+                {
+                    "family": "Gonnella",
+                    "given": "Debora"
+                },
+                {
+                    "family": "Giusti",
+                    "given": "Claudia"
+                },
+                {
+                    "family": "Virili",
+                    "given": "Camilla"
+                },
+                {
+                    "family": "Centanni",
+                    "given": "Marco"
+                },
+                {
+                    "family": "Shoenfeld",
+                    "given": "Yehuda"
+                },
+                {
+                    "family": "Ferrari",
+                    "given": "Silvia Martina"
+                }
+            ],
+            "container-title": "Best Practice & Research Clinical Endocrinology & Metabolism",
+            "id": "antonelli2020",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        1
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "101388",
+            "title": "Graves’ disease: Clinical manifestations, immune pathogenesis (cytokines and chemokines) and therapy",
+            "title-short": "Graves’ disease",
+            "type": "article-journal",
+            "volume": "34"
+        },
+        {
+            "DOI": "10.1016/j.autrev.2013.10.010",
+            "URL": "http://dx.doi.org/10.1016/j.autrev.2013.10.010",
+            "author": [
+                {
+                    "family": "Antonelli",
+                    "given": "Alessandro"
+                },
+                {
+                    "family": "Ferrari",
+                    "given": "Silvia Martina"
+                },
+                {
+                    "family": "Giuggioli",
+                    "given": "Dilia"
+                },
+                {
+                    "family": "Ferrannini",
+                    "given": "Ele"
+                },
+                {
+                    "family": "Ferri",
+                    "given": "Clodoveo"
+                },
+                {
+                    "family": "Fallahi",
+                    "given": "Poupak"
+                }
+            ],
+            "container-title": "Autoimmunity Reviews",
+            "id": "antonelli2014",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014,
+                        3
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "272-280",
+            "title": "Chemokine (CXC motif) ligand (CXCL)10 in autoimmune diseases",
+            "type": "article-journal",
+            "volume": "13"
+        },
+        {
+            "DOI": "10.1016/j.autrev.2015.08.006",
+            "URL": "http://dx.doi.org/10.1016/j.autrev.2015.08.006",
+            "author": [
+                {
+                    "family": "Xu",
+                    "given": "Wang-Dong"
+                },
+                {
+                    "family": "Zhao",
+                    "given": "Yi"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Yi"
+                }
+            ],
+            "container-title": "Autoimmunity Reviews",
+            "id": "xu2015",
+            "issue": "12",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015,
+                        12
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "1170-1175",
+            "title": "Insights into IL-37, the role in autoimmune diseases",
+            "type": "article-journal",
+            "volume": "14"
+        },
+        {
+            "id": "Xue2018a",
+            "type": "article-journal"
         }
     ],
     "project_biblios": []

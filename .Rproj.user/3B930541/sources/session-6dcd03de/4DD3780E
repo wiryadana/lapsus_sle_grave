@@ -3,7 +3,7 @@
     "path": "~/R.project/lapsus_sle_graves/references.bib",
     "project_path": "references.bib",
     "type": "text",
-    "hash": "0",
+    "hash": "685341110",
     "contents": "",
     "dirty": false,
     "created": 1715242443864.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "15,17",
-        "scrollLine": "0"
+        "cursorPosition": "93,12",
+        "scrollLine": "71"
     },
     "folds": "",
-    "lastKnownWriteTime": 1715244445,
+    "lastKnownWriteTime": 1715265696,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1715244445,
+    "last_content_update": 1715265696823,
     "read_only": false,
     "read_only_alternatives": []
 }

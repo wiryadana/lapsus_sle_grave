@@ -22,7 +22,9 @@ library("tidyverse")
 library("googlesheets4")
 ```
 
-## Abstrak
+## Abstract
+
+**keywords**:
 
 ## Pendahuluan
 
@@ -32,9 +34,114 @@ SLE merupakan penyakit yang memiliki variasi spektrum klinis yang luas akibat te
 
 ## Laporan Kasus
 
+Seorang perempuan (23066258) usia 23 tahun dirujuk dengan keluhan mual, pusing dan dada berdebar sejak 1 hari SMRS. Pasien sebelumnya dirawat selama 4 hari di RS perujuk namun tidak ada perbaikan. Keluhan lain yakni rambut rontok, ruam kemerahan pada pipi serta nyeri pada persendian kedua kaki yang muncul sejak 1 minggu sebelumnya. Riwayat penurunan berat badan 10 kg dalam kurun waktu 6 bulan terakhir. Saat di IGD pasien dalam kondisi compos mentis, tekanan darah 130/90 mmHg, denyut nadi 128 kali/menit, laju respirasi 24 kali/menit, saturasi oksigen 99% dengan udara ruangan dan suhu aksila 36.6 C. Pada pemeriksaan fisik, temuan signifikan meliputi sklera ikterus, ruam malar, bilateral pedal edema. Pemeriksaan elektrokardiografi menunjukan atrial fibrilasi dengan laju nadi 148 kali per menit. Pemeriksaan penunjang ditemukan anemia sedang normokromik normositer, trombositopenia, peningkatan Serum Glutamic Oxaloacetic Transaminase (SGOT), hipoalbuminemia, hipokalemia, alkalosis metabolik. Pada pemeriksaan foto thorax anteroposterior tak tampak kelainan pada pulmonum. Pada jantung terukur *Cardiothoracic Ratio* (CTR) 66 %, dengan *splaying carina*, apex mendatar, pinggang jantung melurus, conus pulmonum menonjol. Foto thorax tampak kesan kardiomegali dengan konfigurasi *left ventricular hipertrophy* dan *left atrial enlargement*.
+
+![Foto Polos Thorax Anteroposterior (6/11/2023) menunjukan kardiomegali dengan konfugurasi LVH dan LAE serta tak tampak kelainan pada pulmo.](image/thorax_ap.jpg){#fig-thorax}
+
+| Parameter           | Nilai Referensi         | 6/11/2023 | 7/11/2023 | 10/11/2023 |
+|-----------------|--------------|--------------|--------------|--------------|
+| WBC                 | 4.1 - 11.0 x 10^3^/µL   | 3.96      | 11.17     | 4.42       |
+| Neutrofil (absolut) | 2.50 - 7.50 x 10^3^/µL  | 2.77      | 9.29      | 3.41       |
+| Limfosit (absolut)  | 1.00 - 4.00 x 10^3^/µL  | 1.06      | 1.11      | 0.76       |
+| Monosit (absolut)   | 1.00 - 4.00 x 10^3^/µL  | 0.13      | 0.77      | 0.25       |
+| Eosinofil (absolut) | 0.00 - 0.50 x 10^3^/µL  | 0.00      | 0.00      | 0.00       |
+| Basofil (absolut)   | 0.0 - 0.1 x 10^3^/µL    | 0.00      | 0.00      | 0.00       |
+| Hemoglobin          | 12.0 - 16.0 g/dL        | 7.30      | 6.90      | 11.20      |
+| Hematokrit          | 36.0 - 46.0             | 23.10     | 21.50     | 33.10      |
+| MCV                 | 80.0 - 100.0 fL         | 85.90     | 85.30     | 82.80      |
+| MCH                 | 26.0 - 34.0 pg          | 27.10     | 27.40     | 28         |
+| MCHC                | 31 - 36 g/dL            | 31.60     | 32.10     | 33.80      |
+| Platetet            | 140 - 440 x 10^3^/µL    | 67.00     | 78.00     | 57         |
+
+: Data pemeriksaan darah lengkap selama perawatan pasien.
+
+| Pemeriksaan        | Parameter              | Referensi     | 6/11/2023 | 7/11                         | 12/11 | 14/11     | 16/11 |
+|---------|---------|---------|---------|---------|---------|---------|---------|
+| Marker Inflamasi   | LED                    | \< 20         | 69        |                              |       |           |       |
+| Faal Hemostasis    | PPT                    | 10 - 12.7     | 15.9      |                              |       |           |       |
+|                    | INR                    | 0.9 - 1.1     | 1.45      |                              |       |           |       |
+|                    | APTT                   | 23-34.7       | 28.9      |                              |       |           |       |
+| Fungsi Ginjal      | BUN                    | 7.0 - 18.7    | 7.0       |                              |       |           |       |
+|                    | Kreatinin              | 0.57 - 1.11   | 0.51      |                              |       |           |       |
+|                    | e-LFG                  | \>= 90        | 135.53    |                              |       |           |       |
+| Elektrolit         | Natrium                | 136 - 145     | 142       |                              |       |           |       |
+|                    | Kalium                 | 3.5 - 5.1     | 2.88      |                              |       |           |       |
+|                    | Kalsium                | 8.8 - 10.2    |           |                              |       | 7.7 (9.1) |       |
+| Fungsi Liver       | AST/SGOT               | 71            | \<34      |                              |       | 123       |       |
+|                    | ALT/SGPT               | 44            | \<55      |                              |       | 118       |       |
+|                    | Albumin                | 3.4 - 4.8     | 2.3       |                              |       |           |       |
+|                    | Globulin               | 2.2 - 3.7     | 4.10      |                              |       |           |       |
+|                    | Total Protein          | 6.4 - 8.3     | 6.4       |                              |       |           |       |
+|                    | Bilirubin Total        | 0.2 - 1.2     | 0.2 - 1.2 | 4.9                          | 5.60  | 4.20      |       |
+|                    | Bilirubin Direk        | 0.0 - 0.5     | 0.0 - 0.5 | 3.2                          | 3.37  | 2.13      |       |
+|                    | Bilirubin Indirek      | 0.2 - 0.7     | 0.2 - 0.7 | 1.70                         | 2.23  | 2.07      |       |
+|                    | Fosfatase Alkali (ALP) | 40 - 150      |           | 125                          |       |           |       |
+|                    | Gamma GT               | \< 33         |           | 232                          |       |           |       |
+| Hepatitis Marker   | HBsAg                  | Non reaktif   |           | Non reaktif                  |       |           |       |
+|                    | Anti HCV               | Non reaktif   |           | Non reaktif                  |       |           |       |
+| Analisis Gas Darah | pH                     | 7.35 - 7.45   | 7.47      |                              |       |           |       |
+|                    | pCO2                   | 35 - 45       | 44        |                              |       |           |       |
+|                    | HCO3-                  | 22 - 26       | 32        |                              |       |           |       |
+|                    | BEecf                  | -2 s.d 2      | 83        |                              |       |           |       |
+|                    | pO2                    | 80 - 100%     | 75        |                              |       |           |       |
+|                    | SO2c                   | 95 - 100%     | 96        |                              |       |           |       |
+|                    | TCO2                   | 24 - 30       | 33.40     |                              |       |           |       |
+| Imunologi          | ANA-IF                 | \< 1:100      |           | 1:10.00 (Pola fine Speckled) |       |           |       |
+|                    | TrAB (PRODIA)          | \<= 1.75 IU/L |           |                              |       |           | 36.3  |
+| Fungsi Tiroid      | Free T4                | 0.7 - 1.48    |           | 28                           |       |           |       |
+|                    | TSHs                   | 0.27 - 4.20   |           | \< 0.01                      |       |           |       |
+
+Pemeriksaan apusan darah tepi menungjukan anemia normokromik, normositer dengan leukositosis dan thrombositopenia. Sebagian besar populasi sel normokromik normositer, anisopoikilositosis (ovalosit, sel tear drop, stomatosit, sel target, sel polikromasia, normoblast. Pada leukosit differential count ditemukan neutrofilia dan tidak ada sel muda. Pada thrombosit tidak ditemukan giant trombosit atau clumping.
+
+| Pemeriksaan Urin             | Parameter                | Referensi       | 7/11/2023 |
+|-------------------|-------------------|------------------|------------------|
+| Urine Lengkap                | Berat Jenis              | 1.003 - 1.035   | 1.009     |
+|                              | Warna                    | Kuning          | Kuning    |
+|                              | Kekeruhan                |                 | Jernih    |
+|                              | pH                       | 4.5 - 8         | 7.5       |
+|                              | Leukosit                 | Negatif         | Negatif   |
+|                              | Nitrit                   | Negatif         | Negatif   |
+|                              | Protein                  | Negatif         | Negatif   |
+|                              | Glukosa                  | Negatif         | Negatif   |
+|                              | Keton                    | Negatif         | Negatif   |
+|                              | Darah                    | Negatif         | Negatif   |
+|                              | Urobilinogen             | Normal          | Normal    |
+|                              | Bilirubin                | Negatif         | Negatif   |
+|                              | Leukosit Sedimen         | 7 /LPB          | 5         |
+|                              | Eritrosit Sedimen        | 5 /LPB          | 4         |
+|                              | Sel Epitel Sedimen       | 8 /LPB          | 1         |
+|                              | Silinder                 | 2.4 /mikroliter | 0.14      |
+|                              | Bakteri                  | 130.7           | 1993.8    |
+| Rasio Protein kreatinin urin | Mikro Total protein urin | 1 - 14 mg/dl    | 24.10     |
+|                              | Kreatinin urin           | 63 - 166        | 2.41      |
+|                              | Rasio protein kreatinin  | 2.41            | \< 0.2    |
+
+| Tangal pemeriksaan | Kalium |
+|--------------------|--------|
+| 6/11/24            | 2.88   |
+| 8/11/24            | 2.95   |
+| 8/11/24            | 2.45   |
+| 9/11/24            | 3.91   |
+| 15/11/24           | 2.25   |
+| 16/11/24           | 3.18   |
+
+Pada pemeriksaan ultrasonografi Tiroid ditemukan peningkatan vaskularisasi pada parenkim tiroid kanan, kiri dan istmus. Pada pemeriksaan tidak ditemukan massa/nodul/kista pada kelenjar tiroid, namun tampak pembesaran kelenjar getah bening pada regio colli kiri, submandibula kanan-kiri, preaurikula kanan dan parotid kiri. Kelenjar parotis kanan tak tampak kelainan. Pemeriksaan USG ini mendukung *Graves Disease* dengan multipel *non suspicious* limfadenopati pada regio colli kiri, submandibula kanan-kiri, preauricula kanan, dan parotid kiri.
+
+::: {layout-nrow=3}
+![USG Tiroid Lobus Kanan](/image/usg_tiroid/tiroid_RLobe.png)
+
+![USG Tiroid Istmus](/image/usg_tiroid/tiroid_istmus.png)
+
+![USG Tiroid Lobus Kiri](/image/usg_tiroid/tiroid_LLobe.png)
+:::
+
+Pada pemeriksaan ultrasonografi abdomen ditemukan nodul tunggal hipoechoic dengan hiperechoic di tepinya dan internal echo didalamnya, berbatas tegas tepi regular pada segmen VIII hepar, terukur +/- 1.8 x 1.7 cm yang pada CDUS tampak vaskularisasi pada tepinya. Pada pencitraan cavum pelvis, ditemukan cairan bebas minimal.
+
+![USG abdomen (9/11/2023) ditemukan liver tidak membesar, permukaan licin, sudut tajam, tepi rata, sistem vasculer dan bilier tampak normal, echoparenchym normal, tampak single nodul hipoechoic dengan hiperechoic di tepinya dan internal echo didalamnya, berbatas tegas tepi regular pada segmen VIII hepar, terukur +/- 1.8 x 1.7 cm yang pada CDUS tampak vaskularisasi pada tepinya](image/usg_abd/abd_nodul.png){fig-align="left"}
+
 ## Diskusi
 
-Penelitian terbaru oleh Xian et al menemukan bahwa SLE meningkatkan risiko penyaki graves (OR=1.13, 95% CI 1.05-1.22, p =0.003), dan berlaku juga sebaliknya penyakit graves meningkatkan risiko SLE (OR=1.27, 95% CI 1.09-1.48, p =0.018).[@xian2024] Hubungan sebab akibat antara penyakit graves dan SLE yang ditemukan dalam penelitian tersebut semakin menegaskan temuan epidemiologi sebelumnya. Patogenesis SLE dan penyakit graves mungkin dipengaruhi oleh mutasi pada gen HLA. Sebuah meta-analisis yang dilakukan sebelumnya menemukan bahwa mutasi pada HLA-DR3 dan HLA-DR15 secara signifikan meningkatkan kemungkinan SLE.[@xue_2018] Kehadiran gen HLA yang bermutasi dapat mengakibatkan perubahan kompleks HLA pada sel penyaji antigen, sehingga mempengaruhi interaksi antara sel B dan T. Situasi ini dapat menyebabkan disregulasi sel B yang reaktif terhadap diri sendiri dan produksi autoantibodi, yang dapat berfungsi sebagai mediator efek kausal SLE pada penyakit graves.\[@xian2024\]
+Penelitian terbaru oleh Xian et al menemukan bahwa SLE meningkatkan risiko penyaki graves (OR=1.13, 95% CI 1.05-1.22, p =0.003), dan berlaku juga sebaliknya penyakit graves meningkatkan risiko SLE (OR=1.27, 95% CI 1.09-1.48, p =0.018).[@xian2024] Hubungan sebab akibat antara penyakit graves dan SLE yang ditemukan dalam penelitian tersebut semakin menegaskan temuan epidemiologi sebelumnya. Patogenesis SLE dan penyakit graves mungkin dipengaruhi oleh mutasi pada gen HLA. Sebuah meta-analisis yang dilakukan sebelumnya menemukan bahwa mutasi pada HLA-DR3 dan HLA-DR15 secara signifikan meningkatkan kemungkinan SLE.[@xue_2018] Kehadiran gen HLA yang bermutasi dapat mengakibatkan perubahan kompleks HLA pada sel penyaji antigen, sehingga mempengaruhi interaksi antara sel B dan T. Situasi ini dapat menyebabkan disregulasi sel B yang reaktif terhadap diri sendiri dan produksi autoantibodi, yang dapat berfungsi sebagai mediator efek kausal SLE pada penyakit graves.[@xian2024]
 
 Selain gen terkait HLA, gen non-HLA juga diduga memainkan peran penting dalam interaksi antara SLE dan penyakit graves. Protein terkait limfosit T sitotoksik 4 (CTLA-4) adalah reseptor protein yang berfungsi sebagai cek poin pemeriksaan imun untuk menurunkan regulasi respons imun dengan mengikat ligan CD80 dan CD86 pada permukaan sel penyaji antigen, sehingga mengatur aktivasi sel T dan proliferasinya.[@syn2017] Mutasi pada gen CTLA-4 telah dikaitkan dengan SLE dan penyakit graves. Sebuah meta-analisis menunjukkan bahwa polimorfisme gen CTLA-4 pada populasi Asia dikaitkan dengan risiko SLE.[@zhai2013] Sebuah studi oleh Lee dkk. menemukan bahwa beberapa polimorfisme nukleotida tunggal CTLA-4 dikaitkan dengan penyakit graves dan penyakit tiroid autoimun seperti tiroiditis Hashimoto.[@lee2015] Mutasi pada gen CTLA-4 dapat menyebabkan defisiensi regulasi penurunan regulasi respon imun sel T, yang mengakibatkan hiperaktivasi sel T dan dengan demikian memicu penyakit autoimun. Faktor ini mungkin juga memainkan peran mediasi dalam hubungan antara penyakit graves dan SLE.[@xian2024]
 

@@ -34,24 +34,42 @@ SLE merupakan penyakit yang memiliki variasi spektrum klinis yang luas akibat te
 
 ## Laporan Kasus
 
-Seorang perempuan (23066258) usia 23 tahun dirujuk dengan keluhan mual, pusing dan dada berdebar sejak 1 hari SMRS. Pasien sebelumnya dirawat selama 4 hari di RS perujuk namun tidak ada perbaikan. Keluhan lain yakni rambut rontok, ruam kemerahan pada pipi serta nyeri pada persendian kedua kaki yang muncul sejak 1 minggu sebelumnya. Riwayat penurunan berat badan 10 kg dalam kurun waktu 6 bulan terakhir. Saat di IGD pasien dalam kondisi compos mentis, tekanan darah 130/90 mmHg, denyut nadi 128 kali/menit, laju respirasi 24 kali/menit, saturasi oksigen 99% dengan udara ruangan dan suhu aksila 36.6 C. Pada pemeriksaan fisik, temuan signifikan meliputi sklera ikterus, ruam malar, bilateral pedal edema. Pemeriksaan elektrokardiografi menunjukan atrial fibrilasi dengan laju nadi 148 kali per menit. Pemeriksaan penunjang ditemukan anemia sedang normokromik normositer, trombositopenia, peningkatan Serum Glutamic Oxaloacetic Transaminase (SGOT), hipoalbuminemia, hipokalemia, alkalosis metabolik. Pada pemeriksaan foto thorax anteroposterior tak tampak kelainan pada pulmonum. Pada jantung terukur *Cardiothoracic Ratio* (CTR) 66 %, dengan *splaying carina*, apex mendatar, pinggang jantung melurus, conus pulmonum menonjol. Foto thorax tampak kesan kardiomegali dengan konfigurasi *left ventricular hipertrophy* dan *left atrial enlargement*.
+Seorang perempuan (23066258) usia 23 tahun dirujuk dengan keluhan mual, pusing dan dada berdebar sejak 1 hari SMRS. Pasien sebelumnya dirawat selama 4 hari di RS perujuk namun tidak ada perbaikan. Keluhan lain yakni rambut rontok, ruam kemerahan pada pipi serta nyeri pada persendian kedua kaki yang muncul sejak 1 minggu sebelumnya. Riwayat penurunan berat badan 10 kg dalam kurun waktu 6 bulan terakhir. Saat di IGD pasien dalam kondisi compos mentis, tekanan darah 130/90 mmHg, denyut nadi 128 kali/menit dengan irama iregular dan kuat angkat, laju respirasi 24 kali/menit, saturasi oksigen 99% dengan udara ruangan dan suhu aksila 36.6 C. Pasien tampak sakit berat dan malnutrisi (tinggi badan 155 cm, berat badan terakhir 42 kg, IMT 17.5 kg/m^2^). Temuan signifikan pada pemeriksaan fisik meliputi sklera ikterus, ruam malar, pembesaran difus pada tiroid, kardiomegali, bilateral pedal edema dan makula hiperemis tersebar pada beberapa bagian tubuh (gambar [-@fig-fotoklinis]).
+
+::: {#fig-fotoklinis layout-nrow="2"}
+![Ruam pada belakang telinga kiri](/image/klinis/heldi_leherbelakangkiri.jpg){#fig-blkgkiri}
+
+![Foto klinis wajah](/image/klinis/heldi_wajah.png){#fig-wajah}
+
+![Ruam pada belakang telinga kanan](/image/klinis/heldi_fotoleherbelakangkanan.jpg){#fig-blkgkanan}
+
+![Foto klinis kedua kaki](/image/klinis/haim_keduakaki.jpg){#fig-kaki}
+
+![Sklera ikterik](/image/klinis/heldi_mata.jpg){#fig-mata}
+
+![Foto klinis kedua tangan](/image/klinis/haim_keduatangan.jpg){#fig-tangan}
+
+Foto klinis pasien tampak sklera ikterik, ruam malar disertai makula eritema pada beberapa bagian tubuh.
+:::
+
+Pada pemeriksaan penunjang ditemukan beberapa kelainan. Pemeriksaan elektrokardiografi menunjukan atrial fibrilasi dengan laju nadi 148 kali per menit. Pemeriksaan penunjang ditemukan anemia sedang normokromik normositer, trombositopenia, peningkatan *Serum Glutamic Oxaloacetic Transaminase* (SGOT), hipoalbuminemia, hipokalemia, alkalosis metabolik. Pada pemeriksaan foto thorax anteroposterior tak tampak kelainan pada pulmonum. Pada jantung terukur *Cardiothoracic Ratio* (CTR) 66 %, dengan *splaying carina*, apex mendatar, pinggang jantung melurus, conus pulmonum menonjol. Foto thorax tampak kesan kardiomegali dengan konfigurasi *left ventricular hipertrophy* dan *left atrial enlargement* (gambar [-@fig-thorax]). Pada pasien tidak ditemukan adanya organomegali maupun efusi sendi.
 
 ![Foto Polos Thorax Anteroposterior (6/11/2023) menunjukan kardiomegali dengan konfugurasi LVH dan LAE serta tak tampak kelainan pada pulmo.](image/thorax_ap.jpg){#fig-thorax}
 
-| Parameter           | Nilai Referensi         | 6/11/2023 | 7/11/2023 | 10/11/2023 |
-|-----------------|--------------|--------------|--------------|--------------|
-| WBC                 | 4.1 - 11.0 x 10^3^/µL   | 3.96      | 11.17     | 4.42       |
-| Neutrofil (absolut) | 2.50 - 7.50 x 10^3^/µL  | 2.77      | 9.29      | 3.41       |
-| Limfosit (absolut)  | 1.00 - 4.00 x 10^3^/µL  | 1.06      | 1.11      | 0.76       |
-| Monosit (absolut)   | 1.00 - 4.00 x 10^3^/µL  | 0.13      | 0.77      | 0.25       |
-| Eosinofil (absolut) | 0.00 - 0.50 x 10^3^/µL  | 0.00      | 0.00      | 0.00       |
-| Basofil (absolut)   | 0.0 - 0.1 x 10^3^/µL    | 0.00      | 0.00      | 0.00       |
-| Hemoglobin          | 12.0 - 16.0 g/dL        | 7.30      | 6.90      | 11.20      |
-| Hematokrit          | 36.0 - 46.0             | 23.10     | 21.50     | 33.10      |
-| MCV                 | 80.0 - 100.0 fL         | 85.90     | 85.30     | 82.80      |
-| MCH                 | 26.0 - 34.0 pg          | 27.10     | 27.40     | 28         |
-| MCHC                | 31 - 36 g/dL            | 31.60     | 32.10     | 33.80      |
-| Platetet            | 140 - 440 x 10^3^/µL    | 67.00     | 78.00     | 57         |
+| Parameter           | Nilai Referensi        | 6/11/2023 | 7/11/2023 | 10/11/2023 |
+|---------------|---------------|---------------|---------------|---------------|
+| WBC                 | 4.1 - 11.0 x 10^3^/µL  | 3.96      | 11.17     | 4.42       |
+| Neutrofil (absolut) | 2.50 - 7.50 x 10^3^/µL | 2.77      | 9.29      | 3.41       |
+| Limfosit (absolut)  | 1.00 - 4.00 x 10^3^/µL | 1.06      | 1.11      | 0.76       |
+| Monosit (absolut)   | 1.00 - 4.00 x 10^3^/µL | 0.13      | 0.77      | 0.25       |
+| Eosinofil (absolut) | 0.00 - 0.50 x 10^3^/µL | 0.00      | 0.00      | 0.00       |
+| Basofil (absolut)   | 0.0 - 0.1 x 10^3^/µL   | 0.00      | 0.00      | 0.00       |
+| Hemoglobin          | 12.0 - 16.0 g/dL       | 7.30      | 6.90      | 11.20      |
+| Hematokrit          | 36.0 - 46.0            | 23.10     | 21.50     | 33.10      |
+| MCV                 | 80.0 - 100.0 fL        | 85.90     | 85.30     | 82.80      |
+| MCH                 | 26.0 - 34.0 pg         | 27.10     | 27.40     | 28         |
+| MCHC                | 31 - 36 g/dL           | 31.60     | 32.10     | 33.80      |
+| Platetet            | 140 - 440 x 10^3^/µL   | 67.00     | 78.00     | 57         |
 
 : Data pemeriksaan darah lengkap selama perawatan pasien.
 
@@ -91,10 +109,24 @@ Seorang perempuan (23066258) usia 23 tahun dirujuk dengan keluhan mual, pusing d
 | Fungsi Tiroid      | Free T4                | 0.7 - 1.48    |           | 28                           |       |           |       |
 |                    | TSHs                   | 0.27 - 4.20   |           | \< 0.01                      |       |           |       |
 
+Pemeriksaan elektrokardiografi (EKG) 12 lead saat di IGD menunjukan irama gelombang QRS iregular 140 kali per menit dengan gelombang P yang tidak jelas dan tidak teratur serta tidak sinkron dengan kompleks QRS. Irama EKG mengesankan sebuah irama fibrilasi atrium dengan respon kontraksi ventrikel cepat (AF RVR). Pemeriksaan ekokardiografi *full study* 1 hari perawatan menunjukan pembesaran atrium derajat berat dengan ukuran ventrikel kiri, ventrikel kanan, serta atrium kanan dalam batas normal. Fungsi sistolik normal dengan ejeksi fraksi 62.6%, namun fungsi diastolik ventrikel kiri belum dapat ditentukan. Terdapat regurgitasi katup mitra pada derajat sedang-berat dicurigai akibat prolapse leaflet mitral anterior. Katup Aorta dan Trikuspid ditemukan mengalami regurgitasi ringan. Tidak ditemukan efusi perikardium. Estimasi tekanan atrium kanan (eRAP) dalam nilai normal (8 mmHg) gambar [-@fig-echo].
+
+::: {#fig-echo layout-nrow="2"}
+![Ekokardiografi tampak ventrikel kiri](/image/echo/echo_chamber.png){#fig-4chamber}
+
+![Ekokardiografi fungsi jantung kanan](/image/echo/echo_rightfunction.png){#fig-rv}
+
+![Ekokardiografi tampak continous wave doppler pada regurgitasi katup mitral](/image/echo/echo_MR.png){#fig-CW}
+
+![Ekokardiografi tampak pulse wave doppler pada regurgitasi katup mitra](/image/echo/echo_MR_2.png){#fig-PWD}
+
+Ekokardiografi tampak pembesaran atrium kiri disertai regurgitasi katup mitral derajak sedang-berat.
+:::
+
 Pemeriksaan apusan darah tepi menungjukan anemia normokromik, normositer dengan leukositosis dan thrombositopenia. Sebagian besar populasi sel normokromik normositer, anisopoikilositosis (ovalosit, sel tear drop, stomatosit, sel target, sel polikromasia, normoblast. Pada leukosit differential count ditemukan neutrofilia dan tidak ada sel muda. Pada thrombosit tidak ditemukan giant trombosit atau clumping.
 
 | Pemeriksaan Urin             | Parameter                | Referensi       | 7/11/2023 |
-|-------------------|-------------------|------------------|------------------|
+|-------------------|------------------|------------------|------------------|
 | Urine Lengkap                | Berat Jenis              | 1.003 - 1.035   | 1.009     |
 |                              | Warna                    | Kuning          | Kuning    |
 |                              | Kekeruhan                |                 | Jernih    |
@@ -116,23 +148,25 @@ Pemeriksaan apusan darah tepi menungjukan anemia normokromik, normositer dengan 
 |                              | Kreatinin urin           | 63 - 166        | 2.41      |
 |                              | Rasio protein kreatinin  | 2.41            | \< 0.2    |
 
-| Tangal pemeriksaan | Kalium |
-|--------------------|--------|
-| 6/11/24            | 2.88   |
-| 8/11/24            | 2.95   |
-| 8/11/24            | 2.45   |
-| 9/11/24            | 3.91   |
-| 15/11/24           | 2.25   |
-| 16/11/24           | 3.18   |
+| Tangal pemeriksaan | Kalium | Koreksi Kalium                                            |
+|---------------------|--------------|--------------------------------------|
+| 6/11/2024          | 2.88   | Drip KCL 50 Meq                                           |
+| 8/11/2024          | 2.95   | Drip KCL 50 Meq                                           |
+| 8/11/2024          | 2.45   | Drip KCL 50 Meq                                           |
+| 9/11/2024          | 3.91   |                                                           |
+| 15/11/2024         | 2.25   | Drip KCL 50 Meq                                           |
+| 16/11/2024         | 3.18   | KSR 500 mg tiap 12 jam per Oral (Selanjutnya Rawat Jalan) |
 
-Pada pemeriksaan ultrasonografi Tiroid ditemukan peningkatan vaskularisasi pada parenkim tiroid kanan, kiri dan istmus. Pada pemeriksaan tidak ditemukan massa/nodul/kista pada kelenjar tiroid, namun tampak pembesaran kelenjar getah bening pada regio colli kiri, submandibula kanan-kiri, preaurikula kanan dan parotid kiri. Kelenjar parotis kanan tak tampak kelainan. Pemeriksaan USG ini mendukung *Graves Disease* dengan multipel *non suspicious* limfadenopati pada regio colli kiri, submandibula kanan-kiri, preauricula kanan, dan parotid kiri.
+Pada pemeriksaan ultrasonografi Tiroid ditemukan peningkatan vaskularisasi pada parenkim tiroid kanan, kiri dan istmus. Pada pemeriksaan tidak ditemukan massa/nodul/kista pada kelenjar tiroid, namun tampak pembesaran kelenjar getah bening pada regio colli kiri, submandibula kanan-kiri, preaurikula kanan dan parotid kiri. Kelenjar parotis kanan tak tampak kelainan. Pemeriksaan USG ini mendukung *Graves Disease* dengan multipel *non suspicious* limfadenopati pada regio colli kiri, submandibula kanan-kiri, preauricula kanan, dan parotid kiri (gambar [-@fig-usgtiroid]).
 
-::: {layout-nrow=3}
-![USG Tiroid Lobus Kanan](/image/usg_tiroid/tiroid_RLobe.png)
+::: {#fig-usgtiroid layout-nrow="3"}
+![USG Tiroid Lobus Kanan](/image/usg_tiroid/tiroid_RLobe.png){#fig-Rtiroid}
 
-![USG Tiroid Istmus](/image/usg_tiroid/tiroid_istmus.png)
+![USG Tiroid Istmus](/image/usg_tiroid/tiroid_istmus.png){#fig-Istmus}
 
-![USG Tiroid Lobus Kiri](/image/usg_tiroid/tiroid_LLobe.png)
+![USG Tiroid Lobus Kiri](/image/usg_tiroid/tiroid_LLobe.png){#fig-Ltiroid}
+
+Ultrasonografi kelenjar tiroid tampak pembesaran ukuran kelenjar, hipoekoik diffuse disertai tampak peningkatakan vaskularisasi pada pencitraan dopler.
 :::
 
 Pada pemeriksaan ultrasonografi abdomen ditemukan nodul tunggal hipoechoic dengan hiperechoic di tepinya dan internal echo didalamnya, berbatas tegas tepi regular pada segmen VIII hepar, terukur +/- 1.8 x 1.7 cm yang pada CDUS tampak vaskularisasi pada tepinya. Pada pencitraan cavum pelvis, ditemukan cairan bebas minimal.

@@ -28,15 +28,17 @@ library("googlesheets4")
 
 ## Pendahuluan
 
-Koinsidensi penyakit graves dan sistemik lupus eritematosus (SLE) belakangan ini mendapat perhatian lebih karena ditemukan memiliki hubungan yang tidak sekedar sesuatu yang terjadi secara acak. Hubungan kausal antara kedua entitas penyakit automimun tersebut masih belum banyak diketahui dan saat ini masih terdapat berbagai penelitian yang mendalami hal tersebut.[@xian2024] Penyakit graves merupakan salah satu penyakit autoimun pada organ endokrin thyroid dan merupakan penyebab utama hipertiroidisme.[@smith2016] Insiden enyakit Graves sebagai penyakit autoimun termasuk cukup tinggi dengan rentang 20 - 50 kasus per 100.000 individual serta tingkat prevalensi diperkirakan 1 - 1.5%.[@davies2020] Penyakit graves memilki target organ khusus, namun koinsidensi dengan penyakit autoimun lain seperti SLE, Rheumatoid arthritis, multiple sclerosis, diabetes tipe 1 dan lainnya diperkirakan sekitar 16.7% dari total pasien dengan penyakit graves. Data lebih lanjut dari laporan serial kasus terbaru. juga menunjukan bahwa persentase pasien dengan penyakit Graves juga ditemukan memiliki 3 penyakit autoimun lain sebesar 1.5%.[@ferrari2019]
+Koinsidensi penyakit graves dan sistemik lupus eritematosus (SLE) belakangan ini mendapat perhatian lebih karena ditemukan memiliki hubungan yang tidak sekedar sesuatu yang terjadi secara acak. Hubungan kausal antara kedua entitas penyakit automimun tersebut masih belum banyak diketahui dan saat ini masih terdapat berbagai penelitian yang mendalami hal tersebut.[@xian2024] Penyakit graves merupakan salah satu penyakit autoimun pada organ endokrin tiroid dan merupakan penyebab utama hipertiroidisme.[@smith2016] Insiden enyakit Graves sebagai penyakit autoimun termasuk cukup tinggi dengan rentang 20 - 50 kasus per 100.000 individual serta tingkat prevalensi diperkirakan 1 - 1.5%.[@davies2020] Penyakit graves memilki target organ khusus, namun koinsidensi dengan penyakit autoimun lain seperti SLE, rheumatoid arthritis, multipel sklerosis, diabetes tipe 1 dan lainnya diperkirakan sekitar 16,7% dari total pasien dengan penyakit Graves. Data lebih lanjut dari laporan serial kasus terbaru juga menunjukan bahwa persentase pasien dengan penyakit Graves juga ditemukan memiliki 3 penyakit autoimun lain sebesar 1.5%.[@ferrari2019]
 
-SLE merupakan penyakit yang memiliki variasi spektrum klinis yang luas akibat terget organ multipel dan heterogen. Penelitian kohort multisenter di China menemukan bahwa individu dengan penyakit graves lebih rentan mengalami SLE dibanding individu kontrol yang sehat.[@lee2020] Penelitian terbaru dari Xian et al dengan analisis randomisasi mendelian menemukan bahwa terdapat korelasi antara penyakit graves dan SLE, dan masing-masing entitas autoimun tersebut saling mendukung untuk koinsidensi autoimun lainnya. Temuan-temuan ini memberikan gambaran bahwa pada praktik klinis diharapkan klinisi dapat meningkatkan skrining penyakit autoimun khususnya penyakit graves atau SLE saat menegakan diagnosis salah satu penyakit autoimun tersebut.[@xian2024] Laporan kasus ini memaparkan seorang pasien perempuan dengan krisis tiroid akibat penyakit graves yang sebelumnya diketahui memiliki penyakit SLE.
+SLE merupakan penyakit yang memiliki variasi spektrum klinis yang luas akibat terget organ penyakit yang multipel dan heterogen. Penelitian kohort multisenter di China menemukan bahwa individu dengan penyakit Graves lebih rentan mengalami SLE dibanding individu kontrol yang sehat.[@lee2020] Penelitian terbaru dari Xian et al dengan analisis randomisasi mendelian menemukan bahwa terdapat korelasi antara penyakit Graves dengan SLE, dan masing-masing entitas autoimun tersebut saling mendukung untuk koinsidensi autoimun lainnya. Beberapa temuan ini memberikan gambaran bahwa pada praktik klinis diharapkan klinisi dapat meningkatkan skrining penyakit autoimun khususnya penyakit Graves atau SLE saat menegakan diagnosis salah satu penyakit autoimun tersebut.[@xian2024] Laporan kasus ini memaparkan seorang pasien perempuan dengan krisis tiroid akibat penyakit Graves yang terlebih dahulu mengalami atrial fibrilasi dan baru terdiagnosis SLE.
 
 ## Laporan Kasus
 
-Seorang perempuan (23066258) usia 23 tahun datang ke instalasi gawat darurat dirujuk dengan keluhan utama dada berdebar sejak 1 hari sebelum masuk rumah sakit perujuk. Selain dada berdebar, pasien mengeluh mual dan pusing sejak 1 bulan sebelumya disertai rambut rontok, ruam kemerahan pada pipi serta nyeri pada persendian kedua kaki yang muncul hilang timbul sejak 1 minggu sebelumnya. Riwayat penurunan berat badan 10 kg dalam kurun waktu 6 bulan terakhir. Pasien mengalami diare berulang sejak 2 bulan terakhir, serta diare terakhir mulai 4 hari sebelum masuk rumah sakit. Diare konsistensi feses lunak hingga cair, tanpa darah dan tidak disertai nyeri perut.Riwayat demam lama, dada berdebar dan kencing berbuih disangkal. Menstruasi pasien dikatakan tidak teratur dan menstruasi terakhir 6 bulan sebelum masuk rumah sakit. Pasien memiliki riwayat nyeri hilang timbul pada ulu hati sejak kecil yang membaik dengan membeli obat secara mandiri. Riwayat nyeri tenggorokan dikatakan pada 6 bulan sebelumnya namun hanya kurang dari 1 minggu dan telah mendapatkan pengobatan dari dokter THT. Pasien sebelum rawat inap tidak dalam pengobatan rutin, namun pada rumah sakit perujuk pasien telah mendapatkan perawatan selama 4 hari namun tidak membaik dengan diagnosis suspek SLE,anemia sedang, kardiomiopati lupus, atrial flutter dan observasi nodul hepar. Saat dirujuk pasien mendapatkan terapi drip KCL 50 meq, seftriakson 1 gram tiap 12 jam intravena, metilprednisolon 125 mg tiap 12 jam intravena, parasetamol 650 mg tiap 8 jam per oral, Kalium Slow Release 600 mg tiap 8 jam per oral, bisoprolol 2.5 mg tiap 24 jam per oral, ramipril 5 mg tiap 24 jam per oral. Sebelum sakit memberat pasien menjalani kuliah di malang kemudian 1 minggu sebelum masuk rumah sakit pasien mengunjungi keluarganya di Denpasar.
+Seorang perempuan (23066258) usia 23 tahun datang ke instalasi gawat darurat dirujuk dengan keluhan utama dada berdebar sejak 1 hari sebelum masuk rumah sakit perujuk. Selain dada berdebar, pasien mengeluh mual dan pusing sejak 1 bulan sebelumya disertai rambut rontok, ruam kemerahan pada pipi serta nyeri pada persendian kedua kaki yang muncul hilang timbul sejak 1 minggu sebelumnya. Pasien mengalami diare berulang sejak 2 bulan terakhir, serta diare terakhir mulai 4 hari sebelum masuk rumah sakit. Diare konsistensi feses lunak hingga cair, tanpa darah dan tidak disertai nyeri perut. Pasien mengalami penurunan berat badan 10 kg dalam kurun waktu 6 bulan terakhir. Riwayat demam lama dan kencing berbuih disangkal. Menstruasi pasien dikatakan tidak teratur dan menstruasi terakhir 6 bulan sebelum masuk rumah sakit. Pasien belum menikah dan menyangkal adanya riwayat berhubungan seksual.
 
-Saat di IGD pasien dalam kondisi compos mentis, tekanan darah 130/90 mmHg, denyut nadi 128 kali/menit dengan irama iregular dan kuat angkat, laju respirasi 24 kali/menit, saturasi oksigen 99% dengan udara ruangan dan suhu aksila 36.6 C. Pasien tampak sakit berat dan malnutrisi (tinggi badan 155 cm, berat badan terakhir 34 kg, IMT 14.5 kg/m^2^, lingkar lengan atas 18 cm). Temuan signifikan pada pemeriksaan fisik meliputi sklera ikterus, ruam malar, pembesaran difus pada tiroid, kardiomegali, bilateral pedal edema dan makula hiperemis tersebar pada beberapa bagian tubuh (gambar [-@fig-fotoklinis]).
+Riwayat penyakit kronis seperti diabetes, penyakit jantung, penyakit ginjal disangkal. Pasien memiliki riwayat nyeri hilang timbul pada ulu hati sejak kecil yang membaik dengan membeli obat secara mandiri. Riwayat nyeri tenggorokan dikatakan pada 6 bulan sebelumnya namun hanya kurang dari 1 minggu dan telah mendapatkan pengobatan dari dokter THT. Pasien sebelum rawat inap tidak dalam pengobatan rutin, namun pada rumah sakit perujuk pasien telah mendapatkan perawatan selama 4 hari namun tidak membaik dengan diagnosis suspek SLE, anemia sedang, kardiomiopati lupus, atrial flutter dan observasi nodul hepar. Saat dirujuk pasien mendapatkan terapi drip KCL 50 meq, seftriakson 1 gram tiap 12 jam intravena, metilprednisolon 125 mg tiap 12 jam intravena, parasetamol 650 mg tiap 8 jam per oral, Kalium Slow Release 600 mg tiap 8 jam per oral, bisoprolol 2.5 mg tiap 24 jam per oral, ramipril 5 mg tiap 24 jam per oral. Sebelum sakit memberat, pasien menjalani kuliah di malang kemudian 1 minggu sebelum masuk rumah sakit pasien mengunjungi keluarganya di Denpasar.
+
+Saat di IGD pasien dalam kondisi compos mentis, tekanan darah 130/90 mmHg, denyut nadi 128 kali/menit dengan irama iregular dan kuat angkat, laju respirasi 24 kali/menit, saturasi oksigen 99% dengan udara ruangan dan suhu aksila 36.6 C. Pasien tampak sakit berat dan malnutrisi (tinggi badan 155 cm, berat badan terakhir 34 kg, IMT 14.5 kg/m^2^, lingkar lengan atas 18 cm). Temuan signifikan pada pemeriksaan fisik meliputi sklera ikterus, ruam malar, kardiomegali, bilateral pedal edema dan makula hiperemis tersebar pada beberapa bagian tubuh (gambar [-@fig-fotoklinis]). Pada pasien tidak ditemukan adanya organomegali maupun efusi sendi.
 
 ::: {#fig-fotoklinis layout-nrow="3"}
 ![Ruam pada belakang telinga kiri](/image/klinis/heldi_leherbelakangkiri.jpg){#fig-blkgkiri}
@@ -60,24 +62,24 @@ Saat di IGD pasien dalam kondisi compos mentis, tekanan darah 130/90 mmHg, denyu
 Foto klinis pasien tampak sklera ikterik, ruam malar disertai makula eritema pada beberapa bagian tubuh.
 :::
 
-Pada evaluasi data saat di IGD pasien memiliki skor kriteria klasifikasi SLE dari American college of rheumatology (ACR)/European league against rheumatism (EULAR) 20 poin, dengan rincian lupus kutan akut (+6), keterlibatan sendi (+6), proteinuria (+4) dan thrombositopenia (+4). Pada saat presentasi, pasien menunjukan gejala sesuai dengan SLE aktivitas berat berdasarkan kriteria MEX SLEDAI (
+Pada evaluasi data saat di IGD pasien memiliki skor kriteria klasifikasi SLE dari American College of Rheumatology (ACR)/European League Against Rheumatism (EULAR) 20 poin, dengan rincian lupus kutan akut (+6), keterlibatan sendi (+6), proteinuria (+4) dan thrombositopenia (+4). Pada saat presentasi, pasien menunjukan gejala sesuai dengan SLE aktivitas berat berdasarkan kriteria MEX SLEDAI (tabel [-@tbl-mexsledai])
 
-| MEX SLEDAI       | 7/11/2023 |     | Col4 |
-|------------------|-----------|-----|------|
-| Proteinuria      | +6        |     |      |
-| Hemolisis        | +3        |     |      |
-| Thrombositopenia | +3        |     |      |
-| Arthrtis         | +2        |     |      |
-| Ruam Malar       | +2        |     |      |
-| Total            | 16        |     |      |
+| MEX SLEDAI       | 7/11/2023 |     |     |
+|------------------|-----------|-----|-----|
+| Proteinuria      | +6        |     |     |
+| Hemolisis        | +3        |     |     |
+| Thrombositopenia | +3        |     |     |
+| Arthrtis         | +2        |     |     |
+| Ruam Malar       | +2        |     |     |
+| Total            | 16        |     |     |
 
-Pada pemeriksaan penunjang ditemukan beberapa kelainan. Pemeriksaan elektrokardiografi menunjukan atrial fibrilasi dengan laju nadi 148 kali per menit. Pemeriksaan penunjang ditemukan anemia sedang normokromik normositer, trombositopenia, peningkatan *Serum Glutamic Oxaloacetic Transaminase* (SGOT), hipoalbuminemia, hipokalemia, alkalosis metabolik. Pada pemeriksaan foto thorax anteroposterior tak tampak kelainan pada pulmonum. Pada jantung terukur *Cardiothoracic Ratio* (CTR) 66 %, dengan *splaying carina*, apex mendatar, pinggang jantung melurus, conus pulmonum menonjol. Foto thorax tampak kesan kardiomegali dengan konfigurasi *left ventricular hipertrophy* dan *left atrial enlargement* (gambar [-@fig-thorax]). Pada pasien tidak ditemukan adanya organomegali maupun efusi sendi.
+: Perkembangan Skor MEX-SLEDAI {#tbl-mexsledai}
 
-::: {#fig-fotoekgthorax layout-nrow="2"}
+Pada pemeriksaan penunjang ditemukan beberapa kelainan. Pemeriksaan darah lengkap ditemukan anemia sedang normokromik normositer dan trombositopenia. Pada pemeriksaan kimia klinik ditemukan peningkatan *Serum Glutamic Oxaloacetic Transaminase* (SGOT), hipoalbuminemia, hipokalemia, alkalosis metabolik (tabel [-@tbl-dl; -@tbl-kimia]). Pada pemeriksaan foto thorax anteroposterior tak tampak kelainan pada pulmonum. Pada jantung terukur *Cardiothoracic Ratio* (CTR) 66 %, dengan *splaying carina*, apeks mendatar, pinggang jantung melurus, conus pulmonum menonjol sehingga disimpulkan dari foto thorax tampak kesan kardiomegali dengan konfigurasi *left ventricular hipertrophy* dan *left atrial enlargement* (gambar [-@fig-thorax]).
+
 ![Elektrokardiografi pasien saat masuk rumah sakit (6/11/2023) menunjukan irama atrial fibrilasi.](image/ecg/heldi_ekg_awal_transform.jpg){#fig-ecgawal}
 
-![Foto Polos Thorax Anteroposterior (6/11/2023) menunjukan kardiomegali dengan konfugurasi LVH dan LAE serta tak tampak kelainan pada pulmo.](image/thorax_ap.jpg){#fig-thorax}
-:::
+![Foto Polos Thorax Anteroposterior (6/11/2023) menunjukan kardiomegali dengan konfigurasi LVH dan LAE serta tak tampak kelainan pada pulmo.](image/thorax_ap.jpg){#fig-thorax}
 
 | Parameter           | Nilai Referensi        | 6/11/2023 | 7/11/2023 | 10/11/2023 |
 |---------------|---------------|---------------|---------------|---------------|
@@ -94,7 +96,7 @@ Pada pemeriksaan penunjang ditemukan beberapa kelainan. Pemeriksaan elektrokardi
 | MCHC                | 31 - 36 g/dL           | 31.60     | 32.10     | 33.80      |
 | Platetet            | 140 - 440 x 10^3^/µL   | 67.00     | 78.00     | 57         |
 
-: Data pemeriksaan darah lengkap selama perawatan pasien.
+: Data pemeriksaan darah lengkap selama perawatan pasien. {#tbl-dl}
 
 | Pemeriksaan        | Parameter              | Referensi     | 6/11/2023 | 7/11                         | 12/11 | 14/11     | 16/11 |
 |---------|---------|---------|---------|---------|---------|---------|---------|
@@ -134,7 +136,9 @@ Pada pemeriksaan penunjang ditemukan beberapa kelainan. Pemeriksaan elektrokardi
 | Fungsi Tiroid      | Free T4                | 0.7 - 1.48    |           | 28                           |       |           |       |
 |                    | TSHs                   | 0.27 - 4.20   |           | \< 0.01                      |       |           |       |
 
-Pemeriksaan elektrokardiografi (EKG) 12 lead saat di IGD menunjukan irama gelombang QRS iregular 140 kali per menit dengan gelombang P yang tidak jelas dan tidak teratur serta tidak sinkron dengan kompleks QRS. Irama EKG mengesankan sebuah irama fibrilasi atrium dengan respon kontraksi ventrikel cepat (AF RVR). Pemeriksaan ekokardiografi *full study* 1 hari (7/11/2023) perawatan menunjukan pembesaran atrium derajat berat dengan ukuran ventrikel kiri, ventrikel kanan, serta atrium kanan dalam batas normal. Fungsi sistolik normal dengan ejeksi fraksi 62.6%, namun fungsi diastolik ventrikel kiri belum dapat ditentukan. Terdapat regurgitasi katup mitra pada derajat sedang-berat dicurigai akibat prolapse leaflet mitral anterior. Katup Aorta dan Trikuspid ditemukan mengalami regurgitasi ringan. Tidak ditemukan efusi perikardium. Estimasi tekanan atrium kanan (eRAP) dalam nilai normal (8 mmHg) gambar [-@fig-echo].
+: Data pemeriksaan kimia klinik selama perawatan pasien. {#tbl-kimia}
+
+Pemeriksaan elektrokardiografi (EKG) 12 lead saat di IGD menunjukan irama gelombang QRS iregular 140 kali per menit dengan gelombang P yang tidak jelas dan tidak teratur serta tidak sinkron dengan kompleks QRS (gambar [-@fig-ecgawal]). Irama EKG mengesankan sebuah irama fibrilasi atrium dengan respon kontraksi ventrikel cepat (AF RVR). Pemeriksaan ekokardiografi *full study* 1 hari (7/11/2023) perawatan menunjukan pembesaran atrium derajat berat dengan ukuran ventrikel kiri, ventrikel kanan, serta atrium kanan dalam batas normal. Fungsi sistolik normal dengan ejeksi fraksi 62.6%, namun fungsi diastolik ventrikel kiri belum dapat ditentukan. Terdapat regurgitasi katup mitra pada derajat sedang-berat dicurigai akibat prolapse leaflet mitral anterior. Katup Aorta dan Trikuspid ditemukan mengalami regurgitasi ringan. Tidak ditemukan efusi perikardium. Estimasi tekanan atrium kanan (eRAP) dalam nilai normal (8 mmHg) gambar [-@fig-echo].
 
 ::: {#fig-echo layout-nrow="2"}
 ![Ekokardiografi tampak ventrikel kiri](/image/echo/echo_chamber.png){#fig-4chamber}
@@ -174,8 +178,10 @@ Pemeriksaan apusan darah tepi menungjukan anemia normokromik, normositer dengan 
 |                              | Rasio protein kreatinin  | 2.41            | \< 0.2    |
 | Tes Kehamilan (RS Perujuk)   |                          | Negatif         | Negatif   |
 
+: Data pemeriksaan urin selama perawatan pasien. {#tbl-urin}
+
 | Tangal pemeriksaan | Kalium | Koreksi Kalium                                            |
-|--------------------|------------------|----------------------------------|
+|-------------------|-------------------|----------------------------------|
 | 6/11/2023          | 2.88   | Drip KCL 50 Meq                                           |
 | 8/11/2023          | 2.95   | Drip KCL 25 Meq                                           |
 | 8/11/2023          | 2.45   | Drip KCL 50 Meq                                           |
@@ -183,20 +189,45 @@ Pemeriksaan apusan darah tepi menungjukan anemia normokromik, normositer dengan 
 | 15/11/2023         | 2.25   | Drip KCL 50 Meq                                           |
 | 16/11/2023         | 3.18   | KSR 500 mg tiap 12 jam per oral (Selanjutnya Rawat Jalan) |
 
-Diagnosis kerja pasien meliputi, SLE derajat aktivitas berat dengan anemia sedang normokromik normositer et causa anemia hemolitik, susp kardiomiopati lupus, atrial fibrilasi rapid ventricular response, diare akut ec susp viral dengan dehidrasi ringan-sedang, hipokalemia et causa suspect loss. Pasien dilakukan pemeriksaan FT4 dan TSH untuk evaluasi penyebab atrial fibrilasi. Evaluasi paska pemeriksaan FT4 dan TSH yang menunjukan kondisi hipertiroid disertai gejala klinis sesuai dengan kondisi badai tiroid (thyroid storm) dengan skor Burch Wartofsky 50 poin. Kondisi hipertiroid dicurigai akibat penyakit Graves. Terapi diberikan meliputi propanolol 60 mg tiap 6 jam per oral, propiltiourasil (PTU) 600 mg sebagai dosis awal (*loading dose)* dilanjutkan 300 mg tiap 6 jam per oral, steoroid dengan metilprednisolon sesuai dosis untuk SLE, serta larutan iodin 5 tetes setiap 8 jam per oral setelah pemberian PTU jika obat tersedia.
+: Data pemantauan kalium selama perawatan pasien. {#tbl-kalium}
 
-| Burch Wartofsky Score            | 8/11/2023                                   |     |
-|----------------------------------|---------------------------------------------|-----|
-| Temperatur                       | \< 37.2 (0)                                 |     |
-| Disfungsi Sistem Saraf Pusat     | tidak ada (0)                               |     |
-| Disfungsi Gastrointestinal-hepar | Berat-jaundice tidak dapat dijelaskan (+20) |     |
-| Denyut jantung                   | 110 - 199 (+10)                             |     |
-| Kondisi Gagal jantung Kongestif  | tidak ada (0)                               |     |
-| Atrial Fibrilasi                 | Ada (+10)                                   |     |
-| Faktor Presipitasi               | Ada (+10)                                   |     |
-| Total                            | 50 (*Highly suggestive of thyroid storm*)   |     |
+Diagnosis kerja pasien meliputi, SLE derajat aktivitas berat dengan anemia sedang normokromik normositer et causa anemia hemolitik, susp kardiomiopati lupus, atrial fibrilasi rapid ventricular response, diare akut ec susp viral dengan dehidrasi ringan-sedang, hipokalemia et causa suspect loss. Pada pasien diberikan terapi pulsedose metil prednisolon 500 mg dalam NaCl 0.9% 100 cc intravena habis dalam 30 menit selama 3 hari. Terapi supportif lain meliputi omeprazole 40 mg sebelum pemberian pulse dose metilprednisolon, kandesartan 8 mg tiap 24 jam per oral, oralit ad libitum, drip KCL 50 meq dalam NaCl 0.9% 500 cc habis dalam 8 jam dan transfusi *packed red cell* dengan target hemoglobin \> 10 g/dL. Pasien dikonsulkan ke divisi kardiologi terkait atrial fibrilasi dan diberikan terapi digoxin 0.5 mg bolus pelan jika denyut jantung \> 110.
 
-Pada pemeriksaan ultrasonografi Tiroid ditemukan peningkatan vaskularisasi pada parenkim tiroid kanan, kiri dan istmus. Pada pemeriksaan tidak ditemukan massa/nodul/kista pada kelenjar tiroid, namun tampak pembesaran kelenjar getah bening pada regio colli kiri, submandibula kanan-kiri, preaurikula kanan dan parotid kiri. Kelenjar parotis kanan tak tampak kelainan. Pemeriksaan USG ini mendukung *Graves Disease* dengan multipel *non suspicious* limfadenopati pada regio colli kiri, submandibula kanan-kiri, preauricula kanan, dan parotid kiri (gambar [-@fig-usgtiroid]).
+Terkait dengan atrial fibrilasi, pada pasien dilakukan pemeriksaan FT4 dan TSH untuk evaluasi penyebab atrial fibrilasi. Evaluasi paska pemeriksaan FT4 dan TSH yang menunjukan kondisi hipertiroid dicurigai akibat penyakit graves (skor Wayne 20, tabel [-@tbl-wayne]) disertai gejala klinis sesuai dengan kondisi badai tiroid (thyroid storm) dengan skor Burch Wartofsky 50 poin (tabel [-@tbl-bw]). Terapi diberikan meliputi propanolol 60 mg tiap 6 jam per oral, propiltiourasil (PTU) 600 mg sebagai dosis awal (*loading dose)* dilanjutkan 300 mg tiap 6 jam per oral, steroid dengan metilprednisolon sesuai dosis untuk SLE, serta larutan iodin 5 tetes setiap 8 jam per oral setelah pemberian PTU jika obat tersedia.
+
+Terapi atrial fibrilasi dari kardiologi meliputi digoksin 0.5 mg intravena jika laju denyut jantung \> 110 kali per menit. Pada pasien didapatkan kondisi hipertensi dengan terapi ramipril 5 mg tiap 12 jam per oral serta nifedipin (lepas lambat) 30 mg tiap 24 jam per oral.
+
+| Gejala onset baru atau memberat | Skor | Nilai | Tanda              | Skor jika ada | Skor jika tidak ada | Nilai |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| Dyspnea on effect               | +1   | 0     | Palpable thyroid   | +3            | -3                  | +3    |
+| Palpitations                    | +2   | +2    | Bruit over thyroid | +2            | -2                  | -2    |
+| Tiredness                       | +2   | +2    | Exopthalmoses      | +2            | 0                   | 0     |
+| Preference for heat             | -5   | 0     | Lid retraction     | +2            | 0                   | 0     |
+| Preference for cold             | +5   | +5    | Lid lag            | +1            | 0                   | 0     |
+| Excessive sweating              | +3   | 0     | Hyperkinesis       | +4            | -2                  | -2    |
+| Nervousness                     | +2   | +2    | Hands hot          | +2            | -2                  | -2    |
+| Appetite: increased             | +3   | +3    | Hands moist        | +1            | -1                  | -1    |
+| Appetite: decreased             | -3   | 0     | Casual pulse rate  |               |                     |       |
+| Weight: increased               | -3   | 0     | \>80/min           | 0             | -3                  | 0     |
+| Weight: decreased               | +3   | +3    | \>90/min           | +3            | 0                   | +3    |
+|                                 |      |       | Atrial fibrilation | +4            | 0                   | +4    |
+
+: Penilaian gejala dan tanda klinis hipertiroid dengan skor Wayne {#tbl-wayne}
+
+| Burch Wartofsky Score            | 7/11/2023 - 9/11/2023                       | 10/11/24 - 12/11/24                          | 13/11/24 - 14/11/24                        | 15/11/24                                     | 16/11/24                                     | 17/11/24                                   |
+|---------|---------|---------|---------|---------|---------|---------|
+| Temperatur                       | \< 37.2 (0)                                 | \< 37.2 (0)                                  | \< 37.2 (0)                                | \< 37.2 (0)                                  | \< 37.2 (0)                                  | \< 37.2 (0)                                |
+| Disfungsi Sistem Saraf Pusat     | tidak ada (0)                               | tidak ada (0)                                | tidak ada (0)                              | tidak ada (0)                                | tidak ada (0)                                | tidak ada (0)                              |
+| Disfungsi Gastrointestinal-hepar | Berat-jaundice tidak dapat dijelaskan (+20) | Berat-jaundice tidak dapat dijelaskan (+20)  | Keluhan membaik (0)                        | Keluhan membaik (0)                          | Keluhan membaik (0)                          | Keluhan membaik (0)                        |
+| Denyut jantung                   | 110 - 199 (+10)                             | 90 - 109 (+5)                                | 90 - 109 (+5)                              | \>= 140(+25)                                 | \>=120 -129 (+15)                            | \>=90 -109 (+5)                            |
+| Kondisi Gagal jantung Kongestif  | tidak ada (0)                               | tidak ada (0)                                | tidak ada (0)                              | tidak ada (0)                                | tidak ada (0)                                | tidak ada (0)                              |
+| Atrial Fibrilasi                 | Ada (+10)                                   | tidak (0)                                    | ada (10)                                   | ada (10)                                     | ada (10)                                     | ada (10)                                   |
+| Faktor Presipitasi               | Ada (+10)                                   | Ada (+10)                                    | tidak (0)                                  | tidak (0)                                    | tidak (0)                                    | tidak (0)                                  |
+| Total                            | 50 (*Highly suggestive of thyroid storm*)   | 35 (*Suggestive of impending thyroid storm*) | 15 (*Unlikely to represent thyroid storm*) | 35 (*Suggestive of impending thyroid storm*) | 25 (*Suggestive of impending thyroid storm*) | 15 (*Unlikely to represent thyroid storm*) |
+
+: Penilaian derajat gejala hipertiroid dengan skor Burch-Wartofsky {#tbl-bw}
+
+Pada pemeriksaan ultrasonografi Tiroid ditemukan peningkatan vaskularisasi pada parenkim tiroid kanan, kiri dan istmus. Pada pemeriksaan tidak ditemukan massa/nodul/kista pada kelenjar tiroid, namun tampak pembesaran kelenjar getah bening pada regio colli kiri, submandibula kanan-kiri, preaurikula kanan dan parotid kiri. Kelenjar parotis kanan tak tampak kelainan. Pemeriksaan USG ini mendukung *Graves Disease* dengan multipel *non suspicious* limfadenopati pada regio colli kiri, submandibula kanan-kiri, preauricula kanan, dan parotid kiri (gambar [-@fig-usgtiroid]). Temuan USG tiroid ini mendukung temuan klinis serta laboratorium untuk penyakit Graves. Penegakan diagnosis pada tahap akhir membutuhkan pemeriksaan Tiroid Receptor Antibody (TRAb) namun kendala teknis laboratorium rumah sakit yang belum mampu melakukan pemeriksaan tersebut. Pemeriksaan TRAb dilakukan pada akhir perawatan dengan hasil nilai serum yang diatas batas normal (36.3 IU/L).
 
 ::: {#fig-usgtiroid layout-nrow="3"}
 ![USG Tiroid Lobus Kanan](/image/usg_tiroid/tiroid_RLobe.png){#fig-Rtiroid}
@@ -208,11 +239,36 @@ Pada pemeriksaan ultrasonografi Tiroid ditemukan peningkatan vaskularisasi pada 
 Ultrasonografi kelenjar tiroid tampak pembesaran ukuran kelenjar, hipoekoik diffuse disertai tampak peningkatakan vaskularisasi pada pencitraan dopler.
 :::
 
-Pada pemeriksaan ultrasonografi abdomen ditemukan nodul tunggal hipoechoic dengan hiperechoic di tepinya dan internal echo didalamnya, berbatas tegas tepi regular pada segmen VIII hepar, terukur +/- 1.8 x 1.7 cm yang pada CDUS tampak vaskularisasi pada tepinya. Pada pencitraan cavum pelvis, ditemukan cairan bebas minimal.
+Pada pemeriksaan ultrasonografi abdomen ditemukan nodul tunggal hipoechoic dengan hiperechoic di tepinya dan internal echo didalamnya, berbatas tegas tepi regular pada segmen VIII hepar, terukur +/- 1.8 x 1.7 cm yang pada CDUS tampak vaskularisasi pada tepinya. Pada pencitraan cavum pelvis, ditemukan cairan bebas minimal. Tindakan diagnostik lanjutan terkait temuan nodul hepar terbatas pada pemeriksaan USG abdomen. Terapi terkait transaminitis disertai peningkatan bilirubin diberikan berupa terapi supportif berupa curcuma tablet tiap 8 jam per oral serta asam ursodioksikolat 250 mg tiap 8 jam per oral. Pada akhir masa perawatan rumah sakit pemeriksaan bilirubin diulang dan hasilnya menunjukan penurunan kadar bilirubin.
 
 ![USG abdomen (9/11/2023) ditemukan liver tidak membesar, permukaan licin, sudut tajam, tepi rata, sistem vasculer dan bilier tampak normal, echoparenchym normal, tampak single nodul hipoechoic dengan hiperechoic di tepinya dan internal echo didalamnya, berbatas tegas tepi regular pada segmen VIII hepar, terukur +/- 1.8 x 1.7 cm yang pada CDUS tampak vaskularisasi pada tepinya.](image/usg_abd/abd_nodul.png){fig-align="left"}
 
-Pada pasien diberikan terapi pulsedose metil prednisolon 500 mg dalam NaCl 0.9% 100 cc intravena habis dalam 30 menit selama 3 hari. Terapi supportif lain meliputi omeprazole 40 mg sebelum pemberian pulse dose metilprednisolon, kandesartan 8 mg tiap 24 jam per oral, oralit ad libitum, drip KCL 50 meq dalam NaCl 0.9% 500 cc habis dalam 8 jam dan transfusi *packed red cell* dengan target hemoglobin \> 10 g/dL. Pasien dikonsulkan ke divisi kardiologi terkait atrial fibrilasi dan diberikan terapi digoxin 0.5 mg bolus pelan jika denyut jantung \> 110.
+```{r timeline}
+#| eval: false
+
+# Libraries
+library(ggplot2)
+library(dplyr)
+library(hrbrthemes)
+
+# Dummy data
+data <- data.frame(
+  day = as.Date("2017-06-14") - 0:364,
+  value = runif(365) + seq(-140, 224)^2 / 10000
+)
+
+# Most basic bubble plot
+p <- ggplot(data, aes(x=day, y=value)) +
+  geom_line( color="steelblue") + 
+  geom_point() +
+  xlab("") +
+  theme_ipsum() +
+  theme(axis.text.x=element_text(angle=60, hjust=1)) +
+  scale_x_date(limit=c(as.Date("2017-01-01"),as.Date("2017-02-11"))) +
+  ylim(0,1.5)
+
+p
+```
 
 ## Diskusi
 

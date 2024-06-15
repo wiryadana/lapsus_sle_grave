@@ -20,6 +20,11 @@ csl: wiryadana.csl
 ```{r, echo=F}
 library("tidyverse")
 library("googlesheets4")
+library("ggplot2")
+library("dplyr")
+library("hrbrthemes")
+library("googlesheets4")
+library("patchwork")
 ```
 
 ## Abstract
@@ -181,7 +186,7 @@ Pemeriksaan apusan darah tepi menungjukan anemia normokromik, normositer dengan 
 : Data pemeriksaan urin selama perawatan pasien. {#tbl-urin}
 
 | Tangal pemeriksaan | Kalium | Koreksi Kalium                                            |
-|-------------------|-------------------|----------------------------------|
+|-------------------|-------------------|---------------------------------|
 | 6/11/2023          | 2.88   | Drip KCL 50 Meq                                           |
 | 8/11/2023          | 2.95   | Drip KCL 25 Meq                                           |
 | 8/11/2023          | 2.45   | Drip KCL 50 Meq                                           |
@@ -215,7 +220,7 @@ Terapi atrial fibrilasi dari kardiologi meliputi digoksin 0.5 mg intravena jika 
 : Penilaian gejala dan tanda klinis hipertiroid dengan skor Wayne {#tbl-wayne}
 
 | Burch Wartofsky Score            | 7/11/2023 - 9/11/2023                       | 10/11/24 - 12/11/24                          | 13/11/24 - 14/11/24                        | 15/11/24                                     | 16/11/24                                     | 17/11/24                                   |
-|---------|---------|---------|---------|---------|---------|---------|
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | Temperatur                       | \< 37.2 (0)                                 | \< 37.2 (0)                                  | \< 37.2 (0)                                | \< 37.2 (0)                                  | \< 37.2 (0)                                  | \< 37.2 (0)                                |
 | Disfungsi Sistem Saraf Pusat     | tidak ada (0)                               | tidak ada (0)                                | tidak ada (0)                              | tidak ada (0)                                | tidak ada (0)                                | tidak ada (0)                              |
 | Disfungsi Gastrointestinal-hepar | Berat-jaundice tidak dapat dijelaskan (+20) | Berat-jaundice tidak dapat dijelaskan (+20)  | Keluhan membaik (0)                        | Keluhan membaik (0)                          | Keluhan membaik (0)                          | Keluhan membaik (0)                        |
@@ -243,31 +248,133 @@ Pada pemeriksaan ultrasonografi abdomen ditemukan nodul tunggal hipoechoic denga
 
 ![USG abdomen (9/11/2023) ditemukan liver tidak membesar, permukaan licin, sudut tajam, tepi rata, sistem vasculer dan bilier tampak normal, echoparenchym normal, tampak single nodul hipoechoic dengan hiperechoic di tepinya dan internal echo didalamnya, berbatas tegas tepi regular pada segmen VIII hepar, terukur +/- 1.8 x 1.7 cm yang pada CDUS tampak vaskularisasi pada tepinya.](image/usg_abd/abd_nodul.png){fig-align="left"}
 
-```{r timeline}
-#| eval: false
 
-# Libraries
-library(ggplot2)
-library(dplyr)
-library(hrbrthemes)
+```{r data}
+data <- read_sheet("https://docs.google.com/spreadsheets/d/18lY7qc-y4WH2ok0-CfF0v8gU6DSN3Y7F3JWTQqJvPoA/edit?gid=0#gid=0")
+```
 
-# Dummy data
-data <- data.frame(
-  day = as.Date("2017-06-14") - 0:364,
-  value = runif(365) + seq(-140, 224)^2 / 10000
-)
 
-# Most basic bubble plot
-p <- ggplot(data, aes(x=day, y=value)) +
-  geom_line( color="steelblue") + 
-  geom_point() +
-  xlab("") +
-  theme_ipsum() +
-  theme(axis.text.x=element_text(angle=60, hjust=1)) +
-  scale_x_date(limit=c(as.Date("2017-01-01"),as.Date("2017-02-11"))) +
-  ylim(0,1.5)
+```{r timeline_Graves}
+#| fig-cap: "Perubahan dosis obat menyesuaikan klinis hipertiroid"
+#| fig-width: 6
+#| fig-height: 7
 
-p
+data_graves <- data %>%
+  select("day", "bw", "Propanolol", "PTU", "Tiamazole")
+
+data_long <- data %>%
+  pivot_longer(cols = 2:17, names_to = "Parameter", values_to = "Dosis")
+
+# endokrin <- ggplot(data_long, aes(x=day, y=Dosis)) +
+#   geom_line( color="steelblue") + 
+#   geom_point() +
+#   xlab("") +
+#   theme_ipsum() +
+#   facet_wrap(vars(Parameter), ncol = 1, scales = "free", shrink = TRUE) +
+#   labs(x = "hari", y = "") +
+#   theme(axis.text.y=element_blank())
+
+plot_bw <- ggplot(data, aes(x=day, y=bw)) +
+  geom_line(color = "grey") +
+  geom_point(shape=21, color = "black", fill="#69b3a2", size=2) +
+  ylab("BW Score") +
+  theme_ipsum(axis_title_just = "cc") +
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        #axis.title.y = element_blank(),
+        plot.margin = margin(t = 1, b=1) )
+
+plot_propanolol <- ggplot(data, aes(x=day, y=Propanolol)) +
+  geom_line(color = "grey") +
+  geom_point(shape=21, color = "black", fill="#69b3a2", size=2) +
+  #xlab("") +
+  theme_ipsum(axis_title_just = "cc") +
+   theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        #axis.title.y = element_blank(),
+        plot.margin = margin(t = 1, b=1) )
+
+plot_ptu <- ggplot(data, aes(x=day, y=PTU)) +
+  geom_line(color = "grey") +
+  geom_point(shape=21, color = "black", fill="#69b3a2", size=2) +
+  #xlab("") +
+  theme_ipsum(axis_title_just = "cc") +
+   theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        #axis.title.y = element_blank(),
+        plot.margin = margin(t = 1, b=1) )
+
+plot_tiamazole<- ggplot(data, aes(x=day, y=Tiamazole)) +
+  geom_line(color = "grey") +
+  geom_point(shape=21, color = "black", fill="#69b3a2", size=2) +
+  #xlab("") +
+  theme_ipsum(axis_title_just = "cc") +
+   theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        #axis.title.y = element_blank(),
+        plot.margin = margin(t = 1, b=1) )
+
+plot_graves <- plot_bw / plot_propanolol / plot_ptu / plot_tiamazole + 
+  plot_layout(axes = "collect") +
+  plot_annotation(tag_levels = 'A') & 
+  theme(plot.tag = element_text(size = 8))
+  
+plot_graves
+
+```
+
+```{r timeline_SLE}
+#| fig-cap: "Perubahan dosis obat menyesuaikan klinis penyakit SLE"
+#| fig-width: 6
+#| fig-height: 7
+
+plot_sledai <- ggplot(data, aes(x=day, y=bw)) +
+  geom_line(color = "grey") +
+  geom_point(shape=21, color = "black", fill="#69b3a2", size=2) +
+  ylab("MEX Sledai") +
+  theme_ipsum(axis_title_just = "cc") +
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        #axis.title.y = element_blank(),
+        plot.margin = margin(t = 1, b=1) )
+
+plot_metilprednisolon <- ggplot(data, aes(x=day, y=metilprednisolon)) +
+  geom_line(color = "grey") +
+  geom_point(shape=21, color = "black", fill="#69b3a2", size=2) +
+  #xlab("") +
+  theme_ipsum(axis_title_just = "cc") +
+   theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        #axis.title.y = element_blank(),
+        plot.margin = margin(t = 1, b=1) )
+
+plot_hcq <- ggplot(data, aes(x=day, y=hidroksiklorokuin)) +
+  geom_line(color = "grey") +
+  geom_point(shape=21, color = "black", fill="#69b3a2", size=2) +
+  #xlab("") +
+  theme_ipsum(axis_title_just = "cc") +
+   theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        #axis.title.y = element_blank(),
+        plot.margin = margin(t = 1, b=1) )
+
+plot_kamifet<- ggplot(data, aes(x=day, y=kamifet)) +
+  geom_line(color = "grey") +
+  geom_point(shape=21, color = "black", fill="#69b3a2", size=2) +
+  #xlab("") +
+  theme_ipsum(axis_title_just = "cc") +
+   theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        #axis.title.y = element_blank(),
+        plot.margin = margin(t = 1, b=1) )
+
+plot_sle <- plot_sledai / plot_metilprednisolon / plot_hcq / plot_kamifet + 
+  plot_layout(axes = "collect") +
+  plot_annotation(tag_levels = 'A') & 
+  theme(plot.tag = element_text(size = 8))
+  
+plot_sle
+
 ```
 
 ## Diskusi
@@ -284,6 +391,6 @@ Jalur imunologi yang sama dalam perkembangan SLE dan penyakit graves ditunjukkan
 
 ## Ringkasan
 
-Penyakit Graves secara genetik diprediksi meningkatkan risiko SLE, dan berlaku juga sebaliknya. Laporan kasus ini diharapkan dapat memberikan dasar baru untuk skrining dan tatalaksana pasien dengan penyakit graves yang memiliki gejala baru yang tidak spesifik harus diskrining untuk SLE sehingga memfasilitasi diagnosis dan pengobatan tepat waktu dan menghindari penundaan atau eksaserbasi penyakit. Pada saat yang sama, fungsi tiroid juga perlu dipantau selama penatalaksanaan pasien SLE, sehingga dapat menyesuaikan rencana pengobatan dan menjamin kualitas hidup pasien.
+Penyakit Graves secara genetik diprediksi meningkatkan risiko SLE, dan berlaku juga sebaliknya. Laporan kasus ini diharapkan dapat memberikan dasar baru untuk skrining dan tatalaksana pasien dengan penyakit graves yang memiliki gejala baru yang tidak spesifik harus diskrining untuk SLE sehingga memfasilitasi diagnosis dan pengobatan tepat waktu dan menghindari penundaan atau eksaserbasi penyakit. Pada saat yang sama, fungsi tiroid juga perlu dipantau selama penatalaksanaan pasien SLE, sehingga dapat menyesuaikan rencana pengobatan dan meningkatkan kualitas hidup pasien.
 
 ## Daftar Pustaka

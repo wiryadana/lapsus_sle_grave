@@ -3,7 +3,7 @@
     "path": "~/R.project/lapsus_sle_graves/index.qmd",
     "project_path": "index.qmd",
     "type": "quarto_markdown",
-    "hash": "3531318281",
+    "hash": "2076941866",
     "contents": "",
     "dirty": false,
     "created": 1715242044614.0,
@@ -12,20 +12,20 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "377,3",
-        "scrollLine": "285",
-        "rmdVisualMode": "true",
+        "cursorPosition": "282,39",
+        "scrollLine": "267",
+        "rmdVisualMode": "false",
         "rmdVisualWrapConfigured": "true",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "24454:18433"
+        "rmdVisualModeLocation": "6219:2975"
     },
     "folds": "",
-    "lastKnownWriteTime": 1718458510,
+    "lastKnownWriteTime": 1718808611,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1718458510387,
+    "last_content_update": 1718808611298,
     "read_only": false,
     "read_only_alternatives": []
 }

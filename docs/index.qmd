@@ -69,14 +69,14 @@ Foto klinis pasien tampak sklera ikterik, ruam malar disertai makula eritema pad
 
 Pada evaluasi data saat di IGD pasien memiliki skor kriteria klasifikasi SLE dari American College of Rheumatology (ACR)/European League Against Rheumatism (EULAR) 20 poin, dengan rincian lupus kutan akut (+6), keterlibatan sendi (+6), proteinuria (+4) dan thrombositopenia (+4). Pada saat presentasi, pasien menunjukan gejala sesuai dengan SLE aktivitas berat berdasarkan kriteria MEX SLEDAI (tabel [-@tbl-mexsledai])
 
-| MEX SLEDAI       | 7/11/2023 |     |     |
-|------------------|-----------|-----|-----|
-| Proteinuria      | +6        |     |     |
-| Hemolisis        | +3        |     |     |
-| Thrombositopenia | +3        |     |     |
-| Arthrtis         | +2        |     |     |
-| Ruam Malar       | +2        |     |     |
-| Total            | 16        |     |     |
+| MEX SLEDAI       | 7/11/2023 |
+|------------------|-----------|
+| Proteinuria      | +6        |
+| Hemolisis        | +3        |
+| Thrombositopenia | +3        |
+| Arthrtis         | +2        |
+| Ruam Malar       | +2        |
+| Total            | 16        |
 
 : Perkembangan Skor MEX-SLEDAI {#tbl-mexsledai}
 
@@ -160,7 +160,7 @@ Ekokardiografi tampak pembesaran atrium kiri disertai regurgitasi katup mitral d
 Pemeriksaan apusan darah tepi menungjukan anemia normokromik, normositer dengan leukositosis dan thrombositopenia. Sebagian besar populasi sel normokromik normositer, anisopoikilositosis (ovalosit, sel tear drop, stomatosit, sel target, sel polikromasia, normoblast. Pada leukosit differential count ditemukan neutrofilia dan tidak ada sel muda. Pada thrombosit tidak ditemukan giant trombosit atau clumping.
 
 | Pemeriksaan Urin             | Parameter                | Referensi       | 7/11/2023 |
-|-------------------|------------------|------------------|------------------|
+|---------------------|------------------|-----------------|-----------------|
 | Urine Lengkap                | Berat Jenis              | 1.003 - 1.035   | 1.009     |
 |                              | Warna                    | Kuning          | Kuning    |
 |                              | Kekeruhan                |                 | Jernih    |
@@ -186,7 +186,7 @@ Pemeriksaan apusan darah tepi menungjukan anemia normokromik, normositer dengan 
 : Data pemeriksaan urin selama perawatan pasien. {#tbl-urin}
 
 | Tangal pemeriksaan | Kalium | Koreksi Kalium                                            |
-|-------------------|-------------------|---------------------------------|
+|----------------|----------------|----------------------------------------|
 | 6/11/2023          | 2.88   | Drip KCL 50 Meq                                           |
 | 8/11/2023          | 2.95   | Drip KCL 25 Meq                                           |
 | 8/11/2023          | 2.45   | Drip KCL 50 Meq                                           |
@@ -248,11 +248,9 @@ Pada pemeriksaan ultrasonografi abdomen ditemukan nodul tunggal hipoechoic denga
 
 ![USG abdomen (9/11/2023) ditemukan liver tidak membesar, permukaan licin, sudut tajam, tepi rata, sistem vasculer dan bilier tampak normal, echoparenchym normal, tampak single nodul hipoechoic dengan hiperechoic di tepinya dan internal echo didalamnya, berbatas tegas tepi regular pada segmen VIII hepar, terukur +/- 1.8 x 1.7 cm yang pada CDUS tampak vaskularisasi pada tepinya.](image/usg_abd/abd_nodul.png){fig-align="left"}
 
-
 ```{r data}
 data <- read_sheet("https://docs.google.com/spreadsheets/d/18lY7qc-y4WH2ok0-CfF0v8gU6DSN3Y7F3JWTQqJvPoA/edit?gid=0#gid=0")
 ```
-
 
 ```{r timeline_Graves}
 #| fig-cap: "Perubahan dosis obat menyesuaikan klinis hipertiroid"
@@ -277,12 +275,14 @@ data_long <- data %>%
 plot_bw <- ggplot(data, aes(x=day, y=bw)) +
   geom_line(color = "grey") +
   geom_point(shape=21, color = "black", fill="#69b3a2", size=2) +
-  ylab("BW Score") +
+  ylab("Skor Burch Wartofsky") +
   theme_ipsum(axis_title_just = "cc") +
-  theme(axis.text.y = element_blank(),
+  theme(#axis.text.y = element_blank(),
         axis.ticks.y = element_blank(),
         #axis.title.y = element_blank(),
-        plot.margin = margin(t = 1, b=1) )
+        plot.margin = margin(t = 1, b=1) ) +
+  ylim(0,60)
+
 
 plot_propanolol <- ggplot(data, aes(x=day, y=Propanolol)) +
   geom_line(color = "grey") +
@@ -292,7 +292,14 @@ plot_propanolol <- ggplot(data, aes(x=day, y=Propanolol)) +
    theme(axis.text.y = element_blank(),
         axis.ticks.y = element_blank(),
         #axis.title.y = element_blank(),
-        plot.margin = margin(t = 1, b=1) )
+        axis.title.x = element_blank(),
+        plot.margin = margin(t = 1, b=1) ) +
+  ylim(0,300) +
+  geom_text(data = data[3,], label="4 x 60 mg", vjust=0.1, hjust=1.1) +
+   geom_text(data = data[5,], label="3 x 40 mg", vjust=0, hjust=(-0.2)) +
+  geom_text(data = data[6,], label="3 x 10 mg", vjust=0.2, hjust=1.5) +
+    geom_text(data = data[10,], label="3 x 20 mg", vjust=(-1), hjust=0)
+
 
 plot_ptu <- ggplot(data, aes(x=day, y=PTU)) +
   geom_line(color = "grey") +
@@ -302,17 +309,25 @@ plot_ptu <- ggplot(data, aes(x=day, y=PTU)) +
    theme(axis.text.y = element_blank(),
         axis.ticks.y = element_blank(),
         #axis.title.y = element_blank(),
-        plot.margin = margin(t = 1, b=1) )
+        axis.title.x = element_blank(),
+        plot.margin = margin(t = 1, b=1) ) +
+  ylim(0,2000)+
+  geom_text(data = data[3,], label="Loading 600 mg => 4 x 300 mg ", hjust=(-0.1)) +
+   geom_text(data = data[4,], label="4 x 300 mg", vjust=2, hjust=1) +
+  geom_text(data = data[5,], label="3 x 300 mg", vjust=0, hjust=(-0.1)) +
+    geom_text(data = data[6,], label="3 x 100 mg", vjust=(-1), hjust=0)
 
 plot_tiamazole<- ggplot(data, aes(x=day, y=Tiamazole)) +
   geom_line(color = "grey") +
   geom_point(shape=21, color = "black", fill="#69b3a2", size=2) +
-  #xlab("") +
+  xlab("Hari Perawatan") +
   theme_ipsum(axis_title_just = "cc") +
    theme(axis.text.y = element_blank(),
         axis.ticks.y = element_blank(),
         #axis.title.y = element_blank(),
-        plot.margin = margin(t = 1, b=1) )
+        plot.margin = margin(t = 1, b=1) )+
+  ylim(0,60)+
+  geom_text(data = data[9,], label="mulai Tiamazole 3 x 10 mg", hjust=(1.2))
 
 plot_graves <- plot_bw / plot_propanolol / plot_ptu / plot_tiamazole + 
   plot_layout(axes = "collect") +
@@ -324,51 +339,51 @@ plot_graves
 ```
 
 ```{r timeline_SLE}
-#| fig-cap: "Perubahan dosis obat menyesuaikan klinis penyakit SLE"
+#| fig-cap: "Perubahan dosis obat imunosupresan untuk penyakit SLE"
 #| fig-width: 6
 #| fig-height: 7
-
-plot_sledai <- ggplot(data, aes(x=day, y=bw)) +
-  geom_line(color = "grey") +
-  geom_point(shape=21, color = "black", fill="#69b3a2", size=2) +
-  ylab("MEX Sledai") +
-  theme_ipsum(axis_title_just = "cc") +
-  theme(axis.text.y = element_blank(),
-        axis.ticks.y = element_blank(),
-        #axis.title.y = element_blank(),
-        plot.margin = margin(t = 1, b=1) )
 
 plot_metilprednisolon <- ggplot(data, aes(x=day, y=metilprednisolon)) +
   geom_line(color = "grey") +
   geom_point(shape=21, color = "black", fill="#69b3a2", size=2) +
-  #xlab("") +
+  ylab("Metilprednisolon") +
   theme_ipsum(axis_title_just = "cc") +
    theme(axis.text.y = element_blank(),
         axis.ticks.y = element_blank(),
         #axis.title.y = element_blank(),
-        plot.margin = margin(t = 1, b=1) )
+        axis.title.x = element_blank(),
+        plot.margin = margin(t = 1, b=1) ) +
+  ylim(0,600) +
+  geom_text(data = data[3,], label="Metilprednisolon Pulse Dose 1 x 500 mg", hjust=(-0.1)) +
+   geom_text(data = data[4,], label="1 x 125 mg", vjust=0, hjust=1.1) +
+  geom_text(data = data[6,], label="1 x 62,5 mg", vjust= (-1), hjust=0) +
+    geom_text(data = data[8,], label="2 x 16 mg", vjust=(-1), hjust=(-1))
 
 plot_hcq <- ggplot(data, aes(x=day, y=hidroksiklorokuin)) +
   geom_line(color = "grey") +
   geom_point(shape=21, color = "black", fill="#69b3a2", size=2) +
-  #xlab("") +
+  ylab("Hidroklorokuin") +
   theme_ipsum(axis_title_just = "cc") +
    theme(axis.text.y = element_blank(),
         axis.ticks.y = element_blank(),
         #axis.title.y = element_blank(),
-        plot.margin = margin(t = 1, b=1) )
+        axis.title.x = element_blank(),
+        plot.margin = margin(t = 1, b=1) ) +
+  geom_text(data = data[9,], label="mulai hidroksikloroquin 1 x 200 mg", hjust=(1.2))
 
 plot_kamifet<- ggplot(data, aes(x=day, y=kamifet)) +
   geom_line(color = "grey") +
   geom_point(shape=21, color = "black", fill="#69b3a2", size=2) +
-  #xlab("") +
+  ylab("Micofenolat Mofetil") +
+  xlab("Hari Perawatan") +
   theme_ipsum(axis_title_just = "cc") +
    theme(axis.text.y = element_blank(),
         axis.ticks.y = element_blank(),
         #axis.title.y = element_blank(),
-        plot.margin = margin(t = 1, b=1) )
+        plot.margin = margin(t = 1, b=1) ) +
+  geom_text(data = data[9,], label="mulai MMF 2 x 1000 mg", hjust=(1.2))
 
-plot_sle <- plot_sledai / plot_metilprednisolon / plot_hcq / plot_kamifet + 
+plot_sle <- plot_metilprednisolon / plot_hcq / plot_kamifet + 
   plot_layout(axes = "collect") +
   plot_annotation(tag_levels = 'A') & 
   theme(plot.tag = element_text(size = 8))

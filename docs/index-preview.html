@@ -462,46 +462,32 @@ Table&nbsp;1: Perkembangan Skor MEX-SLEDAI
 <tr class="header">
 <th>MEX SLEDAI</th>
 <th>7/11/2023</th>
-<th></th>
-<th></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Proteinuria</td>
 <td>+6</td>
-<td></td>
-<td></td>
 </tr>
 <tr class="even">
 <td>Hemolisis</td>
 <td>+3</td>
-<td></td>
-<td></td>
 </tr>
 <tr class="odd">
 <td>Thrombositopenia</td>
 <td>+3</td>
-<td></td>
-<td></td>
 </tr>
 <tr class="even">
 <td>Arthrtis</td>
 <td>+2</td>
-<td></td>
-<td></td>
 </tr>
 <tr class="odd">
 <td>Ruam Malar</td>
 <td>+2</td>
-<td></td>
-<td></td>
 </tr>
 <tr class="even">
 <td>Total</td>
 <td>16</td>
-<td></td>
-<td></td>
 </tr>
 </tbody>
 </table>
@@ -1098,10 +1084,10 @@ Table&nbsp;4: Data pemeriksaan urin selama perawatan pasien.
 <div aria-describedby="tbl-urin-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="table">
 <colgroup>
-<col style="width: 26%">
+<col style="width: 28%">
 <col style="width: 24%">
-<col style="width: 24%">
-<col style="width: 24%">
+<col style="width: 23%">
+<col style="width: 23%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1251,9 +1237,9 @@ Table&nbsp;5: Data pemantauan kalium selama perawatan pasien.
 <div aria-describedby="tbl-kalium-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="table">
 <colgroup>
-<col style="width: 26%">
-<col style="width: 26%">
-<col style="width: 46%">
+<col style="width: 22%">
+<col style="width: 22%">
+<col style="width: 55%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1667,49 +1653,66 @@ Figure&nbsp;5: Ultrasonografi kelenjar tiroid tampak pembesaran ukuran kelenjar,
 <span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>plot_bw <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(data, <span class="fu">aes</span>(<span class="at">x=</span>day, <span class="at">y=</span>bw)) <span class="sc">+</span></span>
 <span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">color =</span> <span class="st">"grey"</span>) <span class="sc">+</span></span>
 <span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">shape=</span><span class="dv">21</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">fill=</span><span class="st">"#69b3a2"</span>, <span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
-<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">"BW Score"</span>) <span class="sc">+</span></span>
+<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">"Skor Burch Wartofsky"</span>) <span class="sc">+</span></span>
 <span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_ipsum</span>(<span class="at">axis_title_just =</span> <span class="st">"cc"</span>) <span class="sc">+</span></span>
-<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.y =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="co">#axis.text.y = element_blank(),</span></span>
 <span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.ticks.y =</span> <span class="fu">element_blank</span>(),</span>
 <span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a>        <span class="co">#axis.title.y = element_blank(),</span></span>
-<span id="cb16-24"><a href="#cb16-24" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">1</span>, <span class="at">b=</span><span class="dv">1</span>) )</span>
-<span id="cb16-25"><a href="#cb16-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-26"><a href="#cb16-26" aria-hidden="true" tabindex="-1"></a>plot_propanolol <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(data, <span class="fu">aes</span>(<span class="at">x=</span>day, <span class="at">y=</span>Propanolol)) <span class="sc">+</span></span>
-<span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">color =</span> <span class="st">"grey"</span>) <span class="sc">+</span></span>
-<span id="cb16-28"><a href="#cb16-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">shape=</span><span class="dv">21</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">fill=</span><span class="st">"#69b3a2"</span>, <span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
-<span id="cb16-29"><a href="#cb16-29" aria-hidden="true" tabindex="-1"></a>  <span class="co">#xlab("") +</span></span>
-<span id="cb16-30"><a href="#cb16-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_ipsum</span>(<span class="at">axis_title_just =</span> <span class="st">"cc"</span>) <span class="sc">+</span></span>
-<span id="cb16-31"><a href="#cb16-31" aria-hidden="true" tabindex="-1"></a>   <span class="fu">theme</span>(<span class="at">axis.text.y =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb16-32"><a href="#cb16-32" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.ticks.y =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb16-33"><a href="#cb16-33" aria-hidden="true" tabindex="-1"></a>        <span class="co">#axis.title.y = element_blank(),</span></span>
-<span id="cb16-34"><a href="#cb16-34" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">1</span>, <span class="at">b=</span><span class="dv">1</span>) )</span>
-<span id="cb16-35"><a href="#cb16-35" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-36"><a href="#cb16-36" aria-hidden="true" tabindex="-1"></a>plot_ptu <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(data, <span class="fu">aes</span>(<span class="at">x=</span>day, <span class="at">y=</span>PTU)) <span class="sc">+</span></span>
-<span id="cb16-37"><a href="#cb16-37" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">color =</span> <span class="st">"grey"</span>) <span class="sc">+</span></span>
-<span id="cb16-38"><a href="#cb16-38" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">shape=</span><span class="dv">21</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">fill=</span><span class="st">"#69b3a2"</span>, <span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
-<span id="cb16-39"><a href="#cb16-39" aria-hidden="true" tabindex="-1"></a>  <span class="co">#xlab("") +</span></span>
-<span id="cb16-40"><a href="#cb16-40" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_ipsum</span>(<span class="at">axis_title_just =</span> <span class="st">"cc"</span>) <span class="sc">+</span></span>
-<span id="cb16-41"><a href="#cb16-41" aria-hidden="true" tabindex="-1"></a>   <span class="fu">theme</span>(<span class="at">axis.text.y =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb16-42"><a href="#cb16-42" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.ticks.y =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb16-43"><a href="#cb16-43" aria-hidden="true" tabindex="-1"></a>        <span class="co">#axis.title.y = element_blank(),</span></span>
-<span id="cb16-44"><a href="#cb16-44" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">1</span>, <span class="at">b=</span><span class="dv">1</span>) )</span>
-<span id="cb16-45"><a href="#cb16-45" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-46"><a href="#cb16-46" aria-hidden="true" tabindex="-1"></a>plot_tiamazole<span class="ot">&lt;-</span> <span class="fu">ggplot</span>(data, <span class="fu">aes</span>(<span class="at">x=</span>day, <span class="at">y=</span>Tiamazole)) <span class="sc">+</span></span>
-<span id="cb16-47"><a href="#cb16-47" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">color =</span> <span class="st">"grey"</span>) <span class="sc">+</span></span>
-<span id="cb16-48"><a href="#cb16-48" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">shape=</span><span class="dv">21</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">fill=</span><span class="st">"#69b3a2"</span>, <span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
-<span id="cb16-49"><a href="#cb16-49" aria-hidden="true" tabindex="-1"></a>  <span class="co">#xlab("") +</span></span>
-<span id="cb16-50"><a href="#cb16-50" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_ipsum</span>(<span class="at">axis_title_just =</span> <span class="st">"cc"</span>) <span class="sc">+</span></span>
-<span id="cb16-51"><a href="#cb16-51" aria-hidden="true" tabindex="-1"></a>   <span class="fu">theme</span>(<span class="at">axis.text.y =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb16-52"><a href="#cb16-52" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.ticks.y =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb16-53"><a href="#cb16-53" aria-hidden="true" tabindex="-1"></a>        <span class="co">#axis.title.y = element_blank(),</span></span>
-<span id="cb16-54"><a href="#cb16-54" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">1</span>, <span class="at">b=</span><span class="dv">1</span>) )</span>
-<span id="cb16-55"><a href="#cb16-55" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-56"><a href="#cb16-56" aria-hidden="true" tabindex="-1"></a>plot_graves <span class="ot">&lt;-</span> plot_bw <span class="sc">/</span> plot_propanolol <span class="sc">/</span> plot_ptu <span class="sc">/</span> plot_tiamazole <span class="sc">+</span> </span>
-<span id="cb16-57"><a href="#cb16-57" aria-hidden="true" tabindex="-1"></a>  <span class="fu">plot_layout</span>(<span class="at">axes =</span> <span class="st">"collect"</span>) <span class="sc">+</span></span>
-<span id="cb16-58"><a href="#cb16-58" aria-hidden="true" tabindex="-1"></a>  <span class="fu">plot_annotation</span>(<span class="at">tag_levels =</span> <span class="st">'A'</span>) <span class="sc">&amp;</span> </span>
-<span id="cb16-59"><a href="#cb16-59" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">plot.tag =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">8</span>))</span>
-<span id="cb16-60"><a href="#cb16-60" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb16-61"><a href="#cb16-61" aria-hidden="true" tabindex="-1"></a>plot_graves</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb16-24"><a href="#cb16-24" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">1</span>, <span class="at">b=</span><span class="dv">1</span>) ) <span class="sc">+</span></span>
+<span id="cb16-25"><a href="#cb16-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylim</span>(<span class="dv">0</span>,<span class="dv">60</span>)</span>
+<span id="cb16-26"><a href="#cb16-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-28"><a href="#cb16-28" aria-hidden="true" tabindex="-1"></a>plot_propanolol <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(data, <span class="fu">aes</span>(<span class="at">x=</span>day, <span class="at">y=</span>Propanolol)) <span class="sc">+</span></span>
+<span id="cb16-29"><a href="#cb16-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">color =</span> <span class="st">"grey"</span>) <span class="sc">+</span></span>
+<span id="cb16-30"><a href="#cb16-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">shape=</span><span class="dv">21</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">fill=</span><span class="st">"#69b3a2"</span>, <span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb16-31"><a href="#cb16-31" aria-hidden="true" tabindex="-1"></a>  <span class="co">#xlab("") +</span></span>
+<span id="cb16-32"><a href="#cb16-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_ipsum</span>(<span class="at">axis_title_just =</span> <span class="st">"cc"</span>) <span class="sc">+</span></span>
+<span id="cb16-33"><a href="#cb16-33" aria-hidden="true" tabindex="-1"></a>   <span class="fu">theme</span>(<span class="at">axis.text.y =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb16-34"><a href="#cb16-34" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.ticks.y =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb16-35"><a href="#cb16-35" aria-hidden="true" tabindex="-1"></a>        <span class="co">#axis.title.y = element_blank(),</span></span>
+<span id="cb16-36"><a href="#cb16-36" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.title.x =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb16-37"><a href="#cb16-37" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">1</span>, <span class="at">b=</span><span class="dv">1</span>) ) <span class="sc">+</span></span>
+<span id="cb16-38"><a href="#cb16-38" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylim</span>(<span class="dv">0</span>,<span class="dv">300</span>) <span class="sc">+</span></span>
+<span id="cb16-39"><a href="#cb16-39" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="at">data =</span> data[<span class="dv">3</span>,], <span class="at">label=</span><span class="st">"4 x 60 mg"</span>, <span class="at">vjust=</span><span class="fl">0.1</span>, <span class="at">hjust=</span><span class="fl">1.1</span>) <span class="sc">+</span></span>
+<span id="cb16-40"><a href="#cb16-40" aria-hidden="true" tabindex="-1"></a>   <span class="fu">geom_text</span>(<span class="at">data =</span> data[<span class="dv">5</span>,], <span class="at">label=</span><span class="st">"3 x 40 mg"</span>, <span class="at">vjust=</span><span class="dv">0</span>, <span class="at">hjust=</span>(<span class="sc">-</span><span class="fl">0.2</span>)) <span class="sc">+</span></span>
+<span id="cb16-41"><a href="#cb16-41" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="at">data =</span> data[<span class="dv">6</span>,], <span class="at">label=</span><span class="st">"3 x 10 mg"</span>, <span class="at">vjust=</span><span class="fl">0.2</span>, <span class="at">hjust=</span><span class="fl">1.5</span>) <span class="sc">+</span></span>
+<span id="cb16-42"><a href="#cb16-42" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_text</span>(<span class="at">data =</span> data[<span class="dv">10</span>,], <span class="at">label=</span><span class="st">"3 x 20 mg"</span>, <span class="at">vjust=</span>(<span class="sc">-</span><span class="dv">1</span>), <span class="at">hjust=</span><span class="dv">0</span>)</span>
+<span id="cb16-43"><a href="#cb16-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-44"><a href="#cb16-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-45"><a href="#cb16-45" aria-hidden="true" tabindex="-1"></a>plot_ptu <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(data, <span class="fu">aes</span>(<span class="at">x=</span>day, <span class="at">y=</span>PTU)) <span class="sc">+</span></span>
+<span id="cb16-46"><a href="#cb16-46" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">color =</span> <span class="st">"grey"</span>) <span class="sc">+</span></span>
+<span id="cb16-47"><a href="#cb16-47" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">shape=</span><span class="dv">21</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">fill=</span><span class="st">"#69b3a2"</span>, <span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb16-48"><a href="#cb16-48" aria-hidden="true" tabindex="-1"></a>  <span class="co">#xlab("") +</span></span>
+<span id="cb16-49"><a href="#cb16-49" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_ipsum</span>(<span class="at">axis_title_just =</span> <span class="st">"cc"</span>) <span class="sc">+</span></span>
+<span id="cb16-50"><a href="#cb16-50" aria-hidden="true" tabindex="-1"></a>   <span class="fu">theme</span>(<span class="at">axis.text.y =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb16-51"><a href="#cb16-51" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.ticks.y =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb16-52"><a href="#cb16-52" aria-hidden="true" tabindex="-1"></a>        <span class="co">#axis.title.y = element_blank(),</span></span>
+<span id="cb16-53"><a href="#cb16-53" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.title.x =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb16-54"><a href="#cb16-54" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">1</span>, <span class="at">b=</span><span class="dv">1</span>) ) <span class="sc">+</span></span>
+<span id="cb16-55"><a href="#cb16-55" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylim</span>(<span class="dv">0</span>,<span class="dv">2000</span>)<span class="sc">+</span></span>
+<span id="cb16-56"><a href="#cb16-56" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="at">data =</span> data[<span class="dv">3</span>,], <span class="at">label=</span><span class="st">"Loading 600 mg =&gt; 4 x 300 mg "</span>, <span class="at">hjust=</span>(<span class="sc">-</span><span class="fl">0.1</span>)) <span class="sc">+</span></span>
+<span id="cb16-57"><a href="#cb16-57" aria-hidden="true" tabindex="-1"></a>   <span class="fu">geom_text</span>(<span class="at">data =</span> data[<span class="dv">4</span>,], <span class="at">label=</span><span class="st">"4 x 300 mg"</span>, <span class="at">vjust=</span><span class="dv">2</span>, <span class="at">hjust=</span><span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb16-58"><a href="#cb16-58" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="at">data =</span> data[<span class="dv">5</span>,], <span class="at">label=</span><span class="st">"3 x 300 mg"</span>, <span class="at">vjust=</span><span class="dv">0</span>, <span class="at">hjust=</span>(<span class="sc">-</span><span class="fl">0.1</span>)) <span class="sc">+</span></span>
+<span id="cb16-59"><a href="#cb16-59" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_text</span>(<span class="at">data =</span> data[<span class="dv">6</span>,], <span class="at">label=</span><span class="st">"3 x 100 mg"</span>, <span class="at">vjust=</span>(<span class="sc">-</span><span class="dv">1</span>), <span class="at">hjust=</span><span class="dv">0</span>)</span>
+<span id="cb16-60"><a href="#cb16-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-61"><a href="#cb16-61" aria-hidden="true" tabindex="-1"></a>plot_tiamazole<span class="ot">&lt;-</span> <span class="fu">ggplot</span>(data, <span class="fu">aes</span>(<span class="at">x=</span>day, <span class="at">y=</span>Tiamazole)) <span class="sc">+</span></span>
+<span id="cb16-62"><a href="#cb16-62" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">color =</span> <span class="st">"grey"</span>) <span class="sc">+</span></span>
+<span id="cb16-63"><a href="#cb16-63" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">shape=</span><span class="dv">21</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">fill=</span><span class="st">"#69b3a2"</span>, <span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb16-64"><a href="#cb16-64" aria-hidden="true" tabindex="-1"></a>  <span class="fu">xlab</span>(<span class="st">"Hari Perawatan"</span>) <span class="sc">+</span></span>
+<span id="cb16-65"><a href="#cb16-65" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_ipsum</span>(<span class="at">axis_title_just =</span> <span class="st">"cc"</span>) <span class="sc">+</span></span>
+<span id="cb16-66"><a href="#cb16-66" aria-hidden="true" tabindex="-1"></a>   <span class="fu">theme</span>(<span class="at">axis.text.y =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb16-67"><a href="#cb16-67" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.ticks.y =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb16-68"><a href="#cb16-68" aria-hidden="true" tabindex="-1"></a>        <span class="co">#axis.title.y = element_blank(),</span></span>
+<span id="cb16-69"><a href="#cb16-69" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">1</span>, <span class="at">b=</span><span class="dv">1</span>) )<span class="sc">+</span></span>
+<span id="cb16-70"><a href="#cb16-70" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylim</span>(<span class="dv">0</span>,<span class="dv">60</span>)<span class="sc">+</span></span>
+<span id="cb16-71"><a href="#cb16-71" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="at">data =</span> data[<span class="dv">9</span>,], <span class="at">label=</span><span class="st">"mulai Tiamazole 3 x 10 mg"</span>, <span class="at">hjust=</span>(<span class="fl">1.2</span>))</span>
+<span id="cb16-72"><a href="#cb16-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-73"><a href="#cb16-73" aria-hidden="true" tabindex="-1"></a>plot_graves <span class="ot">&lt;-</span> plot_bw <span class="sc">/</span> plot_propanolol <span class="sc">/</span> plot_ptu <span class="sc">/</span> plot_tiamazole <span class="sc">+</span> </span>
+<span id="cb16-74"><a href="#cb16-74" aria-hidden="true" tabindex="-1"></a>  <span class="fu">plot_layout</span>(<span class="at">axes =</span> <span class="st">"collect"</span>) <span class="sc">+</span></span>
+<span id="cb16-75"><a href="#cb16-75" aria-hidden="true" tabindex="-1"></a>  <span class="fu">plot_annotation</span>(<span class="at">tag_levels =</span> <span class="st">'A'</span>) <span class="sc">&amp;</span> </span>
+<span id="cb16-76"><a href="#cb16-76" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">plot.tag =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">8</span>))</span>
+<span id="cb16-77"><a href="#cb16-77" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb16-78"><a href="#cb16-78" aria-hidden="true" tabindex="-1"></a>plot_graves</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Warning: Removed 2 rows containing missing values or values outside the scale range
 (`geom_line()`).</code></pre>
@@ -1744,47 +1747,47 @@ Figure&nbsp;5: Ultrasonografi kelenjar tiroid tampak pembesaran ukuran kelenjar,
 </div>
 </div></div>
 <div class="cell-container"><div class="cell-decorator"><pre>In [4]:</pre></div><div class="cell">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>plot_sledai <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(data, <span class="fu">aes</span>(<span class="at">x=</span>day, <span class="at">y=</span>bw)) <span class="sc">+</span></span>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>plot_metilprednisolon <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(data, <span class="fu">aes</span>(<span class="at">x=</span>day, <span class="at">y=</span>metilprednisolon)) <span class="sc">+</span></span>
 <span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">color =</span> <span class="st">"grey"</span>) <span class="sc">+</span></span>
 <span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">shape=</span><span class="dv">21</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">fill=</span><span class="st">"#69b3a2"</span>, <span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
-<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">"MEX Sledai"</span>) <span class="sc">+</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">"Metilprednisolon"</span>) <span class="sc">+</span></span>
 <span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_ipsum</span>(<span class="at">axis_title_just =</span> <span class="st">"cc"</span>) <span class="sc">+</span></span>
-<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.y =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>   <span class="fu">theme</span>(<span class="at">axis.text.y =</span> <span class="fu">element_blank</span>(),</span>
 <span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.ticks.y =</span> <span class="fu">element_blank</span>(),</span>
 <span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>        <span class="co">#axis.title.y = element_blank(),</span></span>
-<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">1</span>, <span class="at">b=</span><span class="dv">1</span>) )</span>
-<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>plot_metilprednisolon <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(data, <span class="fu">aes</span>(<span class="at">x=</span>day, <span class="at">y=</span>metilprednisolon)) <span class="sc">+</span></span>
-<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">color =</span> <span class="st">"grey"</span>) <span class="sc">+</span></span>
-<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">shape=</span><span class="dv">21</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">fill=</span><span class="st">"#69b3a2"</span>, <span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
-<span id="cb23-14"><a href="#cb23-14" aria-hidden="true" tabindex="-1"></a>  <span class="co">#xlab("") +</span></span>
-<span id="cb23-15"><a href="#cb23-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_ipsum</span>(<span class="at">axis_title_just =</span> <span class="st">"cc"</span>) <span class="sc">+</span></span>
-<span id="cb23-16"><a href="#cb23-16" aria-hidden="true" tabindex="-1"></a>   <span class="fu">theme</span>(<span class="at">axis.text.y =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb23-17"><a href="#cb23-17" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.ticks.y =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb23-18"><a href="#cb23-18" aria-hidden="true" tabindex="-1"></a>        <span class="co">#axis.title.y = element_blank(),</span></span>
-<span id="cb23-19"><a href="#cb23-19" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">1</span>, <span class="at">b=</span><span class="dv">1</span>) )</span>
-<span id="cb23-20"><a href="#cb23-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-21"><a href="#cb23-21" aria-hidden="true" tabindex="-1"></a>plot_hcq <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(data, <span class="fu">aes</span>(<span class="at">x=</span>day, <span class="at">y=</span>hidroksiklorokuin)) <span class="sc">+</span></span>
-<span id="cb23-22"><a href="#cb23-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">color =</span> <span class="st">"grey"</span>) <span class="sc">+</span></span>
-<span id="cb23-23"><a href="#cb23-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">shape=</span><span class="dv">21</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">fill=</span><span class="st">"#69b3a2"</span>, <span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
-<span id="cb23-24"><a href="#cb23-24" aria-hidden="true" tabindex="-1"></a>  <span class="co">#xlab("") +</span></span>
-<span id="cb23-25"><a href="#cb23-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_ipsum</span>(<span class="at">axis_title_just =</span> <span class="st">"cc"</span>) <span class="sc">+</span></span>
-<span id="cb23-26"><a href="#cb23-26" aria-hidden="true" tabindex="-1"></a>   <span class="fu">theme</span>(<span class="at">axis.text.y =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb23-27"><a href="#cb23-27" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.ticks.y =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb23-28"><a href="#cb23-28" aria-hidden="true" tabindex="-1"></a>        <span class="co">#axis.title.y = element_blank(),</span></span>
-<span id="cb23-29"><a href="#cb23-29" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">1</span>, <span class="at">b=</span><span class="dv">1</span>) )</span>
-<span id="cb23-30"><a href="#cb23-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-31"><a href="#cb23-31" aria-hidden="true" tabindex="-1"></a>plot_kamifet<span class="ot">&lt;-</span> <span class="fu">ggplot</span>(data, <span class="fu">aes</span>(<span class="at">x=</span>day, <span class="at">y=</span>kamifet)) <span class="sc">+</span></span>
-<span id="cb23-32"><a href="#cb23-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">color =</span> <span class="st">"grey"</span>) <span class="sc">+</span></span>
-<span id="cb23-33"><a href="#cb23-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">shape=</span><span class="dv">21</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">fill=</span><span class="st">"#69b3a2"</span>, <span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
-<span id="cb23-34"><a href="#cb23-34" aria-hidden="true" tabindex="-1"></a>  <span class="co">#xlab("") +</span></span>
-<span id="cb23-35"><a href="#cb23-35" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_ipsum</span>(<span class="at">axis_title_just =</span> <span class="st">"cc"</span>) <span class="sc">+</span></span>
-<span id="cb23-36"><a href="#cb23-36" aria-hidden="true" tabindex="-1"></a>   <span class="fu">theme</span>(<span class="at">axis.text.y =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb23-37"><a href="#cb23-37" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.ticks.y =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb23-38"><a href="#cb23-38" aria-hidden="true" tabindex="-1"></a>        <span class="co">#axis.title.y = element_blank(),</span></span>
-<span id="cb23-39"><a href="#cb23-39" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">1</span>, <span class="at">b=</span><span class="dv">1</span>) )</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.title.x =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">1</span>, <span class="at">b=</span><span class="dv">1</span>) ) <span class="sc">+</span></span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylim</span>(<span class="dv">0</span>,<span class="dv">600</span>) <span class="sc">+</span></span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="at">data =</span> data[<span class="dv">3</span>,], <span class="at">label=</span><span class="st">"Metilprednisolon Pulse Dose 1 x 500 mg"</span>, <span class="at">hjust=</span>(<span class="sc">-</span><span class="fl">0.1</span>)) <span class="sc">+</span></span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a>   <span class="fu">geom_text</span>(<span class="at">data =</span> data[<span class="dv">4</span>,], <span class="at">label=</span><span class="st">"1 x 125 mg"</span>, <span class="at">vjust=</span><span class="dv">0</span>, <span class="at">hjust=</span><span class="fl">1.1</span>) <span class="sc">+</span></span>
+<span id="cb23-14"><a href="#cb23-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="at">data =</span> data[<span class="dv">6</span>,], <span class="at">label=</span><span class="st">"1 x 62,5 mg"</span>, <span class="at">vjust=</span> (<span class="sc">-</span><span class="dv">1</span>), <span class="at">hjust=</span><span class="dv">0</span>) <span class="sc">+</span></span>
+<span id="cb23-15"><a href="#cb23-15" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_text</span>(<span class="at">data =</span> data[<span class="dv">8</span>,], <span class="at">label=</span><span class="st">"2 x 16 mg"</span>, <span class="at">vjust=</span>(<span class="sc">-</span><span class="dv">1</span>), <span class="at">hjust=</span>(<span class="sc">-</span><span class="dv">1</span>))</span>
+<span id="cb23-16"><a href="#cb23-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-17"><a href="#cb23-17" aria-hidden="true" tabindex="-1"></a>plot_hcq <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(data, <span class="fu">aes</span>(<span class="at">x=</span>day, <span class="at">y=</span>hidroksiklorokuin)) <span class="sc">+</span></span>
+<span id="cb23-18"><a href="#cb23-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">color =</span> <span class="st">"grey"</span>) <span class="sc">+</span></span>
+<span id="cb23-19"><a href="#cb23-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">shape=</span><span class="dv">21</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">fill=</span><span class="st">"#69b3a2"</span>, <span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb23-20"><a href="#cb23-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">"Hidroklorokuin"</span>) <span class="sc">+</span></span>
+<span id="cb23-21"><a href="#cb23-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_ipsum</span>(<span class="at">axis_title_just =</span> <span class="st">"cc"</span>) <span class="sc">+</span></span>
+<span id="cb23-22"><a href="#cb23-22" aria-hidden="true" tabindex="-1"></a>   <span class="fu">theme</span>(<span class="at">axis.text.y =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb23-23"><a href="#cb23-23" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.ticks.y =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb23-24"><a href="#cb23-24" aria-hidden="true" tabindex="-1"></a>        <span class="co">#axis.title.y = element_blank(),</span></span>
+<span id="cb23-25"><a href="#cb23-25" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.title.x =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb23-26"><a href="#cb23-26" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">1</span>, <span class="at">b=</span><span class="dv">1</span>) ) <span class="sc">+</span></span>
+<span id="cb23-27"><a href="#cb23-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="at">data =</span> data[<span class="dv">9</span>,], <span class="at">label=</span><span class="st">"mulai hidroksikloroquin 1 x 200 mg"</span>, <span class="at">hjust=</span>(<span class="fl">1.2</span>))</span>
+<span id="cb23-28"><a href="#cb23-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-29"><a href="#cb23-29" aria-hidden="true" tabindex="-1"></a>plot_kamifet<span class="ot">&lt;-</span> <span class="fu">ggplot</span>(data, <span class="fu">aes</span>(<span class="at">x=</span>day, <span class="at">y=</span>kamifet)) <span class="sc">+</span></span>
+<span id="cb23-30"><a href="#cb23-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">color =</span> <span class="st">"grey"</span>) <span class="sc">+</span></span>
+<span id="cb23-31"><a href="#cb23-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">shape=</span><span class="dv">21</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">fill=</span><span class="st">"#69b3a2"</span>, <span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb23-32"><a href="#cb23-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">"Micofenolat Mofetil"</span>) <span class="sc">+</span></span>
+<span id="cb23-33"><a href="#cb23-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">xlab</span>(<span class="st">"Hari Perawatan"</span>) <span class="sc">+</span></span>
+<span id="cb23-34"><a href="#cb23-34" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_ipsum</span>(<span class="at">axis_title_just =</span> <span class="st">"cc"</span>) <span class="sc">+</span></span>
+<span id="cb23-35"><a href="#cb23-35" aria-hidden="true" tabindex="-1"></a>   <span class="fu">theme</span>(<span class="at">axis.text.y =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb23-36"><a href="#cb23-36" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.ticks.y =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb23-37"><a href="#cb23-37" aria-hidden="true" tabindex="-1"></a>        <span class="co">#axis.title.y = element_blank(),</span></span>
+<span id="cb23-38"><a href="#cb23-38" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">1</span>, <span class="at">b=</span><span class="dv">1</span>) ) <span class="sc">+</span></span>
+<span id="cb23-39"><a href="#cb23-39" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="at">data =</span> data[<span class="dv">9</span>,], <span class="at">label=</span><span class="st">"mulai MMF 2 x 1000 mg"</span>, <span class="at">hjust=</span>(<span class="fl">1.2</span>))</span>
 <span id="cb23-40"><a href="#cb23-40" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-41"><a href="#cb23-41" aria-hidden="true" tabindex="-1"></a>plot_sle <span class="ot">&lt;-</span> plot_sledai <span class="sc">/</span> plot_metilprednisolon <span class="sc">/</span> plot_hcq <span class="sc">/</span> plot_kamifet <span class="sc">+</span> </span>
+<span id="cb23-41"><a href="#cb23-41" aria-hidden="true" tabindex="-1"></a>plot_sle <span class="ot">&lt;-</span> plot_metilprednisolon <span class="sc">/</span> plot_hcq <span class="sc">/</span> plot_kamifet <span class="sc">+</span> </span>
 <span id="cb23-42"><a href="#cb23-42" aria-hidden="true" tabindex="-1"></a>  <span class="fu">plot_layout</span>(<span class="at">axes =</span> <span class="st">"collect"</span>) <span class="sc">+</span></span>
 <span id="cb23-43"><a href="#cb23-43" aria-hidden="true" tabindex="-1"></a>  <span class="fu">plot_annotation</span>(<span class="at">tag_levels =</span> <span class="st">'A'</span>) <span class="sc">&amp;</span> </span>
 <span id="cb23-44"><a href="#cb23-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">plot.tag =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">8</span>))</span>
@@ -1809,8 +1812,8 @@ Figure&nbsp;5: Ultrasonografi kelenjar tiroid tampak pembesaran ukuran kelenjar,
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p class=""><a href="index_files/figure-html/timeline_SLE-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-21" data-glightbox="description: .lightbox-desc-21" title="Perubahan dosis obat menyesuaikan klinis penyakit SLE"><img src="index_files/figure-html/timeline_SLE-1.png" class="img-fluid figure-img" width="576" alt="Perubahan dosis obat menyesuaikan klinis penyakit SLE"></a></p>
-<figcaption>Perubahan dosis obat menyesuaikan klinis penyakit SLE</figcaption>
+<p class=""><a href="index_files/figure-html/timeline_SLE-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-21" data-glightbox="description: .lightbox-desc-21" title="Perubahan dosis obat imunosupresan untuk penyakit SLE"><img src="index_files/figure-html/timeline_SLE-1.png" class="img-fluid figure-img" width="576" alt="Perubahan dosis obat imunosupresan untuk penyakit SLE"></a></p>
+<figcaption>Perubahan dosis obat imunosupresan untuk penyakit SLE</figcaption>
 </figure>
 </div>
 </div>
@@ -1851,7 +1854,7 @@ Figure&nbsp;5: Ultrasonografi kelenjar tiroid tampak pembesaran ukuran kelenjar,
 <span class="glightbox-desc lightbox-desc-18">Figure&nbsp;5&nbsp;(c): USG Tiroid Lobus Kiri</span>
 <span class="glightbox-desc lightbox-desc-19">USG abdomen (9/11/2023) ditemukan liver tidak membesar, permukaan licin, sudut tajam, tepi rata, sistem vasculer dan bilier tampak normal, echoparenchym normal, tampak single nodul hipoechoic dengan hiperechoic di tepinya dan internal echo didalamnya, berbatas tegas tepi regular pada segmen VIII hepar, terukur +/- 1.8 x 1.7 cm yang pada CDUS tampak vaskularisasi pada tepinya.</span>
 <span class="glightbox-desc lightbox-desc-20">Perubahan dosis obat menyesuaikan klinis hipertiroid</span>
-<span class="glightbox-desc lightbox-desc-21">Perubahan dosis obat menyesuaikan klinis penyakit SLE</span>
+<span class="glightbox-desc lightbox-desc-21">Perubahan dosis obat imunosupresan untuk penyakit SLE</span>
 </div>
 <div id="refs" class="references csl-bib-body" role="list">
 <div id="ref-xian2024" class="csl-entry" role="listitem">
@@ -2313,7 +2316,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>  </div> <!-- /content -->  <script>var lightboxQuarto = GLightbox({"descPosition":"bottom","loop":false,"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom"});
+</script>  </div> <!-- /content -->  <script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

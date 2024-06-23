@@ -33,7 +33,7 @@ library("patchwork")
 
 ## Pendahuluan
 
-Koinsidensi penyakit graves dan sistemik lupus eritematosus (SLE) belakangan ini mendapat perhatian lebih karena ditemukan memiliki hubungan yang tidak sekedar sesuatu yang terjadi secara acak. Hubungan kausal antara kedua entitas penyakit automimun tersebut masih belum banyak diketahui dan saat ini masih terdapat berbagai penelitian yang mendalami hal tersebut.[@xian2024] Penyakit graves merupakan salah satu penyakit autoimun pada organ endokrin tiroid dan merupakan penyebab utama hipertiroidisme.[@smith2016] Insiden enyakit Graves sebagai penyakit autoimun termasuk cukup tinggi dengan rentang 20 - 50 kasus per 100.000 individual serta tingkat prevalensi diperkirakan 1 - 1.5%.[@davies2020] Penyakit graves memilki target organ khusus, namun koinsidensi dengan penyakit autoimun lain seperti SLE, rheumatoid arthritis, multipel sklerosis, diabetes tipe 1 dan lainnya diperkirakan sekitar 16,7% dari total pasien dengan penyakit Graves. Data lebih lanjut dari laporan serial kasus terbaru juga menunjukan bahwa persentase pasien dengan penyakit Graves juga ditemukan memiliki 3 penyakit autoimun lain sebesar 1.5%.[@ferrari2019]
+Koinsidensi penyakit Graves dan sistemik lupus eritematosus (SLE) belakangan ini mendapat perhatian lebih karena ditemukan memiliki hubungan yang tidak sekedar sesuatu yang terjadi secara acak. Hubungan kausal antara kedua entitas penyakit automimun tersebut masih belum banyak diketahui dan saat ini masih terdapat berbagai penelitian yang mendalami hal tersebut.[@xian2024] Penyakit Graves merupakan salah satu penyakit autoimun pada organ endokrin tiroid dan merupakan penyebab utama hipertiroidisme.[@smith2016] Insiden enyakit Graves sebagai penyakit autoimun termasuk cukup tinggi dengan rentang 20 - 50 kasus per 100.000 individual serta tingkat prevalensi diperkirakan 1 - 1.5%.[@davies2020] Penyakit Graves memilki target organ khusus, namun koinsidensi dengan penyakit autoimun lain seperti SLE, rheumatoid arthritis, multipel sklerosis, diabetes tipe 1 dan lainnya diperkirakan sekitar 16,7% dari total pasien dengan penyakit Graves. Data lebih lanjut dari laporan serial kasus terbaru juga menunjukan bahwa persentase pasien dengan penyakit Graves juga ditemukan memiliki 3 penyakit autoimun lain sebesar 1.5%.[@ferrari2019]
 
 SLE merupakan penyakit yang memiliki variasi spektrum klinis yang luas akibat terget organ penyakit yang multipel dan heterogen. Penelitian kohort multisenter di China menemukan bahwa individu dengan penyakit Graves lebih rentan mengalami SLE dibanding individu kontrol yang sehat.[@lee2020] Penelitian terbaru dari Xian et al dengan analisis randomisasi mendelian menemukan bahwa terdapat korelasi antara penyakit Graves dengan SLE, dan masing-masing entitas autoimun tersebut saling mendukung untuk koinsidensi autoimun lainnya. Beberapa temuan ini memberikan gambaran bahwa pada praktik klinis diharapkan klinisi dapat meningkatkan skrining penyakit autoimun khususnya penyakit Graves atau SLE saat menegakan diagnosis salah satu penyakit autoimun tersebut.[@xian2024] Laporan kasus ini memaparkan seorang pasien perempuan dengan krisis tiroid akibat penyakit Graves yang terlebih dahulu mengalami atrial fibrilasi dan baru terdiagnosis SLE.
 
@@ -78,13 +78,13 @@ Pada evaluasi data saat di IGD pasien memiliki skor kriteria klasifikasi SLE dar
 | Ruam Malar       | +2        |
 | Total            | 16        |
 
-: Perkembangan Skor MEX-SLEDAI {#tbl-mexsledai}
+: Skor MEX-SLEDAI saat pemeriksaan di instalasi gawat darurat {#tbl-mexsledai}
 
 Pada pemeriksaan penunjang ditemukan beberapa kelainan. Pemeriksaan darah lengkap ditemukan anemia sedang normokromik normositer dan trombositopenia. Pada pemeriksaan kimia klinik ditemukan peningkatan *Serum Glutamic Oxaloacetic Transaminase* (SGOT), hipoalbuminemia, hipokalemia, alkalosis metabolik (tabel [-@tbl-dl; -@tbl-kimia]). Pada pemeriksaan foto thorax anteroposterior tak tampak kelainan pada pulmonum. Pada jantung terukur *Cardiothoracic Ratio* (CTR) 66 %, dengan *splaying carina*, apeks mendatar, pinggang jantung melurus, conus pulmonum menonjol sehingga disimpulkan dari foto thorax tampak kesan kardiomegali dengan konfigurasi *left ventricular hipertrophy* dan *left atrial enlargement* (gambar [-@fig-thorax]).
 
-![Elektrokardiografi pasien saat masuk rumah sakit (6/11/2023) menunjukan irama atrial fibrilasi.](image/ecg/heldi_ekg_awal_transform.jpg){#fig-ecgawal}
-
 ![Foto Polos Thorax Anteroposterior (6/11/2023) menunjukan kardiomegali dengan konfigurasi LVH dan LAE serta tak tampak kelainan pada pulmo.](image/thorax_ap.jpg){#fig-thorax}
+
+![Elektrokardiografi pasien saat masuk rumah sakit (6/11/2023) menunjukan irama atrial fibrilasi.](image/ecg/heldi_ekg_awal_transform.jpg){#fig-ecgawal}
 
 | Parameter           | Nilai Referensi        | 6/11/2023 | 7/11/2023 | 10/11/2023 |
 |---------------|---------------|---------------|---------------|---------------|
@@ -143,7 +143,7 @@ Pada pemeriksaan penunjang ditemukan beberapa kelainan. Pemeriksaan darah lengka
 
 : Data pemeriksaan kimia klinik selama perawatan pasien. {#tbl-kimia}
 
-Pemeriksaan elektrokardiografi (EKG) 12 lead saat di IGD menunjukan irama gelombang QRS iregular 140 kali per menit dengan gelombang P yang tidak jelas dan tidak teratur serta tidak sinkron dengan kompleks QRS (gambar [-@fig-ecgawal]). Irama EKG mengesankan sebuah irama fibrilasi atrium dengan respon kontraksi ventrikel cepat (AF RVR). Pemeriksaan ekokardiografi *full study* 1 hari (7/11/2023) perawatan menunjukan pembesaran atrium derajat berat dengan ukuran ventrikel kiri, ventrikel kanan, serta atrium kanan dalam batas normal. Fungsi sistolik normal dengan ejeksi fraksi 62.6%, namun fungsi diastolik ventrikel kiri belum dapat ditentukan. Terdapat regurgitasi katup mitra pada derajat sedang-berat dicurigai akibat prolapse leaflet mitral anterior. Katup Aorta dan Trikuspid ditemukan mengalami regurgitasi ringan. Tidak ditemukan efusi perikardium. Estimasi tekanan atrium kanan (eRAP) dalam nilai normal (8 mmHg) gambar [-@fig-echo].
+Pemeriksaan elektrokardiografi (EKG) 12 lead saat di IGD menunjukan irama gelombang QRS iregular 140 kali per menit dengan gelombang P yang tidak jelas dan tidak teratur serta tidak sinkron dengan kompleks QRS yang tampak *iregularly iregular* (gambar [-@fig-ecgawal]). Irama EKG mengesankan sebuah irama fibrilasi atrium dengan respon kontraksi ventrikel cepat (AF RVR). Pemeriksaan ekokardiografi *full study* 1 hari perawatan (7/11/2023) menunjukan pembesaran atrium derajat berat dengan ukuran ventrikel kiri, ventrikel kanan, serta atrium kanan dalam batas normal. Fungsi sistolik normal dengan ejeksi fraksi 62.6%, namun fungsi diastolik ventrikel kiri belum dapat ditentukan. Terdapat regurgitasi katup mitral dengan derajat sedang-berat dicurigai akibat prolapse daun katup mitral anterior (*anterior mitral leaflet*). Katup Aorta dan Trikuspid ditemukan mengalami regurgitasi ringan. Tidak ditemukan efusi perikardium. Estimasi tekanan atrium kanan (eRAP) dalam nilai normal (8 mmHg) gambar [-@fig-echo].
 
 ::: {#fig-echo layout-nrow="2"}
 ![Ekokardiografi tampak ventrikel kiri](/image/echo/echo_chamber.png){#fig-4chamber}
@@ -154,10 +154,10 @@ Pemeriksaan elektrokardiografi (EKG) 12 lead saat di IGD menunjukan irama gelomb
 
 ![Ekokardiografi tampak pulse wave doppler pada regurgitasi katup mitra](/image/echo/echo_MR_2.png){#fig-PWD}
 
-Ekokardiografi tampak pembesaran atrium kiri disertai regurgitasi katup mitral derajak sedang-berat.
+Ekokardiografi tampak pembesaran atrium kiri disertai regurgitasi katup mitral derajat sedang-berat.
 :::
 
-Pemeriksaan apusan darah tepi menungjukan anemia normokromik, normositer dengan leukositosis dan thrombositopenia. Sebagian besar populasi sel normokromik normositer, anisopoikilositosis (ovalosit, sel tear drop, stomatosit, sel target, sel polikromasia, normoblast. Pada leukosit differential count ditemukan neutrofilia dan tidak ada sel muda. Pada thrombosit tidak ditemukan giant trombosit atau clumping.
+Pemeriksaan apusan darah tepi menungjukan anemia normokromik, normositer dengan leukositosis dan thrombositopenia. Sebagian besar populasi sel normokromik normositer, anisopoikilositosis (ovalosit, sel tear drop, stomatosit, sel target, sel polikromasia, normoblast). Pada leukosit differential count ditemukan neutrofilia dan tidak ada sel muda. Pada thrombosit tidak ditemukan giant trombosit atau clumping.
 
 | Pemeriksaan Urin             | Parameter                | Referensi       | 7/11/2023 |
 |---------------------|------------------|-----------------|-----------------|
@@ -196,9 +196,9 @@ Pemeriksaan apusan darah tepi menungjukan anemia normokromik, normositer dengan 
 
 : Data pemantauan kalium selama perawatan pasien. {#tbl-kalium}
 
-Diagnosis kerja pasien meliputi, SLE derajat aktivitas berat dengan anemia sedang normokromik normositer et causa anemia hemolitik, susp kardiomiopati lupus, atrial fibrilasi rapid ventricular response, diare akut ec susp viral dengan dehidrasi ringan-sedang, hipokalemia et causa suspect loss. Pada pasien diberikan terapi pulsedose metil prednisolon 500 mg dalam NaCl 0.9% 100 cc intravena habis dalam 30 menit selama 3 hari. Terapi supportif lain meliputi omeprazole 40 mg sebelum pemberian pulse dose metilprednisolon, kandesartan 8 mg tiap 24 jam per oral, oralit ad libitum, drip KCL 50 meq dalam NaCl 0.9% 500 cc habis dalam 8 jam dan transfusi *packed red cell* dengan target hemoglobin \> 10 g/dL. Pasien dikonsulkan ke divisi kardiologi terkait atrial fibrilasi dan diberikan terapi digoxin 0.5 mg bolus pelan jika denyut jantung \> 110.
+Diagnosis kerja pasien meliputi, SLE derajat aktivitas berat dengan anemia sedang normokromik normositer et causa anemia hemolitik, suspek kardiomiopati lupus, atrial fibrilasi *rapid ventricular response*, diare akut et causa suspek infeksi virus dengan dehidrasi ringan-sedang, hipokalemia et causa suspek *loss*. Pada pasien diberikan terapi pulsedose metilprednisolon 500 mg dalam NaCl 0.9% 100 cc intravena habis dalam 30 menit selama 3 hari. Terapi supportif lain meliputi omeprazole 40 mg sebelum pemberian pulse dose metilprednisolon, kandesartan 8 mg tiap 24 jam per oral, oralit ad libitum, drip KCL 50 meq dalam NaCl 0.9% 500 cc habis dalam 8 jam dan transfusi *packed red cell* dengan target hemoglobin \> 10 g/dL. Pasien dikonsulkan ke divisi kardiologi terkait atrial fibrilasi dan diberikan terapi digoxin 0.5 mg bolus pelan jika denyut jantung \> 110.
 
-Terkait dengan atrial fibrilasi, pada pasien dilakukan pemeriksaan FT4 dan TSH untuk evaluasi penyebab atrial fibrilasi. Evaluasi paska pemeriksaan FT4 dan TSH yang menunjukan kondisi hipertiroid dicurigai akibat penyakit graves (skor Wayne 20, tabel [-@tbl-wayne]) disertai gejala klinis sesuai dengan kondisi badai tiroid (thyroid storm) dengan skor Burch Wartofsky 50 poin (tabel [-@tbl-bw]). Terapi diberikan meliputi propanolol 60 mg tiap 6 jam per oral, propiltiourasil (PTU) 600 mg sebagai dosis awal (*loading dose)* dilanjutkan 300 mg tiap 6 jam per oral, steroid dengan metilprednisolon sesuai dosis untuk SLE, serta larutan iodin 5 tetes setiap 8 jam per oral setelah pemberian PTU jika obat tersedia.
+Terkait dengan atrial fibrilasi, pada pasien dilakukan pemeriksaan FT4 dan TSH untuk evaluasi penyebab atrial fibrilasi. Evaluasi paska pemeriksaan FT4 dan TSH yang menunjukan kondisi hipertiroid dicurigai akibat penyakit Graves (skor Wayne 20, tabel [-@tbl-wayne]) disertai gejala klinis sesuai dengan kondisi badai tiroid (thyroid storm) dengan skor Burch Wartofsky 50 poin (tabel [-@tbl-bw]). Terapi diberikan meliputi propanolol 60 mg tiap 6 jam per oral, propiltiourasil (PTU) 600 mg sebagai dosis awal (*loading dose)* dilanjutkan 300 mg tiap 6 jam per oral, steroid dengan metilprednisolon sesuai dosis untuk SLE, serta direncanakan pemberian larutan iodin 5 tetes setiap 8 jam per oral setelah pemberian PTU namun obat tidak tersedia.
 
 Terapi atrial fibrilasi dari kardiologi meliputi digoksin 0.5 mg intravena jika laju denyut jantung \> 110 kali per menit. Pada pasien didapatkan kondisi hipertensi dengan terapi ramipril 5 mg tiap 12 jam per oral serta nifedipin (lepas lambat) 30 mg tiap 24 jam per oral.
 
@@ -215,7 +215,7 @@ Terapi atrial fibrilasi dari kardiologi meliputi digoksin 0.5 mg intravena jika 
 | Appetite: decreased             | -3   | 0     | Casual pulse rate  |               |                     |       |
 | Weight: increased               | -3   | 0     | \>80/min           | 0             | -3                  | 0     |
 | Weight: decreased               | +3   | +3    | \>90/min           | +3            | 0                   | +3    |
-|                                 |      |       | Atrial fibrilation | +4            | 0                   | +4    |
+|                                 |      |       | Atrial fibrilasi   | +4            | 0                   | +4    |
 
 : Penilaian gejala dan tanda klinis hipertiroid dengan skor Wayne {#tbl-wayne}
 
@@ -232,7 +232,7 @@ Terapi atrial fibrilasi dari kardiologi meliputi digoksin 0.5 mg intravena jika 
 
 : Penilaian derajat gejala hipertiroid dengan skor Burch-Wartofsky {#tbl-bw}
 
-Pada pemeriksaan ultrasonografi Tiroid ditemukan peningkatan vaskularisasi pada parenkim tiroid kanan, kiri dan istmus. Pada pemeriksaan tidak ditemukan massa/nodul/kista pada kelenjar tiroid, namun tampak pembesaran kelenjar getah bening pada regio colli kiri, submandibula kanan-kiri, preaurikula kanan dan parotid kiri. Kelenjar parotis kanan tak tampak kelainan. Pemeriksaan USG ini mendukung *Graves Disease* dengan multipel *non suspicious* limfadenopati pada regio colli kiri, submandibula kanan-kiri, preauricula kanan, dan parotid kiri (gambar [-@fig-usgtiroid]). Temuan USG tiroid ini mendukung temuan klinis serta laboratorium untuk penyakit Graves. Penegakan diagnosis pada tahap akhir membutuhkan pemeriksaan Tiroid Receptor Antibody (TRAb) namun kendala teknis laboratorium rumah sakit yang belum mampu melakukan pemeriksaan tersebut. Pemeriksaan TRAb dilakukan pada akhir perawatan dengan hasil nilai serum yang diatas batas normal (36.3 IU/L).
+Pada pemeriksaan ultrasonografi Tiroid ditemukan peningkatan vaskularisasi pada parenkim tiroid kanan, kiri dan istmus. Pada pemeriksaan tidak ditemukan massa/nodul/kista pada kelenjar tiroid, namun tampak pembesaran kelenjar getah bening pada regio colli kiri, submandibula kanan-kiri, preaurikula kanan dan parotid kiri. Kelenjar parotis kanan tak tampak kelainan. Pemeriksaan USG ini mendukung *Graves Disease* dengan multipel *non suspicious* limfadenopati pada regio colli kiri, submandibula kanan-kiri, preauricula kanan, dan parotid kiri (gambar [-@fig-usgtiroid]). Temuan USG tiroid ini mendukung temuan klinis serta laboratorium untuk penyakit Graves. Penegakan diagnosis pada tahap akhir membutuhkan pemeriksaan Tiroid Receptor Antibody (TRAb) namun kendala teknis laboratorium rumah sakit yang belum mampu melakukan pemeriksaan tersebut. Pemeriksaan TRAb dilakukan pada akhir perawatan pada laboratorium terstandar dengan hasil nilai serum yang diatas batas normal (36.3 IU/L).
 
 ::: {#fig-usgtiroid layout-nrow="3"}
 ![USG Tiroid Lobus Kanan](/image/usg_tiroid/tiroid_RLobe.png){#fig-Rtiroid}
@@ -244,9 +244,11 @@ Pada pemeriksaan ultrasonografi Tiroid ditemukan peningkatan vaskularisasi pada 
 Ultrasonografi kelenjar tiroid tampak pembesaran ukuran kelenjar, hipoekoik diffuse disertai tampak peningkatakan vaskularisasi pada pencitraan dopler.
 :::
 
-Pada pemeriksaan ultrasonografi abdomen ditemukan nodul tunggal hipoechoic dengan hiperechoic di tepinya dan internal echo didalamnya, berbatas tegas tepi regular pada segmen VIII hepar, terukur +/- 1.8 x 1.7 cm yang pada CDUS tampak vaskularisasi pada tepinya. Pada pencitraan cavum pelvis, ditemukan cairan bebas minimal. Tindakan diagnostik lanjutan terkait temuan nodul hepar terbatas pada pemeriksaan USG abdomen. Terapi terkait transaminitis disertai peningkatan bilirubin diberikan berupa terapi supportif berupa curcuma tablet tiap 8 jam per oral serta asam ursodioksikolat 250 mg tiap 8 jam per oral. Pada akhir masa perawatan rumah sakit pemeriksaan bilirubin diulang dan hasilnya menunjukan penurunan kadar bilirubin.
+Pada pemeriksaan ultrasonografi abdomen ditemukan nodul tunggal hipoechoic dengan hiperechoic di tepinya dan internal echo didalamnya, berbatas tegas tepi regular pada segmen VIII hepar, terukur +/- 1.8 x 1.7 cm yang pada CDUS tampak vaskularisasi pada tepinya. Pada pencitraan cavum pelvis, ditemukan cairan bebas minimal. Tindakan diagnostik lanjutan terkait temuan nodul hepar terbatas pada pemeriksaan USG abdomen. Terapi terkait transaminitis disertai peningkatan bilirubin diberikan berupa terapi supportif berupa curcuma tablet tiap 8 jam per oral serta asam ursodioksikolat 250 mg tiap 8 jam per oral. Pada akhir masa perawatan rumah sakit pemeriksaan bilirubin diulang dan hasilnya menunjukan penurunan kadar bilirubin (tabel [-@tbl-kimia]).
 
 ![USG abdomen (9/11/2023) ditemukan liver tidak membesar, permukaan licin, sudut tajam, tepi rata, sistem vasculer dan bilier tampak normal, echoparenchym normal, tampak single nodul hipoechoic dengan hiperechoic di tepinya dan internal echo didalamnya, berbatas tegas tepi regular pada segmen VIII hepar, terukur +/- 1.8 x 1.7 cm yang pada CDUS tampak vaskularisasi pada tepinya.](image/usg_abd/abd_nodul.png){fig-align="left"}
+
+Selama perawatan dialakukan perubahan dosis serta regimen obat antitiroid serta regimen imunosupresan setelah terjadi perbaikan kondisi umum  pasien. Secara ringkas perubahan dosis terapi dirangkum pada gambar [-@fig-obat-tiroid] untuk obat antitiroid dan gambar [-@fig-obat-sle] untuk obat imunosupresan SLE. Obat antiroid awal saat terjadi krisis/badai tiroid adalah PTU dengan diawali dosis *loading* yang kemudian dilakukan penurunan dosis bertahap (*tappering off*) sesuai keadaan klinis. Pada hari perawatan kedelapan(pemberian obat PTU hari keenam) pasien diberikan obat tiamazole sebagai terapi antitiroid rumatan. Terapi penyekat reseptor beta dengan propanolol juga diawali dengan dosis loading yang kemudian dosisnya diturunkan bertahap sesuai klinis. Steroid berupa metilprednisolon diberikan untuk tujuan menekan aktivitas penyakit SLE diawali dengan pemberian *pulse dose* selama 3 hari kemudian dilanjutkandengan dosis bolus yang secara bertahap juga diturunkan sesuai klinis pasien. 
 
 ```{r data}
 data <- read_sheet("https://docs.google.com/spreadsheets/d/18lY7qc-y4WH2ok0-CfF0v8gU6DSN3Y7F3JWTQqJvPoA/edit?gid=0#gid=0")
@@ -256,8 +258,9 @@ data <- read_sheet("https://docs.google.com/spreadsheets/d/18lY7qc-y4WH2ok0-CfF0
 #| fig-cap: "Perubahan dosis obat menyesuaikan klinis hipertiroid"
 #| fig-width: 6
 #| fig-height: 7
+#| label: fig-obat-tiroid
 
-data_graves <- data %>%
+data_Graves <- data %>%
   select("day", "bw", "Propanolol", "PTU", "Tiamazole")
 
 data_long <- data %>%
@@ -280,6 +283,7 @@ plot_bw <- ggplot(data, aes(x=day, y=bw)) +
   theme(#axis.text.y = element_blank(),
         axis.ticks.y = element_blank(),
         #axis.title.y = element_blank(),
+        axis.title.x = element_blank(),
         plot.margin = margin(t = 1, b=1) ) +
   ylim(0,60)
 
@@ -329,12 +333,12 @@ plot_tiamazole<- ggplot(data, aes(x=day, y=Tiamazole)) +
   ylim(0,60)+
   geom_text(data = data[9,], label="mulai Tiamazole 3 x 10 mg", hjust=(1.2))
 
-plot_graves <- plot_bw / plot_propanolol / plot_ptu / plot_tiamazole + 
+plot_Graves <- plot_bw / plot_propanolol / plot_ptu / plot_tiamazole + 
   plot_layout(axes = "collect") +
   plot_annotation(tag_levels = 'A') & 
   theme(plot.tag = element_text(size = 8))
   
-plot_graves
+plot_Graves
 
 ```
 
@@ -342,6 +346,7 @@ plot_graves
 #| fig-cap: "Perubahan dosis obat imunosupresan untuk penyakit SLE"
 #| fig-width: 6
 #| fig-height: 7
+#| label: fig-obat-sle
 
 plot_metilprednisolon <- ggplot(data, aes(x=day, y=metilprednisolon)) +
   geom_line(color = "grey") +
@@ -394,18 +399,19 @@ plot_sle
 
 ## Diskusi
 
-Penelitian terbaru oleh Xian et al menemukan bahwa SLE meningkatkan risiko penyaki graves (OR=1.13, 95% CI 1.05-1.22, p =0.003), dan berlaku juga sebaliknya penyakit graves meningkatkan risiko SLE (OR=1.27, 95% CI 1.09-1.48, p =0.018).[@xian2024] Hubungan sebab akibat antara penyakit graves dan SLE yang ditemukan dalam penelitian tersebut semakin menegaskan temuan epidemiologi sebelumnya. Patogenesis SLE dan penyakit graves mungkin dipengaruhi oleh mutasi pada gen HLA. Sebuah meta-analisis yang dilakukan sebelumnya menemukan bahwa mutasi pada HLA-DR3 dan HLA-DR15 secara signifikan meningkatkan kemungkinan SLE.[@xue_2018] Kehadiran gen HLA yang bermutasi dapat mengakibatkan perubahan kompleks HLA pada sel penyaji antigen, sehingga mempengaruhi interaksi antara sel B dan T. Situasi ini dapat menyebabkan disregulasi sel B yang reaktif terhadap diri sendiri dan produksi autoantibodi, yang dapat berfungsi sebagai mediator efek kausal SLE pada penyakit graves.[@xian2024]
+Penelitian terbaru oleh Xian et al menemukan bahwa SLE meningkatkan risiko penyaki Graves (OR=1.13, 95% CI 1.05-1.22, p =0.003), dan berlaku juga sebaliknya penyakit Graves meningkatkan risiko SLE (OR=1.27, 95% CI 1.09-1.48, p =0.018).[@xian2024] Hubungan sebab akibat antara penyakit Graves dan SLE yang ditemukan dalam penelitian tersebut semakin menegaskan temuan epidemiologi sebelumnya. Patogenesis SLE dan penyakit Graves mungkin dipengaruhi oleh mutasi pada gen HLA. Sebuah meta-analisis yang dilakukan sebelumnya menemukan bahwa mutasi pada HLA-DR3 dan HLA-DR15 secara signifikan meningkatkan kemungkinan SLE.[@xue_2018] Kehadiran gen HLA yang bermutasi dapat mengakibatkan perubahan kompleks HLA pada sel penyaji antigen (*antigen presenting cell*), sehingga mempengaruhi interaksi antara sel-B dan sel-T. Kondisi ini dapat menyebabkan disregulasi sel B yang reaktif terhadap protein sendiri (*self protein*) dan diikuti dengan produksi autoantibodi yang dapat berfungsi sebagai mediator efek kausal SLE pada penyakit Graves.[@xian2024]
 
-Selain gen terkait HLA, gen non-HLA juga diduga memainkan peran penting dalam interaksi antara SLE dan penyakit graves. Protein terkait limfosit T sitotoksik 4 (CTLA-4) adalah reseptor protein yang berfungsi sebagai cek poin pemeriksaan imun untuk menurunkan regulasi respons imun dengan mengikat ligan CD80 dan CD86 pada permukaan sel penyaji antigen, sehingga mengatur aktivasi sel T dan proliferasinya.[@syn2017] Mutasi pada gen CTLA-4 telah dikaitkan dengan SLE dan penyakit graves. Sebuah meta-analisis menunjukkan bahwa polimorfisme gen CTLA-4 pada populasi Asia dikaitkan dengan risiko SLE.[@zhai2013] Sebuah studi oleh Lee dkk. menemukan bahwa beberapa polimorfisme nukleotida tunggal CTLA-4 dikaitkan dengan penyakit graves dan penyakit tiroid autoimun seperti tiroiditis Hashimoto.[@lee2015] Mutasi pada gen CTLA-4 dapat menyebabkan defisiensi regulasi penurunan regulasi respon imun sel T, yang mengakibatkan hiperaktivasi sel T dan dengan demikian memicu penyakit autoimun. Faktor ini mungkin juga memainkan peran mediasi dalam hubungan antara penyakit graves dan SLE.[@xian2024]
+Selain gen terkait HLA, gen non-HLA juga diduga memainkan peran penting dalam interaksi antara SLE dan penyakit Graves. Protein terkait selm limfosit T sitotoksik 4 (CTLA-4) adalah reseptor protein yang berfungsi sebagai cek poin pemeriksaan imun untuk menurunkan regulasi respons imun dengan mengikat ligan CD80 dan CD86 pada permukaan antigen presenting cell, sehingga dapat terjadi regulasi aktivasi sel-T dan proliferasinya.[@syn2017] Mutasi pada gen CTLA-4 telah dikaitkan dengan SLE dan penyakit Graves. Sebuah meta-analisis menunjukkan bahwa polimorfisme gen CTLA-4 pada populasi Asia dikaitkan dengan risiko SLE.[@zhai2013] Sebuah studi oleh Lee dkk. menemukan bahwa beberapa polimorfisme nukleotida tunggal CTLA-4 dikaitkan dengan penyakit Graves dan penyakit tiroid autoimun seperti tiroiditis Hashimoto.[@lee2015] Mutasi pada gen CTLA-4 dapat menyebabkan defisiensi regulasi penurunan regulasi respon imun sel-T, yang mengakibatkan hiperaktivasi sel-T dan dengan demikian memicu penyakit autoimun. Faktor ini mungkin juga memainkan peran mediasi dalam hubungan antara penyakit Graves dan SLE.[@xian2024]
 
-SLE dan penyakit graves ditandai oleh kelainan regulasi imun yang mungkin berhubungan erat dengan interferon tipe I (IFN-I).[@pan2019] Interferon tipe I, termasuk IFN-a, IFN-b, IFN-ϵ, IFN-k, dll., adalah sitokin yang memainkan peran penting dalam peradangan, regulasi kekebalan, pengenalan sel tumor, dan respons sel T. Dalam konteks penyakit autoimun, IFN-I dapat berkontribusi pada perkembangan SLE dengan meningkatkan presentasi antigen dan respon limfosit serta menginduksi ekspresi kemokin. IFN-I meningkatkan aktivasi sel B, diferensiasi, proliferasi dan produksi antibodi, dan dapat menginduksi ekspresi reseptor *Thyroid-timulating hormone*.[@ivashkiv2013] Dengan demikian, hal ini mungkin berdampak pada menignkatnya risiko penyakit graves.
+SLE dan penyakit Graves ditandai oleh kelainan regulasi imun yang mungkin berhubungan erat dengan interferon tipe I (IFN-I).[@pan2019] Interferon tipe I, termasuk IFN-a, IFN-b, IFN-ϵ, IFN-k, dan lain-lainya adalah sitokin yang memainkan peran penting dalam peradangan, regulasi imunitas, pengenalan sel tumor, dan respons sel T. Dalam konteks penyakit autoimun, IFN-I dapat berkontribusi pada perkembangan SLE dengan meningkatkan presentasi antigen dan respon limfosit serta menginduksi ekspresi kemokin. IFN-I meningkatkan aktivasi sel B, diferensiasi, proliferasi dan produksi antibodi, dan dapat menginduksi ekspresi reseptor *Thyroid-timulating hormone*.[@ivashkiv2013] Dengan demikian, hal ini mungkin berdampak pada menignkatnya risiko penyakit Graves.
 
-Selain regulasi imun yang menyimpang, SLE dan penyakit graves mungkin memiliki patogenesis yang sama terkait autoantibodi yang menyebabkan kerusakan jaringan. Sebuah meta-analisis yang dilakukan oleh Pan et al. menunjukkan bahwa kadar antibodi tiroid peroksidase (TPOAb) dan antibodi tiroglobulin (TgAb) jauh lebih tinggi pada pasien SLE dibandingkan dengan populasi sehat, yang menunjukkan adanya korelasi antara SLE dan penyakit tiroid autoimun.[@pan2015] Penelitian yang dilakukan oleh Lanzolla dkk. menunjukkan bahwa keberadaan antibodi antinuklear diamati pada sekitar 80% pasien yang didiagnosis dengan penyakit graves. Temuan ini menunjukkan bahwa penyakit graves berpotensi mempengaruhi perkembangan SLE melalui jalur autoantibodi.[@lanzolla2022]
+Jalur imunologi yang sama dalam perkembangan SLE dan penyakit Graves ditunjukkan oleh adanya tumpang tindih kemokin dan sitokin spesifik. Penelitian terbaru berfokus pada interaksi antara CXCL10 dan CXCR3 dalam respon imun T helper 1 sangat penting dalam etiologi penyakit Graves dan SLE.[@antonelli2014; @antonelli2020] Selain itu, dilaporkan bahwa peningkatan kadar IL-37 berkorelasi positif dengan konsentrasi TRAb dan derajat aktivitas SLE, sehingga ini menunjukkan bahwa IL-37 memainkan peran penting dalam terjadinya penyakit Graves dan SLE.[@xu2015]
 
-Jalur imunologi yang sama dalam perkembangan SLE dan penyakit graves ditunjukkan oleh adanya tumpang tindih kemokin dan sitokin spesifik. Penelitian terbaru berfokus pada interaksi antara CXCL10 dan CXCR3 dalam respon imun T helper 1 sangat penting dalam etiologi penyakit graves dan SLE.[@antonelli2014; @antonelli2020] Selain itu, dilaporkan bahwa peningkatan kadar IL-37 berkorelasi positif dengan konsentrasi TRAb dan derajat aktivitas SLE, sehingga ini menunjukkan bahwa IL-37 memainkan peran penting dalam terjadinya penyakit graves dan SLE.[@xu2015]
+Selain regulasi imun yang menyimpang, SLE dan penyakit Graves mungkin memiliki patogenesis yang sama terkait autoantibodi yang menyebabkan kerusakan jaringan. Sebuah meta-analisis yang dilakukan oleh Pan et al. menunjukkan bahwa kadar antibodi tiroid peroksidase (TPOAb) dan antibodi tiroglobulin (TgAb) jauh lebih tinggi pada pasien SLE dibandingkan dengan populasi sehat, yang menunjukkan adanya korelasi antara SLE dan penyakit tiroid autoimun.[@pan2015] Penelitian yang dilakukan oleh Lanzolla dkk. menunjukkan bahwa keberadaan antibodi antinuklear diamati pada sekitar 80% pasien yang didiagnosis dengan penyakit Graves. Temuan ini menunjukkan bahwa penyakit Graves berpotensi mempengaruhi perkembangan SLE melalui jalur autoantibodi.[@lanzolla2022]
+
 
 ## Ringkasan
 
-Penyakit Graves secara genetik diprediksi meningkatkan risiko SLE, dan berlaku juga sebaliknya. Laporan kasus ini diharapkan dapat memberikan dasar baru untuk skrining dan tatalaksana pasien dengan penyakit graves yang memiliki gejala baru yang tidak spesifik harus diskrining untuk SLE sehingga memfasilitasi diagnosis dan pengobatan tepat waktu dan menghindari penundaan atau eksaserbasi penyakit. Pada saat yang sama, fungsi tiroid juga perlu dipantau selama penatalaksanaan pasien SLE, sehingga dapat menyesuaikan rencana pengobatan dan meningkatkan kualitas hidup pasien.
+Penyakit Graves secara genetik diprediksi meningkatkan risiko SLE, dan berlaku juga sebaliknya. Laporan kasus ini diharapkan dapat memberikan dasar baru untuk skrining dan tatalaksana pasien dengan penyakit Graves yang memiliki gejala baru yang tidak spesifik harus diskrining untuk SLE sehingga memfasilitasi diagnosis dan pengobatan tepat waktu dan menghindari penundaan atau eksaserbasi penyakit. Pada saat yang sama, fungsi tiroid juga perlu dipantau selama penatalaksanaan pasien SLE, sehingga dapat menyesuaikan rencana pengobatan dan meningkatkan kualitas hidup pasien.
 
 ## Daftar Pustaka

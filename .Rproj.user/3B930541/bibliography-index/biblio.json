@@ -786,6 +786,49 @@
         {
             "id": "Xue2018a",
             "type": "article-journal"
+        },
+        {
+            "DOI": "10.1186/s13054-020-03188-8",
+            "URL": "http://dx.doi.org/10.1186/s13054-020-03188-8",
+            "author": [
+                {
+                    "family": "Senda",
+                    "given": "Atsushi"
+                },
+                {
+                    "family": "Endo",
+                    "given": "Akira"
+                },
+                {
+                    "family": "Tachimori",
+                    "given": "Hisateru"
+                },
+                {
+                    "family": "Fushimi",
+                    "given": "Kiyohide"
+                },
+                {
+                    "family": "Otomo",
+                    "given": "Yasuhiro"
+                }
+            ],
+            "container-title": "Critical Care",
+            "id": "Senda2020",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        7,
+                        29
+                    ]
+                ]
+            },
+            "language": "en",
+            "title": "Early administration of glucocorticoid for thyroid storm: analysis of a national administrative database",
+            "title-short": "Early administration of glucocorticoid for thyroid storm",
+            "type": "article-journal",
+            "volume": "24"
         }
     ],
     "project_biblios": []

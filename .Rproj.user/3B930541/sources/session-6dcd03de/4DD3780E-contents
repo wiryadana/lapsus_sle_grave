@@ -262,3 +262,17 @@
 
 @article{Xue2018a,
 }
+
+@article{Senda2020,
+	title = {Early administration of glucocorticoid for thyroid storm: analysis of a national administrative database},
+	author = {Senda, Atsushi and Endo, Akira and Tachimori, Hisateru and Fushimi, Kiyohide and Otomo, Yasuhiro},
+	year = {2020},
+	month = {07},
+	date = {2020-07-29},
+	journal = {Critical Care},
+	volume = {24},
+	number = {1},
+	doi = {10.1186/s13054-020-03188-8},
+	url = {http://dx.doi.org/10.1186/s13054-020-03188-8},
+	langid = {en}
+}

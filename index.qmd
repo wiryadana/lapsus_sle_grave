@@ -29,11 +29,13 @@ library("patchwork")
 
 ## Abstract
 
-**keywords**:
+The co-incidence of Graves' disease and systemic lupus erythematosus (SLE) has recently postulated having a closer association then previously thought. The causal relationship between these two autoimmune disease entities is still not widely known and currently there are still various studies that explore the association both in epidemiology and pathology. Graves' disease is an autoimmune disease of the thyroid endocrine organ and is the main cause of hyperthyroidism, meanwhile SLE is a disease that has a wide clinical spectrum due to multiple and heterogeneous disease organ targets. Each disease entity seems to support each other for other autoimmune co-incidences. This case report describes a female patient with a thyroid crisis due to Graves' disease which previously was newly diagnosed as SLE. The patients also presented with atrial fibrillation, hipokalemia and jaundice which leads for further diagnostic work-up that leads to the diagnosis to hyperthyroid due to Graves disease. Some of these findings illustrate that in clinical practice it is hoped that clinicians can increase the awareness to screen for other autoimmune diseases, especially when encountering Graves' disease or SLE.
+
+**keywords**: Graves disease, Hyperthyroid, systemic lupus erythematosus, atrial fibrilation
 
 ## Pendahuluan
 
-Koinsidensi penyakit Graves dan sistemik lupus eritematosus (SLE) belakangan ini mendapat perhatian lebih karena ditemukan memiliki hubungan yang tidak sekedar sesuatu yang terjadi secara acak. Hubungan kausal antara kedua entitas penyakit automimun tersebut masih belum banyak diketahui dan saat ini masih terdapat berbagai penelitian yang mendalami hal tersebut.[@xian2024] Penyakit Graves merupakan salah satu penyakit autoimun pada organ endokrin tiroid dan merupakan penyebab utama hipertiroidisme.[@smith2016] Insiden enyakit Graves sebagai penyakit autoimun termasuk cukup tinggi dengan rentang 20 - 50 kasus per 100.000 individual serta tingkat prevalensi diperkirakan 1 - 1.5%.[@davies2020] Penyakit Graves memilki target organ khusus, namun koinsidensi dengan penyakit autoimun lain seperti SLE, rheumatoid arthritis, multipel sklerosis, diabetes tipe 1 dan lainnya diperkirakan sekitar 16,7% dari total pasien dengan penyakit Graves. Data lebih lanjut dari laporan serial kasus terbaru juga menunjukan bahwa persentase pasien dengan penyakit Graves juga ditemukan memiliki 3 penyakit autoimun lain sebesar 1.5%.[@ferrari2019]
+Koinsidensi penyakit Graves dan sistemik lupus eritematosus (SLE) belakangan ini mendapatkan perhatian lebih karena ditemukan memiliki hubungan yang tidak sekedar sesuatu yang terjadi secara acak. Hubungan kausal antara kedua entitas penyakit automimun tersebut masih belum banyak diketahui dan saat ini masih terdapat berbagai penelitian yang mendalami hal tersebut.[@xian2024] Penyakit Graves merupakan salah satu penyakit autoimun pada organ endokrin tiroid dan merupakan penyebab utama hipertiroidisme.[@smith2016] Insiden enyakit Graves sebagai penyakit autoimun termasuk cukup tinggi dengan rentang 20 - 50 kasus per 100.000 individual serta tingkat prevalensi diperkirakan 1 - 1.5%.[@davies2020] Penyakit Graves memilki target organ khusus, namun koinsidensi dengan penyakit autoimun lain seperti SLE, rheumatoid arthritis, multipel sklerosis, diabetes tipe 1 dan lainnya diperkirakan sekitar 16,7% dari total pasien dengan penyakit Graves. Data lebih lanjut dari laporan serial kasus terbaru juga menunjukan bahwa persentase pasien dengan penyakit Graves juga ditemukan memiliki 3 penyakit autoimun lain sebesar 1.5%.[@ferrari2019]
 
 SLE merupakan penyakit yang memiliki variasi spektrum klinis yang luas akibat terget organ penyakit yang multipel dan heterogen. Penelitian kohort multisenter di China menemukan bahwa individu dengan penyakit Graves lebih rentan mengalami SLE dibanding individu kontrol yang sehat.[@lee2020] Penelitian terbaru dari Xian et al dengan analisis randomisasi mendelian menemukan bahwa terdapat korelasi antara penyakit Graves dengan SLE, dan masing-masing entitas autoimun tersebut saling mendukung untuk koinsidensi autoimun lainnya. Beberapa temuan ini memberikan gambaran bahwa pada praktik klinis diharapkan klinisi dapat meningkatkan skrining penyakit autoimun khususnya penyakit Graves atau SLE saat menegakan diagnosis salah satu penyakit autoimun tersebut.[@xian2024] Laporan kasus ini memaparkan seorang pasien perempuan dengan krisis tiroid akibat penyakit Graves yang terlebih dahulu mengalami atrial fibrilasi dan baru terdiagnosis SLE.
 
@@ -41,9 +43,9 @@ SLE merupakan penyakit yang memiliki variasi spektrum klinis yang luas akibat te
 
 Seorang perempuan (23066258) usia 23 tahun datang ke instalasi gawat darurat dirujuk dengan keluhan utama dada berdebar sejak 1 hari sebelum masuk rumah sakit perujuk. Selain dada berdebar, pasien mengeluh mual dan pusing sejak 1 bulan sebelumya disertai rambut rontok, ruam kemerahan pada pipi serta nyeri pada persendian kedua kaki yang muncul hilang timbul sejak 1 minggu sebelumnya. Pasien mengalami diare berulang sejak 2 bulan terakhir, serta diare terakhir mulai 4 hari sebelum masuk rumah sakit. Diare konsistensi feses lunak hingga cair, tanpa darah dan tidak disertai nyeri perut. Pasien mengalami penurunan berat badan 10 kg dalam kurun waktu 6 bulan terakhir. Riwayat demam lama dan kencing berbuih disangkal. Menstruasi pasien dikatakan tidak teratur dan menstruasi terakhir 6 bulan sebelum masuk rumah sakit. Pasien belum menikah dan menyangkal adanya riwayat berhubungan seksual.
 
-Riwayat penyakit kronis seperti diabetes, penyakit jantung, penyakit ginjal disangkal. Pasien memiliki riwayat nyeri hilang timbul pada ulu hati sejak kecil yang membaik dengan membeli obat secara mandiri. Riwayat nyeri tenggorokan dikatakan pada 6 bulan sebelumnya namun hanya kurang dari 1 minggu dan telah mendapatkan pengobatan dari dokter THT. Pasien sebelum rawat inap tidak dalam pengobatan rutin, namun pada rumah sakit perujuk pasien telah mendapatkan perawatan selama 4 hari namun tidak membaik dengan diagnosis suspek SLE, anemia sedang, kardiomiopati lupus, atrial flutter dan observasi nodul hepar. Saat dirujuk pasien mendapatkan terapi drip KCL 50 meq, seftriakson 1 gram tiap 12 jam intravena, metilprednisolon 125 mg tiap 12 jam intravena, parasetamol 650 mg tiap 8 jam per oral, Kalium Slow Release 600 mg tiap 8 jam per oral, bisoprolol 2.5 mg tiap 24 jam per oral, ramipril 5 mg tiap 24 jam per oral. Sebelum sakit memberat, pasien menjalani kuliah di malang kemudian 1 minggu sebelum masuk rumah sakit pasien mengunjungi keluarganya di Denpasar.
+Riwayat penyakit kronis seperti diabetes, penyakit jantung, penyakit ginjal disangkal. Pasien memiliki riwayat nyeri hilang timbul pada ulu hati sejak kecil yang membaik dengan membeli obat secara mandiri. Riwayat sariawan dan nyeri tenggorokan dikatakan pada 6 bulan sebelumnya namun hanya kurang dari 1 minggu dan telah mendapatkan pengobatan dari dokter THT. Pasien sebelum rawat inap tidak dalam pengobatan rutin, namun pada rumah sakit perujuk pasien telah mendapatkan perawatan selama 4 hari namun tidak membaik dengan diagnosis suspek SLE, anemia sedang, kardiomiopati lupus, atrial flutter dan observasi nodul hepar. Saat dirujuk pasien mendapatkan terapi drip KCL 50 meq, seftriakson 1 gram tiap 12 jam intravena, metilprednisolon 125 mg tiap 12 jam intravena, parasetamol 650 mg tiap 8 jam per oral, Kalium Slow Release 600 mg tiap 8 jam per oral, bisoprolol 2,5 mg tiap 24 jam per oral, ramipril 5 mg tiap 24 jam per oral. Sebelum sakit memberat, pasien menjalani kuliah di malang kemudian 1 minggu sebelum masuk rumah sakit pasien mengunjungi keluarganya di Denpasar.
 
-Saat di IGD pasien dalam kondisi compos mentis, tekanan darah 130/90 mmHg, denyut nadi 128 kali/menit dengan irama iregular dan kuat angkat, laju respirasi 24 kali/menit, saturasi oksigen 99% dengan udara ruangan dan suhu aksila 36.6 C. Pasien tampak sakit berat dan malnutrisi (tinggi badan 155 cm, berat badan terakhir 34 kg, IMT 14.5 kg/m^2^, lingkar lengan atas 18 cm). Temuan signifikan pada pemeriksaan fisik meliputi sklera ikterus, ruam malar, kardiomegali, bilateral pedal edema dan makula hiperemis tersebar pada beberapa bagian tubuh (gambar [-@fig-fotoklinis]). Pada pasien tidak ditemukan adanya organomegali maupun efusi sendi.
+Saat di IGD pasien dalam kondisi compos mentis, tekanan darah 130/90 mmHg, denyut nadi 128 kali/menit dengan irama iregular dan kuat angkat, laju respirasi 24 kali/menit, saturasi oksigen 99% dengan udara ruangan dan suhu aksila 36,6 C. Pasien tampak sakit berat dan malnutrisi (tinggi badan 155 cm, berat badan terakhir 34 kg, IMT 14,5 kg/m^2^, lingkar lengan atas 18 cm). Temuan signifikan pada pemeriksaan fisik meliputi sklera ikterus, ruam malar, kardiomegali, bilateral pedal edema dan makula hiperemis tersebar pada beberapa bagian tubuh (gambar [-@fig-fotoklinis]). Pada pasien tidak ditemukan adanya organomegali maupun efusi sendi.
 
 ::: {#fig-fotoklinis layout-nrow="3"}
 ![Ruam pada belakang telinga kiri](/image/klinis/heldi_leherbelakangkiri.jpg){#fig-blkgkiri}
@@ -87,59 +89,59 @@ Pada pemeriksaan penunjang ditemukan beberapa kelainan. Pemeriksaan darah lengka
 ![Elektrokardiografi pasien saat masuk rumah sakit (6/11/2023) menunjukan irama atrial fibrilasi.](image/ecg/heldi_ekg_awal_transform.jpg){#fig-ecgawal}
 
 | Parameter           | Nilai Referensi        | 6/11/2023 | 7/11/2023 | 10/11/2023 |
-|---------------|---------------|---------------|---------------|---------------|
-| WBC                 | 4.1 - 11.0 x 10^3^/µL  | 3.96      | 11.17     | 4.42       |
-| Neutrofil (absolut) | 2.50 - 7.50 x 10^3^/µL | 2.77      | 9.29      | 3.41       |
-| Limfosit (absolut)  | 1.00 - 4.00 x 10^3^/µL | 1.06      | 1.11      | 0.76       |
-| Monosit (absolut)   | 1.00 - 4.00 x 10^3^/µL | 0.13      | 0.77      | 0.25       |
-| Eosinofil (absolut) | 0.00 - 0.50 x 10^3^/µL | 0.00      | 0.00      | 0.00       |
-| Basofil (absolut)   | 0.0 - 0.1 x 10^3^/µL   | 0.00      | 0.00      | 0.00       |
-| Hemoglobin          | 12.0 - 16.0 g/dL       | 7.30      | 6.90      | 11.20      |
-| Hematokrit          | 36.0 - 46.0            | 23.10     | 21.50     | 33.10      |
-| MCV                 | 80.0 - 100.0 fL        | 85.90     | 85.30     | 82.80      |
-| MCH                 | 26.0 - 34.0 pg         | 27.10     | 27.40     | 28         |
-| MCHC                | 31 - 36 g/dL           | 31.60     | 32.10     | 33.80      |
-| Platetet            | 140 - 440 x 10^3^/µL   | 67.00     | 78.00     | 57         |
+|---------------------|------------------------|-----------|-----------|------------|
+| WBC                 | 4,1 - 11,0 x 10^3^/µL  | 3,96      | 11,17     | 4,42       |
+| Neutrofil (absolut) | 2,50 - 7,50 x 10^3^/µL | 2,77      | 9,29      | 3,41       |
+| Limfosit (absolut)  | 1,00 - 4,00 x 10^3^/µL | 1,06      | 1,11      | 0,76       |
+| Monosit (absolut)   | 1,00 - 4,00 x 10^3^/µL | 0,13      | 0,77      | 0,25       |
+| Eosinofil (absolut) | 0,00 - 0,50 x 10^3^/µL | 0,00      | 0,00      | 0,00       |
+| Basofil (absolut)   | 0,0 - 0,1 x 10^3^/µL   | 0,00      | 0,00      | 0,00       |
+| Hemoglobin          | 12,0 - 16,0 g/dL       | 7,30      | 6,90      | 11,20      |
+| Hematokrit          | 36,0 - 46,0            | 23,10     | 21,50     | 33,10      |
+| MCV                 | 80,0 - 100,0 fL        | 85,90     | 85,30     | 82,80      |
+| MCH                 | 26,0 - 34,0 pg         | 27,10     | 27,40     | 28         |
+| MCHC                | 31 - 36 g/dL           | 31,60     | 32,10     | 33,80      |
+| Platetet            | 140 - 440 x 10^3^/µL   | 67,00     | 78,00     | 57         |
 
 : Data pemeriksaan darah lengkap selama perawatan pasien. {#tbl-dl}
 
 | Pemeriksaan        | Parameter              | Referensi     | 6/11/2023 | 7/11                         | 12/11 | 14/11     | 16/11 |
-|---------|---------|---------|---------|---------|---------|---------|---------|
+|--------------------|------------------------|---------------|-----------|------------------------------|-------|-----------|-------|
 | Marker Inflamasi   | LED                    | \< 20         | 69        |                              |       |           |       |
-| Faal Hemostasis    | PPT                    | 10 - 12.7     | 15.9      |                              |       |           |       |
-|                    | INR                    | 0.9 - 1.1     | 1.45      |                              |       |           |       |
-|                    | APTT                   | 23-34.7       | 28.9      |                              |       |           |       |
-| Fungsi Ginjal      | BUN                    | 7.0 - 18.7    | 7.0       |                              |       |           |       |
-|                    | Kreatinin              | 0.57 - 1.11   | 0.51      |                              |       |           |       |
-|                    | e-LFG                  | \>= 90        | 135.53    |                              |       |           |       |
+| Faal Hemostasis    | PPT                    | 10 - 12,7     | 15,9      |                              |       |           |       |
+|                    | INR                    | 0,9 - 1,1     | 1,45      |                              |       |           |       |
+|                    | APTT                   | 23-34,7       | 28,9      |                              |       |           |       |
+| Fungsi Ginjal      | BUN                    | 7,0 - 18,7    | 7,0       |                              |       |           |       |
+|                    | Kreatinin              | 0,57 - 1,11   | 0,51      |                              |       |           |       |
+|                    | e-LFG                  | \>= 90        | 135,53    |                              |       |           |       |
 | Elektrolit         | Natrium                | 136 - 145     | 142       |                              |       |           |       |
-|                    | Kalium                 | 3.5 - 5.1     | 2.88      |                              |       |           |       |
-|                    | Kalsium                | 8.8 - 10.2    |           |                              |       | 7.7 (9.1) |       |
+|                    | Kalium                 | 3,5 - 5,1     | 2,88      |                              |       |           |       |
+|                    | Kalsium                | 8,8 - 10,2    |           |                              |       | 7,7 (9,1) |       |
 | Fungsi Liver       | AST/SGOT               | 71            | \<34      |                              |       | 123       |       |
 |                    | ALT/SGPT               | 44            | \<55      |                              |       | 118       |       |
-|                    | Albumin                | 3.4 - 4.8     | 2.3       |                              |       |           |       |
-|                    | Globulin               | 2.2 - 3.7     | 4.10      |                              |       |           |       |
-|                    | Total Protein          | 6.4 - 8.3     | 6.4       |                              |       |           |       |
-|                    | Bilirubin Total        | 0.2 - 1.2     | 0.2 - 1.2 | 4.9                          | 5.60  | 4.20      |       |
-|                    | Bilirubin Direk        | 0.0 - 0.5     | 0.0 - 0.5 | 3.2                          | 3.37  | 2.13      |       |
-|                    | Bilirubin Indirek      | 0.2 - 0.7     | 0.2 - 0.7 | 1.70                         | 2.23  | 2.07      |       |
+|                    | Albumin                | 3,4 - 4,8     | 2,3       |                              |       |           |       |
+|                    | Globulin               | 2,2 - 3,7     | 4,10      |                              |       |           |       |
+|                    | Total Protein          | 6,4 - 8,3     | 6,4       |                              |       |           |       |
+|                    | Bilirubin Total        | 0,2 - 1,2     | 0,2 - 1,2 | 4,9                          | 5,60  | 4,20      |       |
+|                    | Bilirubin Direk        | 0,0 - 0,5     | 0,0 - 0,5 | 3,2                          | 3,37  | 2,13      |       |
+|                    | Bilirubin Indirek      | 0,2 - 0,7     | 0,2 - 0,7 | 1,70                         | 2,23  | 2,07      |       |
 |                    | Fosfatase Alkali (ALP) | 40 - 150      |           | 125                          |       |           |       |
 |                    | Gamma GT               | \< 33         |           | 232                          |       |           |       |
 | Hepatitis Marker   | HBsAg                  | Non reaktif   |           | Non reaktif                  |       |           |       |
 |                    | Anti HCV               | Non reaktif   |           | Non reaktif                  |       |           |       |
-| Analisis Gas Darah | pH                     | 7.35 - 7.45   | 7.47      |                              |       |           |       |
+| Analisis Gas Darah | pH                     | 7,35 - 7,45   | 7,47      |                              |       |           |       |
 |                    | pCO2                   | 35 - 45       | 44        |                              |       |           |       |
 |                    | HCO3-                  | 22 - 26       | 32        |                              |       |           |       |
 |                    | BEecf                  | -2 s.d 2      | 83        |                              |       |           |       |
 |                    | pO2                    | 80 - 100%     | 75        |                              |       |           |       |
 |                    | SO2c                   | 95 - 100%     | 96        |                              |       |           |       |
-|                    | TCO2                   | 24 - 30       | 33.40     |                              |       |           |       |
+|                    | TCO2                   | 24 - 30       | 33,40     |                              |       |           |       |
 | Coombs Test        | Direct Coombs Test     | Negatif       |           | Positif                      |       |           |       |
 |                    | Indirect Coombs Test   | Negative      |           | Positif                      |       |           |       |
-| Imunologi          | ANA-IF                 | \< 1:100      |           | 1:10.00 (Pola fine Speckled) |       |           |       |
-|                    | TrAB (PRODIA)          | \<= 1.75 IU/L |           |                              |       |           | 36.3  |
-| Fungsi Tiroid      | Free T4                | 0.7 - 1.48    |           | 28                           |       |           |       |
-|                    | TSHs                   | 0.27 - 4.20   |           | \< 0.01                      |       |           |       |
+| Imunologi          | ANA-IF                 | \< 1:100      |           | 1:10,00 (Pola fine Speckled) |       |           |       |
+|                    | TrAB (PRODIA)          | \<= 1,75 IU/L |           |                              |       |           | 36,3  |
+| Fungsi Tiroid      | Free T4                | 0,7 - 1,48    |           | 28                           |       |           |       |
+|                    | TSHs                   | 0,27 - 4,20   |           | \< 0,01                      |       |           |       |
 
 : Data pemeriksaan kimia klinik selama perawatan pasien. {#tbl-kimia}
 
@@ -157,14 +159,14 @@ Pemeriksaan elektrokardiografi (EKG) 12 lead saat di IGD menunjukan irama gelomb
 Ekokardiografi tampak pembesaran atrium kiri disertai regurgitasi katup mitral derajat sedang-berat.
 :::
 
-Pemeriksaan apusan darah tepi menungjukan anemia normokromik, normositer dengan leukositosis dan thrombositopenia. Sebagian besar populasi sel normokromik normositer, anisopoikilositosis (ovalosit, sel tear drop, stomatosit, sel target, sel polikromasia, normoblast). Pada leukosit differential count ditemukan neutrofilia dan tidak ada sel muda. Pada thrombosit tidak ditemukan giant trombosit atau clumping.
+Pemeriksaan apusan darah tepi menungjukan anemia normokromik, normositer dengan leukositosis dan thrombositopenia. Sebagian besar populasi sel normokromik normositer, anisopoikilositosis (ovalosit, sel tear drop, stomatosit, sel target, sel polikromasia, normoblast). Pada leukosit differential count ditemukan neutrofilia dan tidak ada sel muda. Pada thrombosit tidak ditemukan giant trombosit atau clumping,
 
 | Pemeriksaan Urin             | Parameter                | Referensi       | 7/11/2023 |
-|---------------------|------------------|-----------------|-----------------|
-| Urine Lengkap                | Berat Jenis              | 1.003 - 1.035   | 1.009     |
+|------------------------------|--------------------------|-----------------|-----------|
+| Urine Lengkap                | Berat Jenis              | 1,003 - 1,035   | 1,009     |
 |                              | Warna                    | Kuning          | Kuning    |
 |                              | Kekeruhan                |                 | Jernih    |
-|                              | pH                       | 4.5 - 8         | 7.5       |
+|                              | pH                       | 4,5 - 8         | 7,5       |
 |                              | Leukosit                 | Negatif         | Negatif   |
 |                              | Nitrit                   | Negatif         | Negatif   |
 |                              | Protein                  | Negatif         | Negatif   |
@@ -176,34 +178,34 @@ Pemeriksaan apusan darah tepi menungjukan anemia normokromik, normositer dengan 
 |                              | Leukosit Sedimen         | 7 /LPB          | 5         |
 |                              | Eritrosit Sedimen        | 5 /LPB          | 4         |
 |                              | Sel Epitel Sedimen       | 8 /LPB          | 1         |
-|                              | Silinder                 | 2.4 /mikroliter | 0.14      |
-|                              | Bakteri                  | 130.7           | 1993.8    |
-| Rasio Protein kreatinin urin | Mikro Total protein urin | 1 - 14 mg/dl    | 24.10     |
-|                              | Kreatinin urin           | 63 - 166        | 2.41      |
-|                              | Rasio protein kreatinin  | 2.41            | \< 0.2    |
+|                              | Silinder                 | 2,4 /mikroliter | 0,14      |
+|                              | Bakteri                  | 130,7           | 1993,8    |
+| Rasio Protein kreatinin urin | Mikro Total protein urin | 1 - 14 mg/dl    | 24,10     |
+|                              | Kreatinin urin           | 63 - 166        | 2,41      |
+|                              | Rasio protein kreatinin  | 2,41            | \< 0,2    |
 | Tes Kehamilan (RS Perujuk)   |                          | Negatif         | Negatif   |
 
 : Data pemeriksaan urin selama perawatan pasien. {#tbl-urin}
 
 | Tangal pemeriksaan | Kalium | Koreksi Kalium                                            |
-|----------------|----------------|----------------------------------------|
-| 6/11/2023          | 2.88   | Drip KCL 50 Meq                                           |
-| 8/11/2023          | 2.95   | Drip KCL 25 Meq                                           |
-| 8/11/2023          | 2.45   | Drip KCL 50 Meq                                           |
-| 9/11/2023          | 3.91   |                                                           |
-| 15/11/2023         | 2.25   | Drip KCL 50 Meq                                           |
-| 16/11/2023         | 3.18   | KSR 500 mg tiap 12 jam per oral (Selanjutnya Rawat Jalan) |
+|--------------------|--------|-----------------------------------------------------------|
+| 6/11/2023          | 2,88   | Drip KCL 50 Meq                                           |
+| 8/11/2023          | 2,95   | Drip KCL 25 Meq                                           |
+| 8/11/2023          | 2,45   | Drip KCL 50 Meq                                           |
+| 9/11/2023          | 3,91   |                                                           |
+| 15/11/2023         | 2,25   | Drip KCL 50 Meq                                           |
+| 16/11/2023         | 3,18   | KSR 500 mg tiap 12 jam per oral (Selanjutnya Rawat Jalan) |
 
 : Data pemantauan kalium selama perawatan pasien. {#tbl-kalium}
 
-Diagnosis kerja pasien meliputi, SLE derajat aktivitas berat dengan anemia sedang normokromik normositer et causa anemia hemolitik, suspek kardiomiopati lupus, atrial fibrilasi *rapid ventricular response*, diare akut et causa suspek infeksi virus dengan dehidrasi ringan-sedang, hipokalemia et causa suspek *loss*. Pada pasien diberikan terapi pulsedose metilprednisolon 500 mg dalam NaCl 0.9% 100 cc intravena habis dalam 30 menit selama 3 hari. Terapi supportif lain meliputi omeprazole 40 mg sebelum pemberian pulse dose metilprednisolon, kandesartan 8 mg tiap 24 jam per oral, oralit ad libitum, drip KCL 50 meq dalam NaCl 0.9% 500 cc habis dalam 8 jam dan transfusi *packed red cell* dengan target hemoglobin \> 10 g/dL. Pasien dikonsulkan ke divisi kardiologi terkait atrial fibrilasi dan diberikan terapi digoxin 0.5 mg bolus pelan jika denyut jantung \> 110.
+Diagnosis kerja pasien meliputi, SLE derajat aktivitas berat dengan anemia sedang normokromik normositer et causa anemia hemolitik, suspek kardiomiopati lupus, atrial fibrilasi *rapid ventricular response*, diare akut et causa suspek infeksi virus dengan dehidrasi ringan-sedang, hipokalemia et causa suspek *loss*. Pada pasien diberikan terapi pulsedose metilprednisolon 500 mg dalam NaCl 0.9% 100 cc intravena habis dalam 30 menit selama 3 hari. Terapi supportif lain meliputi omeprazole 40 mg sebelum pemberian pulse dose metilprednisolon, kandesartan 8 mg tiap 24 jam per oral, oralit ad libitum, drip KCL 50 meq dalam NaCl 0,9% 500 cc habis dalam 8 jam dan transfusi *packed red cell* dengan target hemoglobin \> 10 g/dL. Pasien dikonsulkan ke divisi kardiologi terkait atrial fibrilasi dan diberikan terapi digoxin 0,5 mg bolus pelan jika denyut jantung \> 110.
 
 Terkait dengan atrial fibrilasi, pada pasien dilakukan pemeriksaan FT4 dan TSH untuk evaluasi penyebab atrial fibrilasi. Evaluasi paska pemeriksaan FT4 dan TSH yang menunjukan kondisi hipertiroid dicurigai akibat penyakit Graves (skor Wayne 20, tabel [-@tbl-wayne]) disertai gejala klinis sesuai dengan kondisi badai tiroid (thyroid storm) dengan skor Burch Wartofsky 50 poin (tabel [-@tbl-bw]). Terapi diberikan meliputi propanolol 60 mg tiap 6 jam per oral, propiltiourasil (PTU) 600 mg sebagai dosis awal (*loading dose)* dilanjutkan 300 mg tiap 6 jam per oral, steroid dengan metilprednisolon sesuai dosis untuk SLE, serta direncanakan pemberian larutan iodin 5 tetes setiap 8 jam per oral setelah pemberian PTU namun obat tidak tersedia.
 
-Terapi atrial fibrilasi dari kardiologi meliputi digoksin 0.5 mg intravena jika laju denyut jantung \> 110 kali per menit. Pada pasien didapatkan kondisi hipertensi dengan terapi ramipril 5 mg tiap 12 jam per oral serta nifedipin (lepas lambat) 30 mg tiap 24 jam per oral.
+Terapi atrial fibrilasi dari kardiologi meliputi digoksin 0,5 mg intravena jika laju denyut jantung \> 110 kali per menit. Pada pasien didapatkan kondisi hipertensi dengan terapi ramipril 5 mg tiap 12 jam per oral serta nifedipin (lepas lambat) 30 mg tiap 24 jam per oral.
 
 | Gejala onset baru atau memberat | Skor | Nilai | Tanda              | Skor jika ada | Skor jika tidak ada | Nilai |
-|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|---------------------------------|------|-------|--------------------|---------------|---------------------|-------|
 | Dyspnea on effect               | +1   | 0     | Palpable thyroid   | +3            | -3                  | +3    |
 | Palpitations                    | +2   | +2    | Bruit over thyroid | +2            | -2                  | -2    |
 | Tiredness                       | +2   | +2    | Exopthalmoses      | +2            | 0                   | 0     |
@@ -220,8 +222,8 @@ Terapi atrial fibrilasi dari kardiologi meliputi digoksin 0.5 mg intravena jika 
 : Penilaian gejala dan tanda klinis hipertiroid dengan skor Wayne {#tbl-wayne}
 
 | Burch Wartofsky Score            | 7/11/2023 - 9/11/2023                       | 10/11/24 - 12/11/24                          | 13/11/24 - 14/11/24                        | 15/11/24                                     | 16/11/24                                     | 17/11/24                                   |
-|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-| Temperatur                       | \< 37.2 (0)                                 | \< 37.2 (0)                                  | \< 37.2 (0)                                | \< 37.2 (0)                                  | \< 37.2 (0)                                  | \< 37.2 (0)                                |
+|----------------------------------|---------------------------------------------|----------------------------------------------|--------------------------------------------|----------------------------------------------|----------------------------------------------|--------------------------------------------|
+| Temperatur                       | \< 37,2 (0)                                 | \< 37,2 (0)                                  | \< 37,2 (0)                                | \< 37,2 (0)                                  | \< 37,2 (0)                                  | \< 37,2 (0)                                |
 | Disfungsi Sistem Saraf Pusat     | tidak ada (0)                               | tidak ada (0)                                | tidak ada (0)                              | tidak ada (0)                                | tidak ada (0)                                | tidak ada (0)                              |
 | Disfungsi Gastrointestinal-hepar | Berat-jaundice tidak dapat dijelaskan (+20) | Berat-jaundice tidak dapat dijelaskan (+20)  | Keluhan membaik (0)                        | Keluhan membaik (0)                          | Keluhan membaik (0)                          | Keluhan membaik (0)                        |
 | Denyut jantung                   | 110 - 199 (+10)                             | 90 - 109 (+5)                                | 90 - 109 (+5)                              | \>= 140(+25)                                 | \>=120 -129 (+15)                            | \>=90 -109 (+5)                            |
@@ -232,7 +234,7 @@ Terapi atrial fibrilasi dari kardiologi meliputi digoksin 0.5 mg intravena jika 
 
 : Penilaian derajat gejala hipertiroid dengan skor Burch-Wartofsky {#tbl-bw}
 
-Pada pemeriksaan ultrasonografi Tiroid ditemukan peningkatan vaskularisasi pada parenkim tiroid kanan, kiri dan istmus. Pada pemeriksaan tidak ditemukan massa/nodul/kista pada kelenjar tiroid, namun tampak pembesaran kelenjar getah bening pada regio colli kiri, submandibula kanan-kiri, preaurikula kanan dan parotid kiri. Kelenjar parotis kanan tak tampak kelainan. Pemeriksaan USG ini mendukung *Graves Disease* dengan multipel *non suspicious* limfadenopati pada regio colli kiri, submandibula kanan-kiri, preauricula kanan, dan parotid kiri (gambar [-@fig-usgtiroid]). Temuan USG tiroid ini mendukung temuan klinis serta laboratorium untuk penyakit Graves. Penegakan diagnosis pada tahap akhir membutuhkan pemeriksaan Tiroid Receptor Antibody (TRAb) namun kendala teknis laboratorium rumah sakit yang belum mampu melakukan pemeriksaan tersebut. Pemeriksaan TRAb dilakukan pada akhir perawatan pada laboratorium terstandar dengan hasil nilai serum yang diatas batas normal (36.3 IU/L).
+Pada pemeriksaan ultrasonografi Tiroid ditemukan peningkatan vaskularisasi pada parenkim tiroid kanan, kiri dan istmus. Pada pemeriksaan tidak ditemukan massa/nodul/kista pada kelenjar tiroid, namun tampak pembesaran kelenjar getah bening pada regio colli kiri, submandibula kanan-kiri, preaurikula kanan dan parotid kiri. Kelenjar parotis kanan tak tampak kelainan. Pemeriksaan USG ini mendukung *Graves Disease* dengan multipel *non suspicious* limfadenopati pada regio colli kiri, submandibula kanan-kiri, preauricula kanan, dan parotid kiri (gambar [-@fig-usgtiroid]). Temuan USG tiroid ini mendukung temuan klinis serta laboratorium untuk penyakit Graves. Penegakan diagnosis pada tahap akhir membutuhkan pemeriksaan Tiroid Receptor Antibody (TRAb) namun kendala teknis laboratorium rumah sakit yang belum mampu melakukan pemeriksaan tersebut. Pemeriksaan TRAb dilakukan pada akhir perawatan pada laboratorium terstandar dengan hasil nilai serum yang diatas batas normal (36,3 IU/L).
 
 ::: {#fig-usgtiroid layout-nrow="3"}
 ![USG Tiroid Lobus Kanan](/image/usg_tiroid/tiroid_RLobe.png){#fig-Rtiroid}
@@ -244,11 +246,11 @@ Pada pemeriksaan ultrasonografi Tiroid ditemukan peningkatan vaskularisasi pada 
 Ultrasonografi kelenjar tiroid tampak pembesaran ukuran kelenjar, hipoekoik diffuse disertai tampak peningkatakan vaskularisasi pada pencitraan dopler.
 :::
 
-Pada pemeriksaan ultrasonografi abdomen ditemukan nodul tunggal hipoechoic dengan hiperechoic di tepinya dan internal echo didalamnya, berbatas tegas tepi regular pada segmen VIII hepar, terukur +/- 1.8 x 1.7 cm yang pada CDUS tampak vaskularisasi pada tepinya. Pada pencitraan cavum pelvis, ditemukan cairan bebas minimal. Tindakan diagnostik lanjutan terkait temuan nodul hepar terbatas pada pemeriksaan USG abdomen. Terapi terkait transaminitis disertai peningkatan bilirubin diberikan berupa terapi supportif berupa curcuma tablet tiap 8 jam per oral serta asam ursodioksikolat 250 mg tiap 8 jam per oral. Pada akhir masa perawatan rumah sakit pemeriksaan bilirubin diulang dan hasilnya menunjukan penurunan kadar bilirubin (tabel [-@tbl-kimia]).
+Pada pemeriksaan ultrasonografi abdomen ditemukan nodul tunggal hipoechoic dengan hiperechoic di tepinya dan internal echo didalamnya, berbatas tegas tepi regular pada segmen VIII hepar, terukur +/- 1,8 x 1,7 cm yang pada CDUS tampak vaskularisasi pada tepinya. Pada pencitraan cavum pelvis, ditemukan cairan bebas minimal. Tindakan diagnostik lanjutan terkait temuan nodul hepar terbatas pada pemeriksaan USG abdomen. Terapi terkait transaminitis disertai peningkatan bilirubin diberikan berupa terapi supportif berupa curcuma tablet tiap 8 jam per oral serta asam ursodioksikolat 250 mg tiap 8 jam per oral. Pada akhir masa perawatan rumah sakit pemeriksaan bilirubin diulang dan hasilnya menunjukan penurunan kadar bilirubin (tabel [-@tbl-kimia]).
 
 ![USG abdomen (9/11/2023) ditemukan liver tidak membesar, permukaan licin, sudut tajam, tepi rata, sistem vasculer dan bilier tampak normal, echoparenchym normal, tampak single nodul hipoechoic dengan hiperechoic di tepinya dan internal echo didalamnya, berbatas tegas tepi regular pada segmen VIII hepar, terukur +/- 1.8 x 1.7 cm yang pada CDUS tampak vaskularisasi pada tepinya.](image/usg_abd/abd_nodul.png){fig-align="left"}
 
-Selama perawatan dialakukan perubahan dosis serta regimen obat antitiroid serta regimen imunosupresan setelah terjadi perbaikan kondisi umum  pasien. Secara ringkas perubahan dosis terapi dirangkum pada gambar [-@fig-obat-tiroid] untuk obat antitiroid dan gambar [-@fig-obat-sle] untuk obat imunosupresan SLE. Obat antiroid awal saat terjadi krisis/badai tiroid adalah PTU dengan diawali dosis *loading* yang kemudian dilakukan penurunan dosis bertahap (*tappering off*) sesuai keadaan klinis. Pada hari perawatan kedelapan(pemberian obat PTU hari keenam) pasien diberikan obat tiamazole sebagai terapi antitiroid rumatan. Terapi penyekat reseptor beta dengan propanolol juga diawali dengan dosis loading yang kemudian dosisnya diturunkan bertahap sesuai klinis. Steroid berupa metilprednisolon diberikan untuk tujuan menekan aktivitas penyakit SLE diawali dengan pemberian *pulse dose* selama 3 hari kemudian dilanjutkandengan dosis bolus yang secara bertahap juga diturunkan sesuai klinis pasien. 
+Selama perawatan dialakukan perubahan dosis serta regimen obat antitiroid serta regimen imunosupresan setelah terjadi perbaikan kondisi umum pasien. Secara ringkas perubahan dosis terapi dirangkum pada gambar [-@fig-obat-tiroid] untuk obat antitiroid dan gambar [-@fig-obat-sle] untuk obat imunosupresan SLE. Obat antiroid awal saat terjadi krisis/badai tiroid adalah PTU dengan diawali dosis *loading* yang kemudian dilakukan penurunan dosis bertahap (*tappering off*) sesuai keadaan klinis. Pada hari perawatan kedelapan(pemberian obat PTU hari keenam) pasien diberikan obat tiamazole sebagai terapi antitiroid rumatan. Terapi penyekat reseptor beta dengan propanolol juga diawali dengan dosis loading yang kemudian dosisnya diturunkan bertahap sesuai klinis. Steroid berupa metilprednisolon diberikan untuk tujuan menekan aktivitas penyakit SLE diawali dengan pemberian *pulse dose* selama 3 hari kemudian dilanjutkandengan dosis bolus yang secara bertahap juga diturunkan sesuai klinis pasien.
 
 ```{r data}
 data <- read_sheet("https://docs.google.com/spreadsheets/d/18lY7qc-y4WH2ok0-CfF0v8gU6DSN3Y7F3JWTQqJvPoA/edit?gid=0#gid=0")
@@ -299,7 +301,7 @@ plot_propanolol <- ggplot(data, aes(x=day, y=Propanolol)) +
         axis.title.x = element_blank(),
         plot.margin = margin(t = 1, b=1) ) +
   ylim(0,300) +
-  geom_text(data = data[3,], label="4 x 60 mg", vjust=0.1, hjust=1.1) +
+  geom_text(data = data[3,], label="4 x 60 mg", vjust=0.1, hjust=1.1, family = "source sans pro") +
    geom_text(data = data[5,], label="3 x 40 mg", vjust=0, hjust=(-0.2)) +
   geom_text(data = data[6,], label="3 x 10 mg", vjust=0.2, hjust=1.5) +
     geom_text(data = data[10,], label="3 x 20 mg", vjust=(-1), hjust=0)
@@ -367,7 +369,7 @@ plot_metilprednisolon <- ggplot(data, aes(x=day, y=metilprednisolon)) +
 plot_hcq <- ggplot(data, aes(x=day, y=hidroksiklorokuin)) +
   geom_line(color = "grey") +
   geom_point(shape=21, color = "black", fill="#69b3a2", size=2) +
-  ylab("Hidroklorokuin") +
+  ylab("Hidroksiklorokuin") +
   theme_ipsum(axis_title_just = "cc") +
    theme(axis.text.y = element_blank(),
         axis.ticks.y = element_blank(),
@@ -399,7 +401,11 @@ plot_sle
 
 ## Diskusi
 
-Penelitian terbaru oleh Xian et al menemukan bahwa SLE meningkatkan risiko penyaki Graves (OR=1.13, 95% CI 1.05-1.22, p =0.003), dan berlaku juga sebaliknya penyakit Graves meningkatkan risiko SLE (OR=1.27, 95% CI 1.09-1.48, p =0.018).[@xian2024] Hubungan sebab akibat antara penyakit Graves dan SLE yang ditemukan dalam penelitian tersebut semakin menegaskan temuan epidemiologi sebelumnya. Patogenesis SLE dan penyakit Graves mungkin dipengaruhi oleh mutasi pada gen HLA. Sebuah meta-analisis yang dilakukan sebelumnya menemukan bahwa mutasi pada HLA-DR3 dan HLA-DR15 secara signifikan meningkatkan kemungkinan SLE.[@xue_2018] Kehadiran gen HLA yang bermutasi dapat mengakibatkan perubahan kompleks HLA pada sel penyaji antigen (*antigen presenting cell*), sehingga mempengaruhi interaksi antara sel-B dan sel-T. Kondisi ini dapat menyebabkan disregulasi sel B yang reaktif terhadap protein sendiri (*self protein*) dan diikuti dengan produksi autoantibodi yang dapat berfungsi sebagai mediator efek kausal SLE pada penyakit Graves.[@xian2024]
+Pada kasus ini seorang perempuan muda datang dengan keluhan dada dada berdebar disertai gejala non spesifik diantaranya kelemahan, pusing, penurunan berat badan, dan nyeri pada persendian. Pasien datang dengan kondisi yang menunjukan sebuah kondisi penyakit kronis dan terdapat beberapa tanda gejala khusus seperti ruam pada wajah dan rambut rontok jika dikompilasi sesuai dengan gejala pada kriteria ACR-EULAR 2019 terkait penyakit SLE. Pada hasil pemeriksaan penunjang lainnya mendukung adanya kelainan sistemik autoimun akibat SLE yakni dengan adanya thrombositopenia, anemia hemolitik serta proteinuria. Pasien dirujuk untuk penegakan diagnosis dengan pemeriksaan serologi Anti-nuclear antibody - immunofluorescence (ANA-IF) yang menunjukan hasil positif dengan titer 1:100 dengan pola *speckled*. Walaupun penyakit SLE telah dapat ditegakan, namun kondisi klinis lain pada pasien diantaranya atrial fibrilasi, hipokalemia serta ikterus belum dapat sepenuhnya terjawab. Pada evaluasi terkait atrial fibrilasi perlu diketahui penyebab sekunder selain kelainan struktural jantung. Pada pemeriksaan terkait status hormon tiroid dengan kadar serum TSHs dan FT4 diketahui bahwa pasien dalam kondisi hipertiroid. Kondisi hipertiroid dapat menjadi penyebab kondisi hipokalemia dan ikterus. Pada evaluasi skor Burch-Wartofsky, ditemukan gejala klinis pasien saat presentasi sesuai dengan kondisi badai tiroid yang membutuhkan terapi antitiroid dosis tinggi.
+
+Terapi pada kondisi akut dari SLE disertai badai tiroid pada kasus ini berjalan beriringan. Pengobatan kedua kondisi tampaknya dapat berjalan secara independen, namun kedua kondisi tersebut memiliki satu modalitas yang sama, yakni steroid. Pada kondisi autoimun SLE, steroid berperan dalam menekan aktivitas sistem imun. Pada sisi lain kondisi krisis hipertiroid, steroid dapat menekan konversi T4 menjadi T3 pada jaringan perifer dengan menghambat aktivitas enzim deiodinase 1 dan 2 serta efek imunomodulator proses produksi antibodi reseptor TSH.[@Senda2020] Pada kasus ini dosis steroid yang diberikan sesuai dengan tatalaksana SLE. Kebutuhan dosis steroid dosis tinggi berupa metilprednisolon *pulsedose* menjadi pertimbangan utama. Pengobatan antitiroid lain diberikan dalam dosis awal yang tinggi diikuti dengan penurunan dosis bertahap sesuai klinis pasien.
+
+Koinsidensi SLE dan penyakit Graves belum diketahui dengan jelas kausalnya dan saat ini masih terdapat berbagai penelitian yang mendalami hal tersebut. Penelitian terbaru oleh Xian et al menemukan bahwa SLE meningkatkan risiko penyaki Graves (OR=1,13, 95% CI 1,05-1,22, p =0,003), dan berlaku juga sebaliknya penyakit Graves meningkatkan risiko SLE (OR=1,27, 95% CI 1,09-1,48, p =0,018).[@xian2024] Hubungan sebab akibat antara penyakit Graves dan SLE yang ditemukan dalam penelitian tersebut semakin menegaskan temuan epidemiologi sebelumnya. Patogenesis SLE dan penyakit Graves mungkin dipengaruhi oleh mutasi pada gen HLA. Sebuah meta-analisis yang dilakukan sebelumnya menemukan bahwa mutasi pada HLA-DR3 dan HLA-DR15 secara signifikan meningkatkan kemungkinan SLE.[@xue_2018] Kehadiran gen HLA yang bermutasi dapat mengakibatkan perubahan kompleks HLA pada sel penyaji antigen (*antigen presenting cell*), sehingga mempengaruhi interaksi antara sel-B dan sel-T. Kondisi ini dapat menyebabkan disregulasi sel B yang reaktif terhadap protein sendiri (*self protein*) dan diikuti dengan produksi autoantibodi yang dapat berfungsi sebagai mediator efek kausal SLE pada penyakit Graves.[@xian2024]
 
 Selain gen terkait HLA, gen non-HLA juga diduga memainkan peran penting dalam interaksi antara SLE dan penyakit Graves. Protein terkait selm limfosit T sitotoksik 4 (CTLA-4) adalah reseptor protein yang berfungsi sebagai cek poin pemeriksaan imun untuk menurunkan regulasi respons imun dengan mengikat ligan CD80 dan CD86 pada permukaan antigen presenting cell, sehingga dapat terjadi regulasi aktivasi sel-T dan proliferasinya.[@syn2017] Mutasi pada gen CTLA-4 telah dikaitkan dengan SLE dan penyakit Graves. Sebuah meta-analisis menunjukkan bahwa polimorfisme gen CTLA-4 pada populasi Asia dikaitkan dengan risiko SLE.[@zhai2013] Sebuah studi oleh Lee dkk. menemukan bahwa beberapa polimorfisme nukleotida tunggal CTLA-4 dikaitkan dengan penyakit Graves dan penyakit tiroid autoimun seperti tiroiditis Hashimoto.[@lee2015] Mutasi pada gen CTLA-4 dapat menyebabkan defisiensi regulasi penurunan regulasi respon imun sel-T, yang mengakibatkan hiperaktivasi sel-T dan dengan demikian memicu penyakit autoimun. Faktor ini mungkin juga memainkan peran mediasi dalam hubungan antara penyakit Graves dan SLE.[@xian2024]
 
@@ -408,7 +414,6 @@ SLE dan penyakit Graves ditandai oleh kelainan regulasi imun yang mungkin berhub
 Jalur imunologi yang sama dalam perkembangan SLE dan penyakit Graves ditunjukkan oleh adanya tumpang tindih kemokin dan sitokin spesifik. Penelitian terbaru berfokus pada interaksi antara CXCL10 dan CXCR3 dalam respon imun T helper 1 sangat penting dalam etiologi penyakit Graves dan SLE.[@antonelli2014; @antonelli2020] Selain itu, dilaporkan bahwa peningkatan kadar IL-37 berkorelasi positif dengan konsentrasi TRAb dan derajat aktivitas SLE, sehingga ini menunjukkan bahwa IL-37 memainkan peran penting dalam terjadinya penyakit Graves dan SLE.[@xu2015]
 
 Selain regulasi imun yang menyimpang, SLE dan penyakit Graves mungkin memiliki patogenesis yang sama terkait autoantibodi yang menyebabkan kerusakan jaringan. Sebuah meta-analisis yang dilakukan oleh Pan et al. menunjukkan bahwa kadar antibodi tiroid peroksidase (TPOAb) dan antibodi tiroglobulin (TgAb) jauh lebih tinggi pada pasien SLE dibandingkan dengan populasi sehat, yang menunjukkan adanya korelasi antara SLE dan penyakit tiroid autoimun.[@pan2015] Penelitian yang dilakukan oleh Lanzolla dkk. menunjukkan bahwa keberadaan antibodi antinuklear diamati pada sekitar 80% pasien yang didiagnosis dengan penyakit Graves. Temuan ini menunjukkan bahwa penyakit Graves berpotensi mempengaruhi perkembangan SLE melalui jalur autoantibodi.[@lanzolla2022]
-
 
 ## Ringkasan
 
